@@ -1,28 +1,26 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Skull } from "lucide-react";
-
-const operations = [
-  { name: "Eternity Vault", difficulty: "Fácil", players: "8/16", desc: "A primeira operation, perfeita para iniciantes." },
-  { name: "Karagga's Palace", difficulty: "Fácil", players: "8/16", desc: "Enfrente Karagga e seus capangas no palácio Hutt." },
-  { name: "Explosive Conflict", difficulty: "Médio", players: "8/16", desc: "Batalha intensa em Denova contra mercenários." },
-  { name: "Terror From Beyond", difficulty: "Médio", players: "8/16", desc: "Explore os mistérios do Gree Hypergate." },
-  { name: "Scum and Villainy", difficulty: "Médio", players: "8/16", desc: "Persiga o Dread Masters em Darvannis." },
-  { name: "Dread Fortress", difficulty: "Difícil", players: "8/16", desc: "Confronte os Dread Masters em Oricon." },
-  { name: "Dread Palace", difficulty: "Difícil", players: "8/16", desc: "O confronto final contra os Dread Masters." },
-  { name: "Gods of the Machine", difficulty: "Muito Difícil", players: "8/16", desc: "A operation mais desafiadora do SWTOR." },
-];
+import { useTranslation } from "react-i18next";
 
 const difficultyColor: Record<string, string> = {
-  "Fácil": "text-green-400",
-  "Médio": "text-yellow-400",
-  "Difícil": "text-orange-400",
-  "Muito Difícil": "text-red-400",
+  easy: "text-green-400",
+  medium: "text-yellow-400",
+  hard: "text-orange-400",
+  veryHard: "text-red-400",
 };
 
 const OperationsSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation("operations");
+
+  const operations = t("sectionOperations", { returnObjects: true }) as Array<{
+    name: string;
+    difficulty: string;
+    players: string;
+    desc: string;
+  }>;
 
   return (
     <section id="operations" className="py-24 md:py-32 relative" ref={ref}>
@@ -33,7 +31,7 @@ const OperationsSection = () => {
           transition={{ duration: 0.6 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-gradient-gold text-center mb-4"
         >
-          Operations
+          {t("sectionTitle")}
         </motion.h2>
         <motion.div
           initial={{ scaleX: 0 }}
@@ -60,7 +58,7 @@ const OperationsSection = () => {
               <p className="text-muted-foreground text-xs mb-3">{op.desc}</p>
               <div className="flex items-center justify-between text-xs">
                 <span className={`font-oswald uppercase ${difficultyColor[op.difficulty]}`}>
-                  {op.difficulty}
+                  {t(`difficulty.${op.difficulty}`)}
                 </span>
                 <span className="text-muted-foreground">{op.players}</span>
               </div>

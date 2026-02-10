@@ -1,41 +1,20 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Calendar, Clock, Gift } from "lucide-react";
-
-const events = [
-  {
-    name: "Rakghoul Resurgence",
-    status: "Ativo",
-    dates: "10–17 Fev 2026",
-    rewards: "Rakghoul DNA Canisters, Títulos exclusivos",
-    active: true,
-  },
-  {
-    name: "Bounty Contract Week",
-    status: "Próximo",
-    dates: "3–10 Mar 2026",
-    rewards: "Bounty Contract, Companion customization",
-    active: false,
-  },
-  {
-    name: "Swoop Rally",
-    status: "Próximo",
-    dates: "24–31 Mar 2026",
-    rewards: "Swoop Tokens, Mounts exclusivos",
-    active: false,
-  },
-  {
-    name: "Double XP Event",
-    status: "Próximo",
-    dates: "14–21 Abr 2026",
-    rewards: "Experiência dobrada em todas atividades",
-    active: false,
-  },
-];
+import { Calendar, Gift } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const EventsSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation("events");
+
+  const events = t("sectionEvents", { returnObjects: true }) as Array<{
+    name: string;
+    status: string;
+    dates: string;
+    rewards: string;
+    active: boolean;
+  }>;
 
   return (
     <section id="eventos" className="py-24 md:py-32 bg-muted/5 relative" ref={ref}>
@@ -46,7 +25,7 @@ const EventsSection = () => {
           transition={{ duration: 0.6 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-gradient-gold text-center mb-4"
         >
-          Eventos
+          {t("sectionTitle")}
         </motion.h2>
         <motion.div
           initial={{ scaleX: 0 }}
@@ -75,7 +54,7 @@ const EventsSection = () => {
                       : "bg-primary/10 text-primary"
                   }`}
                 >
-                  {event.status}
+                  {event.active ? t("statusActive") : t("statusUpcoming")}
                 </span>
               </div>
               <div className="space-y-2 text-sm text-muted-foreground">

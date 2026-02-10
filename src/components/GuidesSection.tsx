@@ -1,19 +1,26 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { BookOpen, Swords, Hammer, Target, Trophy, Lightbulb } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const guides = [
-  { title: "Guia para Iniciantes", icon: <BookOpen className="w-7 h-7" />, desc: "Tudo que você precisa saber para começar no SWTOR." },
-  { title: "Builds e Classes", icon: <Swords className="w-7 h-7" />, desc: "Builds otimizadas para todas as classes e specs." },
-  { title: "Crafting e Economia", icon: <Hammer className="w-7 h-7" />, desc: "Domine o sistema de crafting e faça créditos." },
-  { title: "PvP", icon: <Target className="w-7 h-7" />, desc: "Estratégias e dicas para Warzones e Arenas." },
-  { title: "Conquistas", icon: <Trophy className="w-7 h-7" />, desc: "Guia completo de achievements e conquistas." },
-  { title: "Dicas e Truques", icon: <Lightbulb className="w-7 h-7" />, desc: "Segredos e macetes que todo jogador deveria saber." },
+const guideIcons = [
+  <BookOpen className="w-7 h-7" />,
+  <Swords className="w-7 h-7" />,
+  <Hammer className="w-7 h-7" />,
+  <Target className="w-7 h-7" />,
+  <Trophy className="w-7 h-7" />,
+  <Lightbulb className="w-7 h-7" />,
 ];
 
 const GuidesSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation("guides");
+
+  const guides = (t("sectionGuides", { returnObjects: true }) as Array<{ title: string; desc: string }>).map((g, i) => ({
+    ...g,
+    icon: guideIcons[i],
+  }));
 
   return (
     <section id="guias" className="py-24 md:py-32 bg-muted/5 relative" ref={ref}>
@@ -24,7 +31,7 @@ const GuidesSection = () => {
           transition={{ duration: 0.6 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-gradient-gold text-center mb-4"
         >
-          Guias
+          {t("sectionTitle")}
         </motion.h2>
         <motion.div
           initial={{ scaleX: 0 }}

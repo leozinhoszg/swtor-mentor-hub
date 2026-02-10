@@ -1,0 +1,754 @@
+{
+  "sectionTitle": "Operations",
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "veryHard": "Very Hard"
+  },
+  "sectionOperations": [
+    { "name": "Eternity Vault", "difficulty": "easy", "players": "8/16", "desc": "The first operation, perfect for beginners." },
+    { "name": "Karagga's Palace", "difficulty": "easy", "players": "8/16", "desc": "Face Karagga and his henchmen in the Hutt palace." },
+    { "name": "Explosive Conflict", "difficulty": "medium", "players": "8/16", "desc": "Intense battle on Denova against mercenaries." },
+    { "name": "Terror From Beyond", "difficulty": "medium", "players": "8/16", "desc": "Explore the mysteries of the Gree Hypergate." },
+    { "name": "Scum and Villainy", "difficulty": "medium", "players": "8/16", "desc": "Chase the Dread Masters on Darvannis." },
+    { "name": "Dread Fortress", "difficulty": "hard", "players": "8/16", "desc": "Confront the Dread Masters on Oricon." },
+    { "name": "Dread Palace", "difficulty": "hard", "players": "8/16", "desc": "The final confrontation against the Dread Masters." },
+    { "name": "The Ravagers", "difficulty": "hard", "players": "8/16", "desc": "Raid the pirate den on Rishi." },
+    { "name": "Temple of Sacrifice", "difficulty": "hard", "players": "8/16", "desc": "Face Revan at the Temple of Sacrifice." },
+    { "name": "Gods of the Machine", "difficulty": "veryHard", "players": "8/16", "desc": "The most challenging operation in SWTOR." },
+    { "name": "Nature of Progress", "difficulty": "veryHard", "players": "8/16", "desc": "Survive the wild moon of Dxun." },
+    { "name": "R-4 Anomaly", "difficulty": "veryHard", "players": "8/16", "desc": "Investigate the anomaly in deep space." },
+    { "name": "Hive of the Mountain Queen", "difficulty": "hard", "players": "8/16", "desc": "Enter the hive of the Mountain Queen on Voss." }
+  ],
+  "pageTitle": "Operations",
+  "pageDescription": "8 or 16-player raids with challenging mechanics. Learn about each Operation and prepare for battle.",
+  "difficultyModesTitle": "Difficulty Modes",
+  "playersLabel": "players",
+  "planetLabel": "Planet",
+  "bossesLabel": "Bosses",
+  "expansionLabel": "Expansion",
+  "backToOperations": "Back to Operations",
+  "guideComingSoon": "Guide coming soon... Contribute strategies and tips!",
+  "bossGuideTitle": "Boss Guide",
+  "overviewTitle": "Overview",
+  "difficultyModes": [
+    { "mode": "Story Mode", "desc": "For beginners in Operations. Simplified mechanics and lower boss damage." },
+    { "mode": "Veteran", "desc": "Standard difficulty. Requires knowledge of mechanics and group composition." },
+    { "mode": "Master", "desc": "The ultimate challenge. Unforgiving mechanics, tight DPS checks, and perfect coordination." }
+  ],
+  "tiers": {
+    "classic": "Classic (Lv. 50)",
+    "hutt": "Rise of the Hutt Cartel (Lv. 55)",
+    "dread": "Dread War (Lv. 55)",
+    "revan": "Shadow of Revan (Lv. 60)",
+    "eternal": "Knights of the Eternal Throne (Lv. 70)",
+    "onslaught": "Onslaught (Lv. 75)",
+    "legacy": "Legacy of the Sith (Lv. 80)"
+  },
+  "pageOperations": [
+    {
+      "name": "Eternity Vault",
+      "slug": "eternity-vault",
+      "difficulty": "easy",
+      "players": "8/16",
+      "desc": "The first operation in SWTOR. Free the prisoners from an ancient vault and face Soa, the infernal destroyer.",
+      "bosses": ["Annihilation Droid XRR-3", "Gharj", "Ancient Pylons", "Infernal Council", "Soa"],
+      "planet": "Belsavis"
+    },
+    {
+      "name": "Karagga's Palace",
+      "slug": "karaggas-palace",
+      "difficulty": "easy",
+      "players": "8/16",
+      "desc": "Invade Karagga's palace, the Hutt Crime Lord, and defeat his henchmen and pet monsters.",
+      "bosses": ["Bonethrasher", "Jarg & Sorno", "Foreman Crusher", "G4-B3 Heavy Fabricator", "Karagga the Unyielding"],
+      "planet": "Hutta"
+    },
+    {
+      "name": "Explosive Conflict",
+      "slug": "explosive-conflict",
+      "difficulty": "medium",
+      "players": "8/16",
+      "desc": "Battle against Trandoshan mercenaries on Denova in a large-scale military operation.",
+      "bosses": ["Zorn & Toth", "Firebrand & Stormcaller", "Colonel Vorgath", "Warlord Kephess"],
+      "planet": "Denova"
+    },
+    {
+      "name": "Terror From Beyond",
+      "slug": "terror-from-beyond",
+      "difficulty": "medium",
+      "players": "8/16",
+      "desc": "Explore the mysteries of the Gree Hypergate and face horrors from another dimension.",
+      "bosses": ["The Writhing Horror", "Dread Guards", "Operator IX", "Kephess the Undying", "Terror From Beyond"],
+      "planet": "Asation"
+    },
+    {
+      "name": "Scum and Villainy",
+      "slug": "scum-and-villainy",
+      "difficulty": "medium",
+      "players": "8/16",
+      "desc": "Chase the Dread Masters through the desert of Darvannis, facing mercenaries and monsters.",
+      "bosses": ["Dash'roode", "Titan 6", "Thrasher", "Operations Chief", "Olok the Shadow", "Cartel Warlords", "Dread Master Styrak"],
+      "planet": "Darvannis"
+    },
+    {
+      "name": "Dread Fortress",
+      "slug": "dread-fortress",
+      "difficulty": "hard",
+      "players": "8/16",
+      "desc": "Infiltrate the Dread Masters' fortress on Oricon. Complex mechanics and team coordination are essential.",
+      "bosses": ["Nefra", "Gate Commander Draxus", "Grob'thok", "Corruptor Zero", "Dread Master Brontes"],
+      "planet": "Oricon"
+    },
+    {
+      "name": "Dread Palace",
+      "slug": "dread-palace",
+      "difficulty": "hard",
+      "players": "8/16",
+      "desc": "The final confrontation against the Dread Masters. One of the most iconic and challenging operations in SWTOR.",
+      "bosses": ["Dread Master Bestia", "Dread Master Tyrans", "Dread Master Calphayus", "Dread Master Raptus", "Dread Council"],
+      "planet": "Oricon"
+    },
+    {
+      "name": "The Ravagers",
+      "slug": "the-ravagers",
+      "difficulty": "hard",
+      "players": "8/16",
+      "desc": "Raid the pirate den on Rishi and face brutal leaders. Intense DPS and healing mechanics.",
+      "bosses": ["Sparky", "Quartermaster Bulo", "Torque", "Master & Blaster", "Coratanni"],
+      "planet": "Rishi"
+    },
+    {
+      "name": "Temple of Sacrifice",
+      "slug": "temple-of-sacrifice",
+      "difficulty": "hard",
+      "players": "8/16",
+      "desc": "Face Revan and his followers at the Temple of Sacrifice on Yavin 4. An epic and intense operation.",
+      "bosses": ["Malaphar the Savage", "Sword Squadron", "The Underlurker", "Revanite Commanders", "Revan"],
+      "planet": "Yavin 4"
+    },
+    {
+      "name": "Gods of the Machine",
+      "slug": "gods-of-the-machine",
+      "difficulty": "veryHard",
+      "players": "8/16",
+      "desc": "The most challenging operation in SWTOR. Face the Old Gods in the depths of Iokath.",
+      "bosses": ["Tyth", "Aivela & Esne", "Nahut", "Scyva", "Izax"],
+      "planet": "Iokath"
+    },
+    {
+      "name": "Nature of Progress",
+      "slug": "nature-of-progress",
+      "difficulty": "veryHard",
+      "players": "8/16",
+      "desc": "Survive the wild moon of Dxun and face deadly Czerka creatures. Team coordination is paramount.",
+      "bosses": ["Red", "Breach CI-004", "Huntmaster", "Apex Vanguard", "Shelleigh"],
+      "planet": "Dxun"
+    },
+    {
+      "name": "R-4 Anomaly",
+      "slug": "r4-anomaly",
+      "difficulty": "veryHard",
+      "players": "8/16",
+      "desc": "Investigate the R-4 station in deep space. Brutal mechanics and extreme DPS checks.",
+      "bosses": ["IP-CPT", "Watchdog", "Lord Kanoth", "Lady Dominique"],
+      "planet": "R-4 Anomaly"
+    },
+    {
+      "name": "Hive of the Mountain Queen",
+      "slug": "hive-of-the-mountain-queen",
+      "difficulty": "hard",
+      "players": "8/16",
+      "desc": "Enter the hive of the Mountain Queen on Voss and face the creatures dwelling in its depths.",
+      "bosses": ["The Guardian", "Venom-drinker", "The Mountain Queen"],
+      "planet": "Voss"
+    }
+  ],
+  "operationDetails": {
+    "eternityVault": {
+      "name": "Eternity Vault",
+      "shortName": "EV",
+      "difficulty": "easy",
+      "players": "8/16",
+      "planet": "Belsavis",
+      "expansion": "classic",
+      "desc": "The first operation in SWTOR. Explore an ancient Rakata prison on Belsavis and free — or destroy — what is trapped within. Face droids, monsters, and Soa himself, the infernal destroyer.",
+      "bosses": [
+        {
+          "name": "Annihilation Droid XRR-3",
+          "desc": "A massive combat droid guarding the entrance to the Vault. Uses missiles, lasers, and area attacks.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Gharj",
+          "desc": "A bestial creature inhabiting the lava lakes. The platform crumbles during the fight, forcing the group to move.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Ancient Pylons",
+          "desc": "A mechanical puzzle where the group must solve combinations on the pylons while dealing with waves of enemies.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Infernal Council",
+          "desc": "Each group member faces an individual opponent in simultaneous duels. Teamwork is essential.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Soa",
+          "desc": "The final boss of Eternity Vault. Soa uses mind traps, falling platforms, and devastating attacks across multiple phases.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "karaggasPalace": {
+      "name": "Karagga's Palace",
+      "shortName": "KP",
+      "difficulty": "easy",
+      "players": "8/16",
+      "planet": "Hutta",
+      "expansion": "classic",
+      "desc": "Invade Karagga's luxurious palace, the Hutt Crime Lord. Face his pet creatures, guards, and Karagga himself on his mechanical throne.",
+      "bosses": [
+        {
+          "name": "Bonethrasher",
+          "desc": "A giant Rancor beast kept as a pet. Attacks with brutal strikes and throws players.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Jarg & Sorno",
+          "desc": "A pair of bounty hunters. Jarg is melee and Sorno is ranged — they must die at the same time.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Foreman Crusher",
+          "desc": "A massive Gamorrean overseeing the mines. Uses cone attacks and summons adds.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "G4-B3 Heavy Fabricator",
+          "desc": "An industrial droid reprogrammed for combat. Spawns puzzles and smaller droids during the fight.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Karagga the Unyielding",
+          "desc": "The final boss. Karagga pilots a modified Hutt walker with flamethrowers, missiles, and gravitational attacks.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "explosiveConflict": {
+      "name": "Explosive Conflict",
+      "shortName": "EC",
+      "difficulty": "medium",
+      "players": "8/16",
+      "planet": "Denova",
+      "expansion": "classic",
+      "desc": "A large-scale military operation on the planet Denova. Battle Trandoshan mercenaries and their war machines in intense combat that tests coordination and DPS.",
+      "bosses": [
+        {
+          "name": "Zorn & Toth",
+          "desc": "Two giant Trandoshans fighting together. Their swap and synchronization mechanics are fundamental.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Firebrand & Stormcaller",
+          "desc": "Two war tanks operated by mercenaries. The group must split and coordinate simultaneous attacks.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Colonel Vorgath",
+          "desc": "A Trandoshan officer commanding the minefield. The group must navigate traps while handling adds.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Warlord Kephess",
+          "desc": "The final boss of Denova. Kephess uses orbital bombardments, droids, and transformations during the fight.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "terrorFromBeyond": {
+      "name": "Terror From Beyond",
+      "shortName": "TFB",
+      "difficulty": "medium",
+      "players": "8/16",
+      "planet": "Asation",
+      "expansion": "classic",
+      "desc": "Explore the mysteries of the Gree Hypergate on Asation. Face horrors from another dimension and discover what the Dread Masters awakened from the other side of the portal.",
+      "bosses": [
+        {
+          "name": "The Writhing Horror",
+          "desc": "A tentacular creature emerging from the ground. Spawns adds and uses devastating area attacks.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Dread Guards",
+          "desc": "Three guards of the Dread Masters fighting together. Each has unique abilities and must be managed simultaneously.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Operator IX",
+          "desc": "A Gree droid controlling the Hypergate systems. Color and positioning mechanics are essential.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Kephess the Undying",
+          "desc": "Kephess returns, transformed by the Dread Masters. More powerful and with even more complex mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Terror From Beyond",
+          "desc": "The final boss — a colossal entity from another dimension. Multi-phase fight with platforms and tentacles.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "scumAndVillainy": {
+      "name": "Scum and Villainy",
+      "shortName": "S&V",
+      "difficulty": "medium",
+      "players": "8/16",
+      "planet": "Darvannis",
+      "expansion": "hutt",
+      "desc": "Chase the Dread Masters through the desert of Darvannis. With 7 bosses, it's one of SWTOR's longest operations, featuring mercenaries, droids, and the fearsome Dread Master Styrak.",
+      "bosses": [
+        {
+          "name": "Dash'roode",
+          "desc": "A giant desert worm emerging from the sand. The group must deal with sandstorms and positioning.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Titan 6",
+          "desc": "A massive combat droid with missiles, lasers, and shields. Requires coordination to avoid area attacks.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Thrasher",
+          "desc": "A bestial creature ridden by a sniper. The group needs to manage the rider and the beast simultaneously.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Operations Chief",
+          "desc": "The mercenary operations leader. Summons reinforcements and uses military tactics during combat.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Olok the Shadow",
+          "desc": "A master of the underworld using droids and traps. The fight includes a unique auction phase.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Cartel Warlords",
+          "desc": "Four Cartel leaders fighting together. Each has different specialties and must be prioritized.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Dread Master Styrak",
+          "desc": "The final boss. Styrak uses illusions, fear manifestations, and the power of the Dread Masters in an epic fight.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "dreadFortress": {
+      "name": "Dread Fortress",
+      "shortName": "DF",
+      "difficulty": "hard",
+      "players": "8/16",
+      "planet": "Oricon",
+      "expansion": "dread",
+      "desc": "Infiltrate the Dread Masters' fortress on Oricon. Complex mechanics and team coordination are essential in this operation that marks the beginning of the Dread Masters' final arc.",
+      "bosses": [
+        {
+          "name": "Nefra, Who Bars the Way",
+          "desc": "A colossal beast guarding the fortress entrance. Massive area attacks and tight enrage timer.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Gate Commander Draxus",
+          "desc": "The commander of the fortress gates. Summons waves of adds and uses complex positioning mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Grob'thok, Who Feeds the Forge",
+          "desc": "A monster feeding the fortress forge. Uses magnetic hooks and the environment to attack the group.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Corruptor Zero",
+          "desc": "A droid corrupted by the Dread Masters. Alternates between ranged and melee phases with concussion mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Dread Master Brontes",
+          "desc": "One of the Dread Masters. Epic multi-phase fight with clones, lightning, and mind control mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "dreadPalace": {
+      "name": "Dread Palace",
+      "shortName": "DP",
+      "difficulty": "hard",
+      "players": "8/16",
+      "planet": "Oricon",
+      "expansion": "dread",
+      "desc": "The final confrontation against the Dread Masters. One of the most iconic operations in SWTOR, culminating in an epic fight against the entire Dread Council assembled.",
+      "bosses": [
+        {
+          "name": "Dread Master Bestia",
+          "desc": "The beast master. Summons Dread monsters and uses fear as a weapon. Add management is crucial.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Dread Master Tyrans",
+          "desc": "The game master. Uses puzzle mechanics with colors and platforms. Mistakes mean instant death.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Dread Master Calphayus",
+          "desc": "The time master. The fight travels between past and present with unique timeline mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Dread Master Raptus",
+          "desc": "The challenge master. Sends players to individual duels while the group deals with outside mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Dread Council",
+          "desc": "The final boss — all remaining Dread Masters together. A chaotic fight requiring perfect coordination.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "theRavagers": {
+      "name": "The Ravagers",
+      "shortName": "Rav",
+      "difficulty": "hard",
+      "players": "8/16",
+      "planet": "Rishi",
+      "expansion": "revan",
+      "desc": "Raid the pirate den on Rishi. Face brutal leaders in intense combat with extreme DPS check and healing mechanics.",
+      "bosses": [
+        {
+          "name": "Sparky",
+          "desc": "A pirate beast creature. Relatively simple boss but with tight enrage timer and heavy cleave.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Quartermaster Bulo",
+          "desc": "The pirate quartermaster. Uses explosive barrels, scatter shot charges, and area loads.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Torque",
+          "desc": "A pirate engineer with defense towers. The group must destroy towers while managing boss attacks.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Master & Blaster",
+          "desc": "A duo — Master pilots Blaster, a combat droid. Complex fight with phases and positioning mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Coratanni",
+          "desc": "The pirate leader. Multi-phase fight with Ruffle, Pearl, and Coratanni herself in different locations.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "templeOfSacrifice": {
+      "name": "Temple of Sacrifice",
+      "shortName": "ToS",
+      "difficulty": "hard",
+      "players": "8/16",
+      "planet": "Yavin 4",
+      "expansion": "revan",
+      "desc": "Face Revan and his followers at the Temple of Sacrifice on Yavin 4. An epic operation culminating in the final battle against the reincarnated Revan himself.",
+      "bosses": [
+        {
+          "name": "Malaphar the Savage",
+          "desc": "A savage Massassi corrupted by the Force. Area attacks, leaps, and increasing fury during the fight.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Sword Squadron",
+          "desc": "Two imperial walkers attacking simultaneously. The group must split and coordinate attacks on both targets.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "The Underlurker",
+          "desc": "A massive subterranean creature. Cross and positioning mechanics are critical for survival.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Revanite Commanders",
+          "desc": "The commanders of Revan's army. Multiple bosses that must be managed with target prioritization.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Revan",
+          "desc": "The final boss — Revan himself. An epic multi-phase fight with Light and Dark side mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "godsOfTheMachine": {
+      "name": "Gods of the Machine",
+      "shortName": "GotM",
+      "difficulty": "veryHard",
+      "players": "8/16",
+      "planet": "Iokath",
+      "expansion": "eternal",
+      "desc": "The most challenging operation in SWTOR. Face the Old Gods — mechanical entities of immense power — in the depths of Iokath. Each boss is a supreme test of skill.",
+      "bosses": [
+        {
+          "name": "Tyth",
+          "desc": "The God of Rage. Summons droids with color mechanics that must be managed with specific priority.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Aivela & Esne",
+          "desc": "The twin Goddesses. Mirror mechanics and coordination between two teams are essential.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Nahut",
+          "desc": "The God of the Void. Uses anti-gravity and platform mechanics. Precise positioning is vital.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Scyva",
+          "desc": "The Goddess of Sorrow. Emotional mechanics affecting the group in unique ways. Intense healing required.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Izax",
+          "desc": "The Supreme God. The hardest fight in SWTOR. Multiple phases, extreme DPS checks, and unforgiving mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "natureOfProgress": {
+      "name": "Nature of Progress",
+      "shortName": "Dxun",
+      "difficulty": "veryHard",
+      "players": "8/16",
+      "planet": "Dxun",
+      "expansion": "onslaught",
+      "desc": "Survive the wild moon of Dxun. Face deadly creatures and Czerka experiments in an operation that demands flawless team coordination.",
+      "bosses": [
+        {
+          "name": "Red",
+          "desc": "The pack leader. An alpha creature commanding a pack of predators. Add management is crucial.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Breach CI-004",
+          "desc": "A Czerka experiment that escaped control. Uses contamination mechanics and danger zones.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Huntmaster",
+          "desc": "The supreme hunter of Dxun. A fight that splits the group into smaller teams with different objectives.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Apex Vanguard",
+          "desc": "Dxun's apex creature — an evolved predator with devastating attacks and fury mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Shelleigh",
+          "desc": "A bonus boss available in Veteran and Master. A colossal turtle with extremely punishing mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "r4Anomaly": {
+      "name": "R-4 Anomaly",
+      "shortName": "R-4",
+      "difficulty": "veryHard",
+      "players": "8/16",
+      "planet": "R-4 Anomaly",
+      "expansion": "legacy",
+      "desc": "Investigate the R-4 space station in deep space. An operation with brutal mechanics, extreme DPS checks, and bosses that punish any mistake.",
+      "bosses": [
+        {
+          "name": "IP-CPT",
+          "desc": "The station's security system. A droid with multiple attack forms and add management mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Watchdog",
+          "desc": "The station's guardian. An entity patrolling the corridors with area attacks and detection mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Lord Kanoth",
+          "desc": "A Sith corrupted by the anomaly. Uses distorted Force powers and corruption mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Lady Dominique",
+          "desc": "The final boss of R-4 Anomaly. An epic fight with phase mechanics, adds, and extreme DPS checks.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    },
+    "hiveOfTheMountainQueen": {
+      "name": "Hive of the Mountain Queen",
+      "shortName": "HotMQ",
+      "difficulty": "hard",
+      "players": "8/16",
+      "planet": "Voss",
+      "expansion": "legacy",
+      "desc": "Enter the hive of the Mountain Queen on Voss. Explore the creature-infested depths and face the queen on her underground throne.",
+      "bosses": [
+        {
+          "name": "The Guardian",
+          "desc": "The guardian of the hive entrance. A massive creature protecting access to the inner chambers.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "Venom-drinker",
+          "desc": "A creature feeding on venom. Uses toxic attacks and area poisoning mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        },
+        {
+          "name": "The Mountain Queen",
+          "desc": "The final boss — the Mountain Queen. An epic fight in the depths of the hive with swarm mechanics.",
+          "storyMode": "Guide coming soon...",
+          "veteran": "Guide coming soon...",
+          "master": "Guide coming soon..."
+        }
+      ]
+    }
+  }
+}

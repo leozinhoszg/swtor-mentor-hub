@@ -1,0 +1,88 @@
+{
+  "sectionTitle": "Guides",
+  "sectionGuides": [
+    { "title": "Beginner's Guide", "desc": "Everything you need to know to get started in SWTOR." },
+    { "title": "Builds & Classes", "desc": "Optimized builds for all classes and specs." },
+    { "title": "Crafting & Economy", "desc": "Master the crafting system and earn credits." },
+    { "title": "PvP", "desc": "Strategies and tips for Warzones and Arenas." },
+    { "title": "Achievements", "desc": "Complete guide to achievements and conquests." },
+    { "title": "Tips & Tricks", "desc": "Secrets and tricks every player should know." }
+  ],
+  "pageTitle": "Guides",
+  "pageDescription": "Complete and detailed guides to master every aspect of Star Wars: The Old Republic.",
+  "pageCategories": [
+    {
+      "title": "Beginner's Guide",
+      "desc": "Everything you need to know to get started in SWTOR.",
+      "articles": [
+        "First Steps in SWTOR",
+        "Choosing Your Class",
+        "Understanding the Combat System",
+        "Crew Skills: Crafting for Beginners",
+        "Navigating the Galaxy",
+        "Your First Companion"
+      ]
+    },
+    {
+      "title": "Builds & Classes",
+      "desc": "Optimized builds for all classes and specs.",
+      "articles": [
+        "Juggernaut/Guardian DPS Build",
+        "Marauder/Sentinel DPS Build",
+        "Sorcerer/Sage Healer Build",
+        "Assassin/Shadow Tank Build",
+        "Mercenary/Commando DPS Build",
+        "Operative/Scoundrel Healer Build",
+        "Sniper/Gunslinger DPS Build",
+        "Powertech/Vanguard Tank Build"
+      ]
+    },
+    {
+      "title": "Crafting & Economy",
+      "desc": "Master the crafting system and earn credits.",
+      "articles": [
+        "Complete Crew Skills Guide",
+        "Best Crafting Combinations",
+        "How to Earn Credits Fast",
+        "GTN: Galactic Trade Network Guide",
+        "Rare Materials and Where to Find Them",
+        "Endgame Crafting"
+      ]
+    },
+    {
+      "title": "PvP",
+      "desc": "Strategies and tips for Warzones and Arenas.",
+      "articles": [
+        "Introduction to PvP",
+        "Best Classes for PvP",
+        "Warzones Guide",
+        "Arena Strategies",
+        "PvP Gear and Stats",
+        "Ranked PvP: How to Climb"
+      ]
+    },
+    {
+      "title": "Achievements & Conquests",
+      "desc": "Complete guide to achievements and conquests.",
+      "articles": [
+        "Conquest System Explained",
+        "Weekly Conquests for Guilds",
+        "Rare Achievements and How to Get Them",
+        "Titles and How to Unlock Them",
+        "Datacrons: Complete Location Guide"
+      ]
+    },
+    {
+      "title": "Tips & Tricks",
+      "desc": "Secrets and tricks every player should know.",
+      "articles": [
+        "Essential Keyboard Shortcuts",
+        "Quick Travel and Fast Leveling",
+        "Legacy System: Benefits",
+        "Strongholds and Decoration",
+        "Collections and Unlocks",
+        "Recommended Settings"
+      ]
+    }
+  ]
+}

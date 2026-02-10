@@ -1,0 +1,60 @@
+{
+  "sectionTitle": "Content",
+  "sectionPhases": [
+    {
+      "title": "Early Game",
+      "desc": "Class stories, starting planets, and fundamental mechanics for new players.",
+      "items": ["Class Stories", "Starting Planets", "Companions", "Basic Mechanics"]
+    },
+    {
+      "title": "Mid Game",
+      "desc": "Expansions, character progression, and intermediate content.",
+      "items": ["Expansions", "Progression", "Flashpoints", "Heroics"]
+    },
+    {
+      "title": "Endgame",
+      "desc": "Gear, optimized builds, and max-level activities.",
+      "items": ["Gear & Stats", "Builds", "Operations", "PvP Ranked"]
+    }
+  ],
+  "pageTitle": "Content",
+  "pageDescription": "From your first login to the most challenging endgame. Complete guides for every phase of your SWTOR journey.",
+  "pagePhases": [
+    {
+      "title": "Early Game",
+      "desc": "The beginning of your SWTOR journey. Learn the fundamental mechanics and dive into class stories.",
+      "topics": [
+        { "name": "Class Stories", "desc": "Each class has a unique and engaging story from level 1 to 50." },
+        { "name": "Starting Planets", "desc": "Korriban, Tython, Hutta, Ord Mantell — your first steps in the galaxy." },
+        { "name": "Companions", "desc": "Recruit and level up your companions, your most valuable allies." },
+        { "name": "Basic Mechanics", "desc": "Combat, crew skills, missions, and navigating the universe." },
+        { "name": "Heroics", "desc": "Heroic missions on planets for extra XP and equipment." },
+        { "name": "Solo Flashpoints", "desc": "Story mode Flashpoints to experience instanced content." }
+      ]
+    },
+    {
+      "title": "Mid Game",
+      "desc": "Epic expansions, new planets, and character progression beyond class stories.",
+      "topics": [
+        { "name": "Rise of the Hutt Cartel", "desc": "Expansion to Makeb with a new storyline and level cap 55." },
+        { "name": "Shadow of Revan", "desc": "The return of Revan with Rishi and Yavin 4." },
+        { "name": "Knights of the Fallen Empire", "desc": "A new cinematic narrative with the Outlander." },
+        { "name": "Knights of the Eternal Throne", "desc": "Continuation of the Eternal Throne saga." },
+        { "name": "Gear Progression", "desc": "How to optimize your equipment during progression." },
+        { "name": "Veteran Flashpoints", "desc": "Group challenges for better rewards." }
+      ]
+    },
+    {
+      "title": "Endgame",
+      "desc": "Max-level content: operations, competitive PvP, optimized builds, and the best gear in the game.",
+      "topics": [
+        { "name": "Gear & Stats", "desc": "Complete guide to set bonuses, amplifiers, and stat distribution." },
+        { "name": "Optimized Builds", "desc": "The best builds for DPS, Tank, and Healer for each class." },
+        { "name": "Operations", "desc": "8 or 16-player raids with challenging mechanics." },
+        { "name": "PvP Ranked", "desc": "Competitive Arenas and Warzones for the best players." },
+        { "name": "Galactic Seasons", "desc": "Seasonal system with exclusive rewards." },
+        { "name": "Conquests", "desc": "Weekly conquest system for guilds and solo players." }
+      ]
+    }
+  ]
+}

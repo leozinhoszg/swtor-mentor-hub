@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
+  const { t } = useTranslation("home");
+
   return (
     <section
       id="home"
@@ -11,7 +15,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="SWTOR Mentor Background"
+          alt={t("hero.bgAlt")}
           className="w-full h-full object-cover opacity-60"
           loading="eager"
         />
@@ -56,7 +60,7 @@ const HeroSection = () => {
           transition={{ delay: 1, duration: 0.6 }}
           className="font-oswald text-lg md:text-2xl tracking-[0.3em] uppercase text-primary text-glow-gold"
         >
-          Melhor do SWTOR!
+          {t("hero.tagline")}
         </motion.p>
 
         <motion.div
@@ -65,12 +69,12 @@ const HeroSection = () => {
           transition={{ delay: 1.3, duration: 0.6 }}
           className="mt-8"
         >
-          <a
-            href="#sobre"
+          <Link
+            to="/guias"
             className="inline-block px-8 py-3 font-oswald uppercase tracking-wider text-sm bg-gradient-gold text-primary-foreground rounded glow-gold hover:glow-gold-lg transition-shadow duration-300"
           >
-            Explorar Guias
-          </a>
+            {t("hero.cta")}
+          </Link>
         </motion.div>
 
         {/* Scroll indicator */}

@@ -1,0 +1,350 @@
+{
+  "sectionTitle": "Stories",
+  "factions": [
+    {
+      "name": "Empire",
+      "classes": ["Sith Warrior", "Sith Inquisitor", "Bounty Hunter", "Imperial Agent"]
+    },
+    {
+      "name": "Republic",
+      "classes": ["Jedi Knight", "Jedi Consular", "Trooper", "Smuggler"]
+    }
+  ],
+  "pageTitle": "Stories",
+  "pageDescription": "Explore the epic stories of each class. Choose your path between the Sith Empire and the Galactic Republic.",
+  "empireSith": "Sith Empire",
+  "empireDesc": "The Sith Empire is ruled by the Emperor and the Dark Council. Its classes represent the military power, cunning, and dark force that fuel galactic domination.",
+  "galacticRepublic": "Galactic Republic",
+  "republicDesc": "The Galactic Republic fights to maintain peace and democracy in the galaxy. Its heroes are Jedi, elite soldiers, and adventurers who defend the innocent against Sith tyranny.",
+  "imperialClasses": [
+    {
+      "name": "Sith Warrior",
+      "advanced": ["Juggernaut", "Marauder"],
+      "desc": "A relentless warrior who channels the fury of the Dark Side into devastating melee combat."
+    },
+    {
+      "name": "Sith Inquisitor",
+      "advanced": ["Sorcerer", "Assassin"],
+      "desc": "A master of the Dark Side who uses Force lightning and manipulation to dominate enemies."
+    },
+    {
+      "name": "Bounty Hunter",
+      "advanced": ["Powertech", "Mercenary"],
+      "desc": "A bounty hunter equipped with heavy arsenal and cutting-edge technology."
+    },
+    {
+      "name": "Imperial Agent",
+      "advanced": ["Operative", "Sniper"],
+      "desc": "An elite agent of Imperial Intelligence, master of espionage and stealth combat."
+    }
+  ],
+  "republicClasses": [
+    {
+      "name": "Jedi Knight",
+      "advanced": ["Guardian", "Sentinel"],
+      "desc": "Guardian of peace and justice, a formidable lightsaber combatant."
+    },
+    {
+      "name": "Jedi Consular",
+      "advanced": ["Sage", "Shadow"],
+      "desc": "A scholar of the Force who seeks balance between diplomacy and mystic power."
+    },
+    {
+      "name": "Trooper",
+      "advanced": ["Vanguard", "Commando"],
+      "desc": "An elite Republic soldier with heavy weaponry and superior tactical training."
+    },
+    {
+      "name": "Smuggler",
+      "advanced": ["Scoundrel", "Gunslinger"],
+      "desc": "A cunning smuggler with deadly aim and a natural talent for survival."
+    }
+  ],
+  "classStoryLabels": {
+    "prologue": "Prologue",
+    "act1": "Act I",
+    "act2": "Act II",
+    "act3": "Act III",
+    "companions": "Companions",
+    "planets": "Planets Visited",
+    "advancedClasses": "Advanced Classes",
+    "keyChoices": "Key Choices & Decisions",
+    "backToStories": "Back to Stories",
+    "role": "Role",
+    "combatStyle": "Combat Style"
+  },
+  "classStories": {
+    "sithWarrior": {
+      "story": {
+        "prologue": "On Korriban, a newly arrived acolyte must prove their worth at the Sith Academy. Under the ruthless gaze of Overseer Tremel, you face deadly trials, treacherous rivals, and ancient tombs to earn the right to become Darth Baras's apprentice.",
+        "act1": "As Darth Baras's apprentice, you are sent on missions across the galaxy to eliminate Republic spies and a network of Jedi agents. Your journey takes you from Dromund Kaas to Balmorra and Nar Shaddaa, as you discover that Baras is manipulating you for his own power plays within the Dark Council.",
+        "act2": "The true threat reveals itself: the Entity, a powerful being linked to the Emperor, begins to act from the shadows. Darth Baras betrays you and attempts to eliminate all loose ends. You must gather allies and prove yourself worthy of the title of Emperor's Wrath, directly challenging Baras's authority.",
+        "act3": "The final confrontation between you and Darth Baras unfolds before the Dark Council. Baras proclaims himself the Voice of the Emperor, but you must unmask his lie and defeat him in combat to secure your place as the true Emperor's Wrath, one of the most feared figures in the galaxy."
+      },
+      "companions": [
+        { "name": "Vette", "role": "Ranged DPS — A witty Twi'lek treasure hunter and former slave with a sharp sense of humor." },
+        { "name": "Malavai Quinn", "role": "Healer — A loyal Imperial officer and medic with complex loyalties and dangerous secrets." },
+        { "name": "Jaesa Willsaam", "role": "Melee DPS — A Force-sensitive Padawan who can be turned to the Dark Side or kept in the Light." },
+        { "name": "Lieutenant Pierce", "role": "Ranged Tank — A brash Imperial soldier who lives for the chaos of the battlefield." },
+        { "name": "Broonmark", "role": "Melee Tank — A savage Talz warrior driven by bloodlust and tribal loyalty." }
+      ],
+      "planets": ["Korriban", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Juggernaut",
+          "role": "Tank / Melee DPS",
+          "combatStyle": "Single lightsaber with heavy armor. Excels at absorbing damage and controlling enemies with Force abilities like Force Push and Smash."
+        },
+        {
+          "name": "Marauder",
+          "role": "Melee DPS",
+          "combatStyle": "Dual lightsabers with medium armor. Unleashes devastating close-range attacks fueled by rage."
+        }
+      ],
+      "keyChoices": [
+        "Spare or kill Vette's former owner on Nar Shaddaa",
+        "Jaesa Willsaam: turn her to the Dark Side or let her remain in the Light",
+        "Loyalty to Darth Baras or the Emperor's Hand",
+        "Malavai Quinn's betrayal: forgive or punish"
+      ]
+    },
+    "sithInquisitor": {
+      "story": {
+        "prologue": "Born as a slave, you arrive on Korriban for Sith training. Overseer Harkun tries to destroy you at every turn, favoring another acolyte. But your raw power in the Force impresses Lord Zash, who chooses you as her apprentice and reveals a much greater destiny.",
+        "act1": "Lord Zash sends you in search of ancient artifacts scattered across the galaxy, needed for a ritual that promises unimaginable power. But Zash hides her true intentions — she plans to steal your body to extend her own life. You must survive the betrayal and seek power on your own.",
+        "act2": "A mysterious Force illness begins to consume you, the result of ghost-binding rituals. You must find cures on distant worlds while facing Darth Thanaton, a Dark Council member determined to eliminate you for defying Sith traditions.",
+        "act3": "The conflict with Darth Thanaton reaches its climax. You gather political allies, complete ancestral rituals, and finally face Thanaton before the Dark Council itself. Victory earns you a seat on the council and unprecedented political power for a former slave."
+      },
+      "companions": [
+        { "name": "Khem Val", "role": "Melee Tank — A Force-devouring Dashade bound to you, with loyalty divided between you and his ancient master Tulak Hord." },
+        { "name": "Andronikos Revel", "role": "Ranged DPS — A vengeful space pirate with a taste for violence and freedom." },
+        { "name": "Ashara Zavros", "role": "Melee DPS — A Togruta Padawan drawn to the Dark Side, struggling between Jedi teachings and Sith power." },
+        { "name": "Talos Drellik", "role": "Healer — An Imperial officer and enthusiastic archaeologist obsessed with ancient Sith history." },
+        { "name": "Xalek", "role": "Melee Tank — A fierce Kaleesh warrior and apprentice who values strength above all." }
+      ],
+      "planets": ["Korriban", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Sorcerer",
+          "role": "Healer / Ranged DPS",
+          "combatStyle": "Force lightning and healing abilities. Combines devastating lightning damage with restorative powers for allies."
+        },
+        {
+          "name": "Assassin",
+          "role": "Tank / Melee DPS",
+          "combatStyle": "Double-bladed lightsaber with stealth. Specialist in sneak attacks and shadow manipulation."
+        }
+      ],
+      "keyChoices": [
+        "Free or enslave the Force ghosts you bind",
+        "Lord Zash's betrayal: how to deal with her spirit",
+        "Ashara Zavros: guide her to the Dark Side or respect her balance",
+        "Show mercy or cruelty when defeating Darth Thanaton"
+      ]
+    },
+    "bountyHunter": {
+      "story": {
+        "prologue": "You arrive on Hutta to participate in the Great Hunt, the most prestigious competition among bounty hunters in the galaxy. But first, you need to earn the sponsorship of an influential Hutt by completing dangerous contracts and eliminating the competition.",
+        "act1": "As an official participant in the Great Hunt, you travel the galaxy pursuing increasingly dangerous targets. Each hunt tests your skills and morals, culminating in a confrontation with a fugitive Jedi. Victory in the Great Hunt earns you fame and the legendary title of Champion.",
+        "act2": "The Republic's Supreme Chancellor places an enormous bounty on your head, turning the hunter into the hunted. You must survive assassins and traitors while uncovering a conspiracy that reaches the highest levels of the Republic government.",
+        "act3": "The truth behind the conspiracy is revealed and you must decide the fate of powerful figures. The final confrontation with the Supreme Chancellor will determine whether you'll be remembered as the greatest bounty hunter in the galaxy or something far greater."
+      },
+      "companions": [
+        { "name": "Mako", "role": "Healer — A young slicer prodigy with a mysterious past and a heart of gold." },
+        { "name": "Gault Rennow", "role": "Ranged DPS — A Devaronian con artist and former bounty target who became an unlikely partner." },
+        { "name": "Torian Cadera", "role": "Melee DPS — An honorable young Mandalorian warrior seeking to restore his clan's name." },
+        { "name": "Blizz", "role": "Ranged DPS — An enthusiastic Jawa engineer and crazy inventor with an enormous heart." },
+        { "name": "Skadge", "role": "Melee Tank — A brutal and unpredictable Houk criminal who imposes himself through force." }
+      ],
+      "planets": ["Hutta", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Powertech",
+          "role": "Tank / Melee DPS",
+          "combatStyle": "Heavy armor with shield and flamethrower. Close-range combat with cutting-edge technology and robust protection."
+        },
+        {
+          "name": "Mercenary",
+          "role": "Healer / Ranged DPS",
+          "combatStyle": "Dual blasters and missile arsenal. Specialist in ranged damage with healing capability through medical technology."
+        }
+      ],
+      "keyChoices": [
+        "Complete contracts with honor or by any means necessary",
+        "Spare or eliminate Great Hunt targets who surrender",
+        "Ally with the Empire or maintain independence as a freelance hunter",
+        "The Supreme Chancellor's fate in the final confrontation"
+      ]
+    },
+    "imperialAgent": {
+      "story": {
+        "prologue": "As an agent of Imperial Intelligence, you are sent to Hutta under cover to secure the loyalty of an influential Hutt to the Empire. Your first mission reveals the complex web of espionage, betrayal, and manipulation that will define your career.",
+        "act1": "A terrorist cell called the Eagle has infiltrated the highest echelons of the galaxy. You must track and dismantle this organization, traveling to multiple worlds in disguise. Each planet reveals a new layer of the conspiracy, leading to the shocking discovery of who really controls the Eagle.",
+        "act2": "Imperial Intelligence is threatened by internal and external forces. The Star Cabal, a secret organization that has manipulated both Empire and Republic for centuries, reveals its existence. You are captured and subjected to mind control, and must fight to regain your autonomy.",
+        "act3": "Free from mind control, you embark on the most dangerous mission of your life: dismantling the Star Cabal. The conspiracy runs deeper than anyone imagined, involving some of the most powerful figures in the galaxy. Your choices will determine the future of Imperial Intelligence."
+      },
+      "companions": [
+        { "name": "Kaliyo Djannis", "role": "Ranged DPS — An unpredictable and dangerous Rattataki anarchist with questionable loyalty and a love for chaos." },
+        { "name": "Vector Hyllus", "role": "Melee DPS — An Imperial diplomat joined with the Killiks, speaking in plural and offering a unique perspective." },
+        { "name": "Dr. Lokin", "role": "Healer — An elderly scientist and former agent with dark biological secrets and a brilliant mind." },
+        { "name": "Ensign Temple", "role": "Ranged DPS — A young Force-sensitive Imperial officer, idealistic and dedicated to duty." },
+        { "name": "SCORPIO", "role": "Melee Tank — An advanced artificial intelligence with her own agenda and contempt for organics." }
+      ],
+      "planets": ["Hutta", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Operative",
+          "role": "Healer / Melee DPS",
+          "combatStyle": "Energy rifle and vibroblade with stealth. Master of sneak attacks, medical abilities, and area damage."
+        },
+        {
+          "name": "Sniper",
+          "role": "Ranged DPS",
+          "combatStyle": "Long-range sniper rifle with cover position. Devastating ranged damage with field control abilities."
+        }
+      ],
+      "keyChoices": [
+        "Remain loyal to Imperial Intelligence or act independently",
+        "How to deal with the Star Cabal's mind control",
+        "The fate of Imperial Intelligence at the story's end",
+        "Spare or eliminate Star Cabal members after their defeat"
+      ]
+    },
+    "jediKnight": {
+      "story": {
+        "prologue": "As a newly arrived Padawan on Tython, you uncover a conspiracy to destroy the Jedi Temple. Training under the guidance of wise Jedi Masters, you face Flesh Raider marauders and a Padawan fallen to the Dark Side, proving yourself worthy of wielding a lightsaber.",
+        "act1": "Now a full Jedi Knight, you are sent to stop Sith Lord Angral, who has stolen Republic superweapons and threatens to destroy entire worlds. Your journey across besieged planets tests your courage and compassion as you face Sith apprentices and uncover Angral's devastating plan.",
+        "act2": "The Sith Emperor plans a ritual that will consume all life in the galaxy. You are captured and briefly fall under the Emperor's control, forced to act against the Republic. Breaking free, you must rebuild your reputation and prepare for the ultimate confrontation.",
+        "act3": "The battle for the galaxy's fate reaches its climax. You lead an assault on the Emperor's space station to prevent the ritual of destruction. The direct confrontation with the Sith Emperor is the ultimate challenge for a Jedi Knight, with the entire galaxy at stake."
+      },
+      "companions": [
+        { "name": "T7-O1", "role": "Ranged DPS — A loyal and brave astromech droid with a long history of serving Jedi heroes." },
+        { "name": "Kira Carsen", "role": "Melee DPS — A spirited Padawan with a secret past linked to the Sith Emperor." },
+        { "name": "Doc", "role": "Healer — A charming and conceited combat medic with a talent for flirting and healing." },
+        { "name": "Sergeant Rusk", "role": "Ranged DPS — An unyielding Chagrian veteran soldier dedicated to the Republic until death." },
+        { "name": "Lord Scourge", "role": "Melee Tank — The former Emperor's Wrath who betrayed his master to save the galaxy." }
+      ],
+      "planets": ["Tython", "Coruscant", "Ord Mantell", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Guardian",
+          "role": "Tank / Melee DPS",
+          "combatStyle": "Single lightsaber with heavy armor and Force shield. A resilient protector who defends allies with defensive mastery."
+        },
+        {
+          "name": "Sentinel",
+          "role": "Melee DPS",
+          "combatStyle": "Dual lightsabers with medium armor. A swift and lethal striker combining lightsaber Forms with Force powers."
+        }
+      ],
+      "keyChoices": [
+        "Save or sacrifice colonists to stop Angral's superweapons",
+        "Resist the Emperor's mind control or yield temporarily",
+        "Kira Carsen: help her confront her dark past",
+        "Show mercy or justice to defeated Sith"
+      ]
+    },
+    "jediConsular": {
+      "story": {
+        "prologue": "On Tython, you stand out as a Padawan through your unique connection with the Force. Upon discovering a mystical plague affecting Jedi Masters, you find an ancient healing technique in the Noetikon holocrons, revealing a destiny beyond combat.",
+        "act1": "The plague affecting Jedi Masters spreads, and only you possess the technique to cure them. Traveling the galaxy, you save Jedi on each planet, but each cure drains your own strength. The plague's origin traces back to Lord Vivicar, a Sith with a shocking personal connection.",
+        "act2": "Recognized as a Republic Diplomat, you are sent to gather allies in the war against the Empire. Your negotiation talents and wisdom are tested as you try to form alliances with neutral peoples, each with their own problems and distrust of the Republic.",
+        "act3": "A Sith conspiracy threatens to destroy the alliance you've built. The Children of the Emperor, secret agents hidden in positions of power, reveal themselves. You must protect your allies, unmask the infiltrators, and confront the conspiracy's leader to ensure peace."
+      },
+      "companions": [
+        { "name": "Qyzen Fess", "role": "Melee Tank — An honorable Trandoshan hunter who sees you as the Herald of his goddess, the Scorekeeper." },
+        { "name": "Tharan Cedrax", "role": "Healer — An eccentric scientist and tech genius accompanied by Holiday, his holographic companion." },
+        { "name": "Zenith", "role": "Ranged DPS — A Twi'lek guerrilla fighter from Balmorra, hardened by war and distrustful of politicians." },
+        { "name": "Felix Iresso", "role": "Ranged DPS — A Republic soldier with mysteriously implanted memories and unwavering loyalty." },
+        { "name": "Nadia Grell", "role": "Melee DPS — A young Force-sensitive Sarkhai and senator's daughter, learning to control her powers." }
+      ],
+      "planets": ["Tython", "Coruscant", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Sage",
+          "role": "Healer / Ranged DPS",
+          "combatStyle": "Telekinetic and Force healing powers. Projects rocks and Force disturbances at range while restoring allies."
+        },
+        {
+          "name": "Shadow",
+          "role": "Tank / Melee DPS",
+          "combatStyle": "Double-bladed lightsaber with Force stealth. Combines sneak attacks with advanced defensive techniques."
+        }
+      ],
+      "keyChoices": [
+        "Cure the Jedi Masters affected by the plague or let them perish",
+        "Show compassion or severity when dealing with Lord Vivicar",
+        "How to negotiate alliances: compromise or unwavering firmness",
+        "Expose or protect the infiltrated Children of the Emperor"
+      ]
+    },
+    "trooper": {
+      "story": {
+        "prologue": "You arrive on Ord Mantell as a new recruit of the prestigious Havoc Squad, the Republic's most decorated special operations unit. But during your first mission to recover a stolen bomb, you discover that the entire original Havoc Squad team has defected to the Empire.",
+        "act1": "As the new leader of Havoc Squad, you must rebuild the unit from scratch while hunting the traitors across the galaxy. Each planet reveals a former member of the original Havoc and their reasons for defecting. You must capture or eliminate them while recruiting new loyal members.",
+        "act2": "The rebuilt Havoc Squad faces a new threat: a massive Imperial project that threatens to turn the tide of war. Your missions become increasingly dangerous, testing your team's limits and forcing impossible decisions about what to sacrifice for victory.",
+        "act3": "A devastating Imperial weapon is about to be activated. You must lead Havoc Squad in a series of surgical operations to dismantle the threat, culminating in a final assault that will determine the course of the war between the Republic and the Empire."
+      },
+      "companions": [
+        { "name": "Aric Jorgan", "role": "Ranged DPS — A Cathar sharpshooter and former Havoc Squad commander, demoted and determined to prove his worth." },
+        { "name": "Elara Dorne", "role": "Healer — A former Imperial medical officer who defected to the Republic for her ideals, facing constant distrust." },
+        { "name": "M1-4X", "role": "Ranged DPS — A patriotic war droid with an eccentric personality and unwavering love for the Republic." },
+        { "name": "Tanno Vik", "role": "Melee Tank — An insubordinate Weequay demolitions expert with engineering skills and total disregard for rules." },
+        { "name": "Yuun", "role": "Melee DPS — A mystical Gand Findsman who uses rituals to track targets and find impossible paths." }
+      ],
+      "planets": ["Ord Mantell", "Coruscant", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Vanguard",
+          "role": "Tank / Melee DPS",
+          "combatStyle": "Blaster rifle and personal shield with heavy armor. Frontline combatant who protects allies and controls the battlefield."
+        },
+        {
+          "name": "Commando",
+          "role": "Healer / Ranged DPS",
+          "combatStyle": "Heavy assault cannon with grenades and projectiles. Devastating firepower with combat medical support capability."
+        }
+      ],
+      "keyChoices": [
+        "Capture or eliminate the traitorous members of the original Havoc Squad",
+        "Follow superior orders or act independently for the greater good",
+        "How to handle Elara Dorne and her Imperial origin",
+        "Sacrifice civilians to complete the mission or risk the operation to save them"
+      ]
+    },
+    "smuggler": {
+      "story": {
+        "prologue": "You arrive on Ord Mantell for a simple delivery, but your freighter is stolen by a local criminal named Skavak. Without a ship and without credits, you must use your cunning to survive, recover your ship, and teach Skavak a lesson he'll never forget.",
+        "act1": "The chase for Skavak takes you on a wild journey across the galaxy. Each planet reveals that Skavak has conned more people than you imagined, and his victims become your allies. The hunt culminates in a confrontation where you recover your ship and become a legendary smuggler.",
+        "act2": "Your reputation attracts the attention of the Voidwolf, the most feared pirate of the Empire. He threatens the entire underworld and wants to eliminate you personally. You must build a pirate fleet and gather unlikely allies to face this growing threat.",
+        "act3": "The war between your pirate fleet and the Voidwolf reaches its climax. You must navigate betrayals, unstable alliances, and epic space battles. The final confrontation with the Voidwolf will determine who controls the galaxy's smuggling routes and your place in history."
+      },
+      "companions": [
+        { "name": "Corso Riggs", "role": "Ranged DPS — An Ord Mantell farmboy turned gunslinger, with traditional values and an enormous heart." },
+        { "name": "Bowdaar", "role": "Melee Tank — A freed Wookiee gladiator who swore a life debt and fights with unmatched ferocity." },
+        { "name": "Risha", "role": "Ranged DPS — An exiled princess disguised as a mechanic, with secret connections to royalty and noble ambitions." },
+        { "name": "Akaavi Spar", "role": "Melee DPS — A Zabrak Mandalorian warrior exiled from her clan, seeking a new purpose and honor." },
+        { "name": "Guss Tuno", "role": "Healer — A Mon Calamari failed ex-Padawan who pretends to be a Jedi and heals with questionable enthusiasm." }
+      ],
+      "planets": ["Ord Mantell", "Coruscant", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Scoundrel",
+          "role": "Healer / Melee DPS",
+          "combatStyle": "Blaster and dirty fighting with stealth. Specialist in sneak attacks, dirty tricks, and improvised ally healing."
+        },
+        {
+          "name": "Gunslinger",
+          "role": "Ranged DPS",
+          "combatStyle": "Dual blasters with cover position. Master of concentrated ranged damage with tricks and control abilities."
+        }
+      ],
+      "keyChoices": [
+        "Spare or eliminate Skavak when you finally find him",
+        "Keep found treasures or return them to their original owners",
+        "Officially ally with the Republic or remain an independent smuggler",
+        "The Voidwolf's fate and control of the smuggling routes"
+      ]
+    }
+  }
+}

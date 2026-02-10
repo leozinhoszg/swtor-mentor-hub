@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import { Trans, useTranslation } from "react-i18next";
 
 const AboutSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation("home");
 
   return (
     <section id="sobre" className="py-24 md:py-32 relative" ref={ref}>
@@ -15,7 +17,7 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-gradient-gold mb-4"
         >
-          Sobre Nós
+          {t("about.title")}
         </motion.h2>
 
         <motion.div
@@ -31,7 +33,11 @@ const AboutSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-muted-foreground text-lg leading-relaxed"
         >
-          Bem-vindo ao <span className="text-primary font-semibold">The SWTOR Mentor</span>, o melhor lugar para aprender tudo sobre Star Wars: The Old Republic (SWTOR). Nós somos um grupo de jogadores experientes e apaixonados por SWTOR, e estamos aqui para compartilhar nossos conhecimentos com jogadores novos e antigos.
+          <Trans
+            i18nKey="about.text"
+            ns="home"
+            components={{ highlight: <span className="text-primary font-semibold" /> }}
+          />
         </motion.p>
 
         <motion.div

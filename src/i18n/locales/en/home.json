@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "tagline": "Best of SWTOR!",
+    "cta": "Explore Guides",
+    "bgAlt": "SWTOR Mentor Background"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "Welcome to <highlight>The SWTOR Mentor</highlight>, the best place to learn everything about Star Wars: The Old Republic (SWTOR). We are a group of experienced and passionate SWTOR players, and we're here to share our knowledge with new and veteran players alike."
+  }
+}

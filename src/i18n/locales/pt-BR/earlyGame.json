@@ -1,0 +1,143 @@
+{
+  "pageTitle": "Early Game",
+  "pageDescription": "O inicio da sua jornada em SWTOR. Conheça as classes disponíveis, suas facções e classes avançadas.",
+  "introText": "Existem quatro classes únicas por facção em SWTOR, e cada classe tem duas classes avançadas que são escolhidas ao criar um personagem.",
+  "disciplinesNote": "Cada classe principal possui 3 disciplinas, que são divididas em três roles: DPS, TANK e Healer. Após escolher uma das classes acima você deve escolher uma disciplina. Você pode acessar o guia avançado de classes para conhecer essas disciplinas.",
+  "advancedGuideLink": "Ver Guia Avançado de Classes",
+  "galacticRepublic": "República Galáctica",
+  "republicDesc": "Os defensores da democracia e da liberdade na galáxia. A República Galáctica luta para manter a paz e proteger seus cidadãos contra a ameaça do Império Sith.",
+  "empireSith": "Império Sith",
+  "empireDesc": "Governado pelos Sith, o Império busca dominar a galáxia através do poder do Lado Sombrio da Força. Seus agentes e guerreiros são instrumentos de conquista e destruição.",
+  "republicClasses": [
+    {
+      "name": "Jedi Knight",
+      "desc": "Campeões da paz e símbolos de esperança em tempos sombrios, Jedi Knights representam o legado da Ordem Jedi.",
+      "advanced": [
+        {
+          "name": "Guardian",
+          "role": "Tank / DPS",
+          "desc": "Uma parede de coragem e força para aqueles que eles protegem, o Guardian permanece firme diante de probabilidades esmagadoras e desafia os oponentes a atacar."
+        },
+        {
+          "name": "Sentinel",
+          "role": "DPS",
+          "desc": "Controle e foco são as marcas registradas do Sentinel. Através de anos de treinamento, o Sentinel aprende a arte de usar dois sabres de luz simultaneamente para criar uma intrincada teia de danos que são quase impossíveis de evitar."
+        }
+      ]
+    },
+    {
+      "name": "Jedi Consular",
+      "desc": "Visionários, embaixadores e buscadores da sabedoria oculta, o Jedi Consular trabalha há milênios para promover paz e equilíbrio.",
+      "advanced": [
+        {
+          "name": "Sage",
+          "role": "Healer / DPS",
+          "desc": "Os Sages são famosos por sua sabedoria tanto quanto por suas poderosas habilidades de cura e defesa. Em tempos difíceis, um Sage reúne a visão do passado com o poder bruto para mudar o fluxo de eventos galácticos."
+        },
+        {
+          "name": "Shadow",
+          "role": "Tank / DPS",
+          "desc": "Empunhando sabres de luz de lâmina dupla, os Shadows abraçam a sinergia entre corpo a corpo e combate da Força, permitindo-lhes derrubar os inimigos da ordem com eficiência mortal."
+        }
+      ]
+    },
+    {
+      "name": "Smuggler",
+      "desc": "Rápido, inteligente e respondendo a ninguém, Smugglers sabem que às vezes a sorte é mais importante que a habilidade — mas nunca é demais ter os dois.",
+      "advanced": [
+        {
+          "name": "Scoundrel",
+          "role": "Healer / DPS",
+          "desc": "Além de um blaster confiável, Scoundrels carregam uma arma furtiva, um cinto, uma espingarda e um medpac — tudo o que eles precisam para se enturmar, derrubar o inimigo e sair vivo."
+        },
+        {
+          "name": "Gunslinger",
+          "role": "DPS",
+          "desc": "Mestre do truque e disposto a tirar vantagem de cada oportunidade, o Gunslinger aprende a disparar dois blasters ao mesmo tempo, especializando-se em combate de longo alcance."
+        }
+      ]
+    },
+    {
+      "name": "Trooper",
+      "desc": "Nem todos os heróis carregam sabres de luz — alguns apenas têm a vontade de lutar. Os Troopers são os mais corajosos e determinados de todos.",
+      "advanced": [
+        {
+          "name": "Commando",
+          "role": "Healer / DPS",
+          "desc": "Treinado em táticas avançadas de assalto e armamento, Commandos avançam para a batalha com canhões de ataque massivo, esmagando seus inimigos com poder de fogo bruto."
+        },
+        {
+          "name": "Vanguard",
+          "role": "Tank / DPS",
+          "desc": "Imparáveis e totalmente destemidos, os Vanguards são a primeira e melhor linha de defesa nas forças armadas mais impressionantes da galáxia."
+        }
+      ]
+    }
+  ],
+  "imperialClasses": [
+    {
+      "name": "Sith Warrior",
+      "desc": "Fortes no lado negro da Força, os Sith Warriors são encarregados da tarefa de destruir os inimigos do Império pela galáxia.",
+      "advanced": [
+        {
+          "name": "Juggernaut",
+          "role": "Tank / DPS",
+          "desc": "Um poderoso vencedor de todos os que se opõem a eles, o Juggernaut incorpora os ensinamentos de Marka Ragnos, atacando inimigos com armadura pesada e raiva pura."
+        },
+        {
+          "name": "Marauder",
+          "role": "DPS",
+          "desc": "Encarregado da tarefa de destruir aqueles que estão no caminho de seus aliados, o Marauder de empunhadura dupla incorpora os ensinamentos de Naga Sadow. Nunca hesitando, nunca vacilando, não há executor mais rápido na galáxia."
+        }
+      ]
+    },
+    {
+      "name": "Sith Inquisitor",
+      "desc": "Sinistro e enganoso, Sith Inquisitors são prodígios de poder da Força e especialistas em manipular seus inimigos.",
+      "advanced": [
+        {
+          "name": "Sorcerer",
+          "role": "Healer / DPS",
+          "desc": "O Sorcerer extrai energia das profundezas proibidas da Força, dominando técnicas que minam e drenam os inimigos enquanto revigoram aliados — ou simplesmente causam devastação total."
+        },
+        {
+          "name": "Assassin",
+          "role": "Tank / DPS",
+          "desc": "Assassins saltam das sombras, canalizando Force Lightning através de seus sabres de luz de lâmina dupla para desativar e drenar seus inimigos. Eles são mestres do subterfúgio, temidos até pelos adversários mais terríveis."
+        }
+      ]
+    },
+    {
+      "name": "Imperial Agent",
+      "desc": "Assassinos e sabotadores inigualáveis, os Agents são as armas secretas do Império Sith, ajudando a garantir o controle de inúmeros sistemas estelares.",
+      "advanced": [
+        {
+          "name": "Operative",
+          "role": "Healer / DPS",
+          "desc": "Seja emboscando inimigos furtivamente ou usando tecnologia médica avançada para manter os colegas na luta, o Operative fará o que for preciso para avançar a agenda de seus aliados."
+        },
+        {
+          "name": "Sniper",
+          "role": "DPS",
+          "desc": "Os atiradores de elite mais poderosos da galáxia, os Snipers usam seu extenso treinamento para eliminar alvos sensíveis e virar a maré da batalha a seu favor."
+        }
+      ]
+    },
+    {
+      "name": "Bounty Hunter",
+      "desc": "O Império tem muitos inimigos — e eles pagarão Bounty Hunters generosamente para removê-los com eficiência implacável.",
+      "advanced": [
+        {
+          "name": "Mercenary",
+          "role": "Healer / DPS",
+          "desc": "Um par de blasters, mísseis mortais guiados por calor e armadura pesada fazem do Mercenary uma plataforma de armas móveis. Não há problema que poder de fogo extra não resolva, e ninguém com bom senso fica entre um Mercenary e seu alvo."
+        },
+        {
+          "name": "Powertech",
+          "role": "Tank / DPS",
+          "desc": "O melhor em proteção, táticas defensivas e lança-chamas de alta potência se combinam para tornar o Powertech um bloqueio impenetrável, aproximando-se para derrubar inimigos de todos os tamanhos."
+        }
+      ]
+    }
+  ]
+}

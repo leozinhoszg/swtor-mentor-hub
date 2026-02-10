@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Home",
+    "content": "Content",
+    "contentDropdown": {
+      "earlyGame": "Early-Game",
+      "classes": "Classes",
+      "introduction": "Introduction",
+      "midGame": "Mid Game",
+      "endgame": "Endgame"
+    },
+    "stories": "Stories",
+    "storiesDropdown": {
+      "empire": "Empire",
+      "republic": "Republic",
+      "sithWarrior": "Sith Warrior",
+      "sithInquisitor": "Sith Inquisitor",
+      "bountyHunter": "Bounty Hunter",
+      "imperialAgent": "Imperial Agent",
+      "jediKnight": "Jedi Knight",
+      "jediConsular": "Jedi Consular",
+      "trooper": "Trooper",
+      "smuggler": "Smuggler"
+    },
+    "operations": "Operations",
+    "operationsDropdown": {
+      "storyMode": "Story Mode",
+      "veteran": "Veteran",
+      "master": "Master"
+    },
+    "others": "Others",
+    "othersDropdown": {
+      "guides": "Guides",
+      "updates": "Updates"
+    },
+    "events": "Events"
+  },
+  "footer": {
+    "tagline": "The best place for SWTOR guides.",
+    "copyright": "© 2025 The SWTOR Mentor. All rights reserved.",
+    "disclaimer": "This site is not affiliated with BioWare or Electronic Arts."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "backHome": "Return to Home"
+  },
+  "meta": {
+    "title": "The SWTOR Mentor - SWTOR Guides & Tips",
+    "description": "The best place for guides, builds, and tips for Star Wars: The Old Republic."
+  }
+}

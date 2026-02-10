@@ -1,33 +1,18 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { FileText } from "lucide-react";
-
-const updates = [
-  {
-    date: "5 Fev 2026",
-    title: "Patch 7.6 - Ruhnuk Revisited",
-    summary: "Novo conteúdo em Ruhnuk com quests diárias, novos equipamentos e balanceamento de classes.",
-  },
-  {
-    date: "20 Jan 2026",
-    title: "Patch 7.5.2 - Hotfix",
-    summary: "Correções de bugs em Operations e ajustes de performance no servidor.",
-  },
-  {
-    date: "8 Jan 2026",
-    title: "Patch 7.5.1 - Season 7",
-    summary: "Nova temporada com recompensas exclusivas, novos objetivos de Galactic Season.",
-  },
-  {
-    date: "18 Dez 2025",
-    title: "Patch 7.5 - Chains in the Dark",
-    summary: "Continuação da história principal com nova Flashpoint e Operation boss.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const UpdatesSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation("updates");
+
+  const updates = t("sectionUpdates", { returnObjects: true }) as Array<{
+    date: string;
+    title: string;
+    summary: string;
+  }>;
 
   return (
     <section id="atualizacoes" className="py-24 md:py-32 relative" ref={ref}>
@@ -38,7 +23,7 @@ const UpdatesSection = () => {
           transition={{ duration: 0.6 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-gradient-gold text-center mb-4"
         >
-          Atualizações
+          {t("sectionTitle")}
         </motion.h2>
         <motion.div
           initial={{ scaleX: 0 }}

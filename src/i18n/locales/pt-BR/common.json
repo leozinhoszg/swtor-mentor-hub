@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Home",
+    "content": "Conteúdo",
+    "contentDropdown": {
+      "earlyGame": "Early-Game",
+      "classes": "Classes",
+      "introduction": "Introdução",
+      "midGame": "Mid Game",
+      "endgame": "Endgame"
+    },
+    "stories": "Histórias",
+    "storiesDropdown": {
+      "empire": "Império",
+      "republic": "República",
+      "sithWarrior": "Sith Warrior",
+      "sithInquisitor": "Sith Inquisitor",
+      "bountyHunter": "Bounty Hunter",
+      "imperialAgent": "Imperial Agent",
+      "jediKnight": "Jedi Knight",
+      "jediConsular": "Jedi Consular",
+      "trooper": "Trooper",
+      "smuggler": "Smuggler"
+    },
+    "operations": "Operations",
+    "operationsDropdown": {
+      "storyMode": "Story Mode",
+      "veteran": "Veteran",
+      "master": "Master"
+    },
+    "others": "Outros",
+    "othersDropdown": {
+      "guides": "Guias",
+      "updates": "Atualizações"
+    },
+    "events": "Eventos"
+  },
+  "footer": {
+    "tagline": "O melhor lugar para guias de SWTOR.",
+    "copyright": "© 2025 The SWTOR Mentor. Todos os direitos reservados.",
+    "disclaimer": "Este site não é afiliado à BioWare ou Electronic Arts."
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Página não encontrada",
+    "backHome": "Voltar para Home"
+  },
+  "meta": {
+    "title": "The SWTOR Mentor - Guias e Dicas de SWTOR",
+    "description": "O melhor lugar para guias, builds e dicas de Star Wars: The Old Republic."
+  }
+}

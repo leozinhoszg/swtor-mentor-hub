@@ -1,0 +1,103 @@
+{
+  "sectionTitle": "Atualizações",
+  "changesLabel": "Mudanças",
+  "sectionUpdates": [
+    {
+      "date": "5 Fev 2026",
+      "title": "Patch 7.6 - Ruhnuk Revisited",
+      "summary": "Novo conteúdo em Ruhnuk com quests diárias, novos equipamentos e balanceamento de classes."
+    },
+    {
+      "date": "20 Jan 2026",
+      "title": "Patch 7.5.2 - Hotfix",
+      "summary": "Correções de bugs em Operations e ajustes de performance no servidor."
+    },
+    {
+      "date": "8 Jan 2026",
+      "title": "Patch 7.5.1 - Season 7",
+      "summary": "Nova temporada com recompensas exclusivas, novos objetivos de Galactic Season."
+    },
+    {
+      "date": "18 Dez 2025",
+      "title": "Patch 7.5 - Chains in the Dark",
+      "summary": "Continuação da história principal com nova Flashpoint e Operation boss."
+    }
+  ],
+  "pageTitle": "Atualizações",
+  "pageDescription": "Acompanhe todas as atualizações, patch notes e novidades do Star Wars: The Old Republic.",
+  "pageUpdates": [
+    {
+      "date": "5 Fev 2026",
+      "title": "Patch 7.6 - Ruhnuk Revisited",
+      "summary": "Novo conteúdo em Ruhnuk com quests diárias, novos equipamentos e balanceamento de classes.",
+      "changes": [
+        "Novas daily quests em Ruhnuk",
+        "Novo tier de equipamento 340",
+        "Balanceamento de Juggernaut e Marauder DPS",
+        "Correção de bugs em Flashpoints",
+        "Novas decorações de Stronghold"
+      ]
+    },
+    {
+      "date": "20 Jan 2026",
+      "title": "Patch 7.5.2 - Hotfix",
+      "summary": "Correções de bugs em Operations e ajustes de performance no servidor.",
+      "changes": [
+        "Fix: Boss reset bug em Dread Palace",
+        "Fix: Desync em PvP Warzones",
+        "Melhorias de performance do servidor",
+        "Fix: Quest tracker não atualizando"
+      ]
+    },
+    {
+      "date": "8 Jan 2026",
+      "title": "Patch 7.5.1 - Season 7",
+      "summary": "Nova temporada com recompensas exclusivas, novos objetivos de Galactic Season.",
+      "changes": [
+        "Galactic Season 7 iniciada",
+        "Novo companion: Darth Hexid (Season reward)",
+        "Novos objetivos semanais e diários",
+        "Novas recompensas no track de temporada",
+        "Ajustes no sistema de Conquest points"
+      ]
+    },
+    {
+      "date": "18 Dez 2025",
+      "title": "Patch 7.5 - Chains in the Dark",
+      "summary": "Continuação da história principal com nova Flashpoint e Operation boss.",
+      "changes": [
+        "Nova Flashpoint: Chains in the Dark",
+        "Novo boss de Operation: R-4 Anomaly update",
+        "Continuação da storyline principal",
+        "Novo planeta explorável: setor de Hutta expandido",
+        "Novas armas e armor sets",
+        "Sistema de crafting atualizado"
+      ]
+    },
+    {
+      "date": "15 Nov 2025",
+      "title": "Patch 7.4.1 - Quality of Life",
+      "summary": "Melhorias de qualidade de vida, ajustes de UI e balanceamento de classes.",
+      "changes": [
+        "Nova UI para Galactic Trade Network",
+        "Quick Travel cooldown reduzido",
+        "Balanceamento de Sorcerer/Sage healing",
+        "Melhorias na interface de grupo",
+        "Fix: Vários bugs de quest"
+      ]
+    },
+    {
+      "date": "1 Out 2025",
+      "title": "Patch 7.4 - Echoes of Vengeance",
+      "summary": "Nova storyline, novos Daily Areas e continuação do arco de Malgus.",
+      "changes": [
+        "Nova storyline: Echoes of Vengeance",
+        "Novo Daily Area em Voss",
+        "Continuação do arco de Darth Malgus",
+        "Novos achievements e títulos",
+        "Balanceamento geral de classes",
+        "Novos itens no Cartel Market"
+      ]
+    }
+  ]
+}

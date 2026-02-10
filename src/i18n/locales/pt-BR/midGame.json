@@ -1,0 +1,32 @@
+{
+  "pageTitle": "Mid Game",
+  "pageDescription": "Expansões épicas, novos planetas e a progressão do seu personagem além das histórias de classe.",
+  "comingSoon": "Conteúdo em breve",
+  "comingSoonDesc": "Estamos preparando guias completos sobre expansões, progressão de personagem e conteúdo intermediário. Fique ligado!",
+  "sections": [
+    {
+      "title": "Rise of the Hutt Cartel",
+      "desc": "Expansão para Makeb com nova storyline e level cap 55."
+    },
+    {
+      "title": "Shadow of Revan",
+      "desc": "A volta de Revan com Rishi e Yavin 4."
+    },
+    {
+      "title": "Knights of the Fallen Empire",
+      "desc": "Nova narrativa cinematográfica com o Outlander."
+    },
+    {
+      "title": "Knights of the Eternal Throne",
+      "desc": "Continuação da saga do Trono Eterno."
+    },
+    {
+      "title": "Progressão de Gear",
+      "desc": "Como otimizar seu equipamento durante a progressão."
+    },
+    {
+      "title": "Flashpoints Veteran",
+      "desc": "Desafios em grupo para recompensas melhores."
+    }
+  ]
+}

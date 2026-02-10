@@ -1,25 +1,26 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Shield, Swords } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { IMPERIAL_SLUGS, REPUBLIC_SLUGS } from "@/data/classStoryMeta";
 
-const factions = [
-  {
-    name: "Império",
-    icon: <Swords className="w-10 h-10 text-primary" />,
-    classes: ["Sith Warrior", "Sith Inquisitor", "Bounty Hunter", "Imperial Agent"],
-    color: "from-red-900/20 to-card/40",
-  },
-  {
-    name: "República",
-    icon: <Shield className="w-10 h-10 text-primary" />,
-    classes: ["Jedi Knight", "Jedi Consular", "Trooper", "Smuggler"],
-    color: "from-blue-900/20 to-card/40",
-  },
+const factionIcons = [
+  <Swords className="w-10 h-10 text-primary" />,
+  <Shield className="w-10 h-10 text-primary" />,
 ];
 
 const StoriesSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation("stories");
+
+  const factionSlugs = [IMPERIAL_SLUGS, REPUBLIC_SLUGS];
+  const factions = (t("factions", { returnObjects: true }) as Array<{ name: string; classes: string[] }>).map((f, i) => ({
+    ...f,
+    icon: factionIcons[i],
+    slugs: factionSlugs[i],
+  }));
 
   return (
     <section id="historias" className="py-24 md:py-32 relative" ref={ref}>
@@ -30,7 +31,7 @@ const StoriesSection = () => {
           transition={{ duration: 0.6 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-gradient-gold text-center mb-4"
         >
-          Histórias
+          {t("sectionTitle")}
         </motion.h2>
         <motion.div
           initial={{ scaleX: 0 }}
@@ -54,15 +55,16 @@ const StoriesSection = () => {
               </h3>
               <div className="space-y-3">
                 {faction.classes.map((cls, j) => (
-                  <motion.div
-                    key={cls}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={inView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ delay: 0.5 + j * 0.1 }}
-                    className="py-2 px-4 rounded bg-muted/30 text-muted-foreground text-sm font-oswald uppercase tracking-wider hover:bg-primary/10 hover:text-primary transition-colors"
-                  >
-                    {cls}
-                  </motion.div>
+                  <Link to={`/historias/${faction.slugs[j]}`} key={cls}>
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={inView ? { opacity: 1, y: 0 } : {}}
+                      transition={{ delay: 0.5 + j * 0.1 }}
+                      className="py-2 px-4 rounded bg-muted/30 text-muted-foreground text-sm font-oswald uppercase tracking-wider hover:bg-primary/10 hover:text-primary transition-colors"
+                    >
+                      {cls}
+                    </motion.div>
+                  </Link>
                 ))}
               </div>
             </motion.div>

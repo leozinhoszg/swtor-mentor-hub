@@ -1,31 +1,23 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Rocket, Map, Crown } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const phases = [
-  {
-    title: "Early Game",
-    icon: <Rocket className="w-8 h-8" />,
-    desc: "Classe stories, planetas iniciais e mecânicas fundamentais para novos jogadores.",
-    items: ["Class Stories", "Planetas Iniciais", "Companions", "Mecânicas Básicas"],
-  },
-  {
-    title: "Mid Game",
-    icon: <Map className="w-8 h-8" />,
-    desc: "Expansões, progressão de personagem e conteúdo intermediário.",
-    items: ["Expansões", "Progressão", "Flashpoints", "Heroics"],
-  },
-  {
-    title: "Endgame",
-    icon: <Crown className="w-8 h-8" />,
-    desc: "Gear, builds otimizadas e atividades de nível máximo.",
-    items: ["Gear & Stats", "Builds", "Operations", "PvP Ranked"],
-  },
+const phaseIcons = [
+  <Rocket className="w-8 h-8" />,
+  <Map className="w-8 h-8" />,
+  <Crown className="w-8 h-8" />,
 ];
 
 const ContentSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation("content");
+
+  const phases = (t("sectionPhases", { returnObjects: true }) as Array<{ title: string; desc: string; items: string[] }>).map((p, i) => ({
+    ...p,
+    icon: phaseIcons[i],
+  }));
 
   return (
     <section id="conteudo" className="py-24 md:py-32 bg-muted/5 relative" ref={ref}>
@@ -36,7 +28,7 @@ const ContentSection = () => {
           transition={{ duration: 0.6 }}
           className="font-cinzel font-bold text-3xl md:text-4xl text-gradient-gold text-center mb-4"
         >
-          Conteúdo
+          {t("sectionTitle")}
         </motion.h2>
         <motion.div
           initial={{ scaleX: 0 }}

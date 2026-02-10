@@ -13,40 +13,40 @@
     --popover: 0 0% 5%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 41 55% 55%;
+    --primary: 48 85% 53%;
     --primary-foreground: 0 0% 0%;
 
-    --secondary: 41 45% 45%;
+    --secondary: 46 70% 42%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 0 0% 10%;
     --muted-foreground: 0 0% 88%;
 
-    --accent: 41 65% 60%;
+    --accent: 49 90% 58%;
     --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 41 30% 25%;
-    --input: 41 30% 20%;
-    --ring: 41 55% 55%;
+    --border: 46 50% 28%;
+    --input: 46 40% 22%;
+    --ring: 48 85% 53%;
 
     --radius: 0.5rem;
 
-    --gold: 41 55% 55%;
-    --gold-light: 45 70% 65%;
-    --gold-dark: 38 60% 45%;
-    --gold-glow: 41 80% 55%;
+    --gold: 48 85% 53%;
+    --gold-light: 50 92% 65%;
+    --gold-dark: 44 80% 40%;
+    --gold-glow: 48 92% 55%;
 
     --sidebar-background: 0 0% 4%;
     --sidebar-foreground: 0 0% 88%;
-    --sidebar-primary: 41 55% 55%;
+    --sidebar-primary: 48 85% 53%;
     --sidebar-primary-foreground: 0 0% 0%;
-    --sidebar-accent: 41 30% 15%;
+    --sidebar-accent: 46 40% 16%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 41 30% 20%;
-    --sidebar-ring: 41 55% 55%;
+    --sidebar-border: 46 40% 22%;
+    --sidebar-ring: 48 85% 53%;
   }
 }
 
@@ -76,31 +76,31 @@
 
   .text-gradient-gold {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(38 60% 45%), hsl(41 55% 55%), hsl(45 70% 65%));
+    background-image: linear-gradient(135deg, hsl(44 80% 40%), hsl(48 85% 53%), hsl(50 92% 65%));
   }
 
   .bg-gradient-gold {
-    background-image: linear-gradient(135deg, hsl(38 60% 45%), hsl(41 55% 55%), hsl(45 70% 65%));
+    background-image: linear-gradient(135deg, hsl(44 80% 40%), hsl(48 85% 53%), hsl(50 92% 65%));
   }
 
   .bg-gradient-gold-horizontal {
-    background-image: linear-gradient(90deg, transparent, hsl(41 55% 55%), transparent);
+    background-image: linear-gradient(90deg, transparent, hsl(48 85% 53%), transparent);
   }
 
   .border-gradient-gold {
-    border-image: linear-gradient(135deg, hsl(38 60% 45%), hsl(45 70% 65%)) 1;
+    border-image: linear-gradient(135deg, hsl(44 80% 40%), hsl(50 92% 65%)) 1;
   }
 
   .glow-gold {
-    box-shadow: 0 0 20px hsl(41 80% 55% / 0.3), 0 0 60px hsl(41 80% 55% / 0.1);
+    box-shadow: 0 0 20px hsl(48 92% 55% / 0.3), 0 0 60px hsl(48 92% 55% / 0.1);
   }
 
   .glow-gold-lg {
-    box-shadow: 0 0 30px hsl(41 80% 55% / 0.4), 0 0 80px hsl(41 80% 55% / 0.15);
+    box-shadow: 0 0 30px hsl(48 92% 55% / 0.4), 0 0 80px hsl(48 92% 55% / 0.15);
   }
 
   .text-glow-gold {
-    text-shadow: 0 0 20px hsl(41 80% 55% / 0.5), 0 0 40px hsl(41 80% 55% / 0.2);
+    text-shadow: 0 0 20px hsl(48 92% 55% / 0.5), 0 0 40px hsl(48 92% 55% / 0.2);
   }
 
   .glass-card {
@@ -110,17 +110,17 @@
   .glass-card-gold {
     @apply backdrop-blur-md rounded-lg;
     background: linear-gradient(135deg, hsl(0 0% 5% / 0.8), hsl(0 0% 8% / 0.6));
-    border: 1px solid hsl(41 55% 55% / 0.3);
+    border: 1px solid hsl(48 85% 53% / 0.3);
   }
 
   .glass-card-gold:hover {
-    border-color: hsl(41 55% 55% / 0.6);
-    box-shadow: 0 0 25px hsl(41 80% 55% / 0.2);
+    border-color: hsl(48 85% 53% / 0.6);
+    box-shadow: 0 0 25px hsl(48 92% 55% / 0.2);
   }
 
   .divider-gold {
     @apply h-px w-full;
-    background-image: linear-gradient(90deg, transparent, hsl(41 55% 55% / 0.6), transparent);
+    background-image: linear-gradient(90deg, transparent, hsl(48 85% 53% / 0.6), transparent);
   }
 
   .scrollbar-hide::-webkit-scrollbar {

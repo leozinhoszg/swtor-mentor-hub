@@ -1,0 +1,94 @@
+{
+  "sectionTitle": "Eventos",
+  "statusActive": "Ativo",
+  "statusUpcoming": "Próximo",
+  "tipsLabel": "Dicas",
+  "sectionEvents": [
+    {
+      "name": "Rakghoul Resurgence",
+      "status": "active",
+      "dates": "10–17 Fev 2026",
+      "rewards": "Rakghoul DNA Canisters, Títulos exclusivos",
+      "active": true
+    },
+    {
+      "name": "Bounty Contract Week",
+      "status": "upcoming",
+      "dates": "3–10 Mar 2026",
+      "rewards": "Bounty Contract, Companion customization",
+      "active": false
+    },
+    {
+      "name": "Swoop Rally",
+      "status": "upcoming",
+      "dates": "24–31 Mar 2026",
+      "rewards": "Swoop Tokens, Mounts exclusivos",
+      "active": false
+    },
+    {
+      "name": "Double XP Event",
+      "status": "upcoming",
+      "dates": "14–21 Abr 2026",
+      "rewards": "Experiência dobrada em todas atividades",
+      "active": false
+    }
+  ],
+  "pageTitle": "Eventos",
+  "pageDescription": "Fique por dentro de todos os eventos ativos e próximos do SWTOR. Dicas, datas e recompensas.",
+  "pageEvents": [
+    {
+      "name": "Rakghoul Resurgence",
+      "status": "active",
+      "dates": "10–17 Fev 2026",
+      "rewards": "Rakghoul DNA Canisters, Títulos exclusivos, Armor sets, Pets",
+      "active": true,
+      "desc": "Uma praga Rakghoul se espalha pela galáxia! Viaje para o planeta afetado, complete missões diárias e ganhe recompensas exclusivas do evento.",
+      "tips": ["Leve medpacs contra a infecção", "Complete as missões diárias para DNA Canisters", "O world boss dropa itens raros"]
+    },
+    {
+      "name": "Bounty Contract Week",
+      "status": "upcoming",
+      "dates": "3–10 Mar 2026",
+      "rewards": "Bounty Contracts, Companion customization, Mounts",
+      "active": false,
+      "desc": "Aceite contratos de caça e rastreie alvos perigosos em diversos planetas. Disponível mensalmente.",
+      "tips": ["Contratos Kingpin ficam disponíveis após completar 5 contratos normais", "BBA reputation dá acesso a itens exclusivos"]
+    },
+    {
+      "name": "Swoop Rally",
+      "status": "upcoming",
+      "dates": "24–31 Mar 2026",
+      "rewards": "Swoop Tokens, Mounts exclusivos, Decorações",
+      "active": false,
+      "desc": "Corridas de Swoop bikes em Dantooine, Onderon e outros planetas! Ganhe tokens para trocar por recompensas.",
+      "tips": ["Pratique as rotas para melhorar tempos", "Daily e weekly quests dão mais tokens", "Mounts exclusivos só estão disponíveis durante o evento"]
+    },
+    {
+      "name": "Double XP Event",
+      "status": "upcoming",
+      "dates": "14–21 Abr 2026",
+      "rewards": "Experiência dobrada em todas atividades",
+      "active": false,
+      "desc": "Experiência dobrada em todas as atividades do jogo. Perfeito para upar alts e completar class stories.",
+      "tips": ["Use XP boosts para triplicar", "Ótimo momento para levar alts ao nível máximo", "Flashpoints dão XP massivo com o bônus"]
+    },
+    {
+      "name": "Pirate Incursion",
+      "status": "upcoming",
+      "dates": "5–12 Mai 2026",
+      "rewards": "Pirate Tokens, Decorações, Títulos",
+      "active": false,
+      "desc": "Piratas invadem Dantooine! Defenda a colônia e complete missões para recompensas temáticas.",
+      "tips": ["O evento acontece em Dantooine", "World bosses aparecem periodicamente", "Complete todas as dailies para maximizar rewards"]
+    },
+    {
+      "name": "Feast of Prosperity",
+      "status": "upcoming",
+      "dates": "Jun 2026",
+      "rewards": "Feast Tokens, Decorações, Recipes",
+      "active": false,
+      "desc": "O grande banquete dos Hutts! Cooking challenges, food fights e competições gastronômicas na galáxia.",
+      "tips": ["Minigames de culinária dão tokens extras", "Reputation exclusiva do evento", "Decorações temáticas para Strongholds"]
+    }
+  ]
+}

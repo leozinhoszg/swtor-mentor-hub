@@ -1,0 +1,32 @@
+{
+  "pageTitle": "Endgame",
+  "pageDescription": "Conteúdo de nível máximo: operations, PvP competitivo, builds otimizadas e o melhor gear do jogo.",
+  "comingSoon": "Conteúdo em breve",
+  "comingSoonDesc": "Estamos preparando guias completos sobre gear, builds otimizadas e atividades de nível máximo. Fique ligado!",
+  "sections": [
+    {
+      "title": "Gear & Stats",
+      "desc": "Guia completo de set bonus, amplifiers e stat distribution."
+    },
+    {
+      "title": "Builds Otimizadas",
+      "desc": "As melhores builds para DPS, Tank e Healer em cada classe."
+    },
+    {
+      "title": "Operations",
+      "desc": "Raids de 8 ou 16 jogadores com mecânicas desafiadoras."
+    },
+    {
+      "title": "PvP Ranked",
+      "desc": "Arenas e Warzones competitivas para os melhores jogadores."
+    },
+    {
+      "title": "Galactic Seasons",
+      "desc": "Sistema de temporada com recompensas exclusivas."
+    },
+    {
+      "title": "Conquests",
+      "desc": "Sistema de conquistas semanais para guilds e jogadores solo."
+    }
+  ]
+}

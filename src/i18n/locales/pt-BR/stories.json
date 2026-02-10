@@ -1,0 +1,350 @@
+{
+  "sectionTitle": "Histórias",
+  "factions": [
+    {
+      "name": "Império",
+      "classes": ["Sith Warrior", "Sith Inquisitor", "Bounty Hunter", "Imperial Agent"]
+    },
+    {
+      "name": "República",
+      "classes": ["Jedi Knight", "Jedi Consular", "Trooper", "Smuggler"]
+    }
+  ],
+  "pageTitle": "Histórias",
+  "pageDescription": "Explore as histórias épicas de cada classe. Escolha seu caminho entre o Império Sith e a República Galáctica.",
+  "empireSith": "Império Sith",
+  "empireDesc": "O Império Sith é governado pelo Imperador e pelo Dark Council. Suas classes representam o poder militar, a astúcia e a força sombria que alimentam a dominação galáctica.",
+  "galacticRepublic": "República Galáctica",
+  "republicDesc": "A República Galáctica luta para manter a paz e a democracia na galáxia. Seus heróis são Jedi, soldados de elite e aventureiros que defendem os inocentes contra a tirania Sith.",
+  "imperialClasses": [
+    {
+      "name": "Sith Warrior",
+      "advanced": ["Juggernaut", "Marauder"],
+      "desc": "Guerreiro implacável que canaliza a fúria do Lado Sombrio em combate corpo a corpo devastador."
+    },
+    {
+      "name": "Sith Inquisitor",
+      "advanced": ["Sorcerer", "Assassin"],
+      "desc": "Mestre do Lado Sombrio que utiliza raios de Força e manipulação para dominar seus inimigos."
+    },
+    {
+      "name": "Bounty Hunter",
+      "advanced": ["Powertech", "Mercenary"],
+      "desc": "Caçador de recompensas equipado com arsenal pesado e tecnologia de ponta."
+    },
+    {
+      "name": "Imperial Agent",
+      "advanced": ["Operative", "Sniper"],
+      "desc": "Agente de elite da Inteligência Imperial, mestre em espionagem e combate furtivo."
+    }
+  ],
+  "republicClasses": [
+    {
+      "name": "Jedi Knight",
+      "advanced": ["Guardian", "Sentinel"],
+      "desc": "Guardião da paz e da justiça, combatente formidável com sabre de luz."
+    },
+    {
+      "name": "Jedi Consular",
+      "advanced": ["Sage", "Shadow"],
+      "desc": "Estudioso da Força que busca o equilíbrio entre diplomacia e poder místico."
+    },
+    {
+      "name": "Trooper",
+      "advanced": ["Vanguard", "Commando"],
+      "desc": "Soldado de elite da República com armamento pesado e treinamento tático superior."
+    },
+    {
+      "name": "Smuggler",
+      "advanced": ["Scoundrel", "Gunslinger"],
+      "desc": "Contrabandista astuto com mira certeira e um talento natural para sobreviver."
+    }
+  ],
+  "classStoryLabels": {
+    "prologue": "Prólogo",
+    "act1": "Ato I",
+    "act2": "Ato II",
+    "act3": "Ato III",
+    "companions": "Companions",
+    "planets": "Planetas Visitados",
+    "advancedClasses": "Classes Avançadas",
+    "keyChoices": "Escolhas & Decisões Importantes",
+    "backToStories": "Voltar para Histórias",
+    "role": "Função",
+    "combatStyle": "Estilo de Combate"
+  },
+  "classStories": {
+    "sithWarrior": {
+      "story": {
+        "prologue": "Em Korriban, um acólito recém-chegado deve provar seu valor na academia Sith. Sob o olhar implacável de seu supervisor Overseer Tremel, você enfrenta provações mortais, rivais traiçoeiros e tumbas ancestrais para conquistar o direito de se tornar aprendiz de Darth Baras.",
+        "act1": "Como aprendiz de Darth Baras, você é enviado em missões pela galáxia para eliminar espiões da República e uma rede de agentes Jedi. Sua jornada o leva de Dromund Kaas a Balmorra e Nar Shaddaa, enquanto descobre que Baras está manipulando você para seus próprios fins de poder dentro do Dark Council.",
+        "act2": "A verdadeira ameaça se revela: a Entidade, um ser poderoso ligado ao Imperador, começa a agir nas sombras. Darth Baras trai você e tenta eliminar todas as peças soltas. Você deve reunir aliados e provar que é digno do título de Executor do Imperador, desafiando diretamente a autoridade de Baras.",
+        "act3": "O confronto final entre você e Darth Baras se desenrola perante o Dark Council. Baras se proclama a Voz do Imperador, mas você deve desmascarar sua mentira e derrotá-lo em combate para garantir seu lugar como o verdadeiro Executor do Imperador, uma das figuras mais temidas da galáxia."
+      },
+      "companions": [
+        { "name": "Vette", "role": "DPS à Distância — Twi'lek caçadora de tesouros espirituosa e ex-escrava com um senso de humor afiado." },
+        { "name": "Malavai Quinn", "role": "Curador — Oficial Imperial leal e médico com uma lealdade complexa e segredos perigosos." },
+        { "name": "Jaesa Willsaam", "role": "DPS Corpo a Corpo — Padawan sensível à Força que pode ser convertida ao Lado Sombrio ou mantida na Luz." },
+        { "name": "Tenente Pierce", "role": "Tanque à Distância — Soldado Imperial impetuoso que vive para o caos do campo de batalha." },
+        { "name": "Broonmark", "role": "Tanque Corpo a Corpo — Guerreiro Talz selvagem movido por sede de sangue e lealdade tribal." }
+      ],
+      "planets": ["Korriban", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Juggernaut",
+          "role": "Tanque / DPS Corpo a Corpo",
+          "combatStyle": "Sabre de luz único com armadura pesada. Excele em absorver dano e controlar inimigos com habilidades da Força como Empurrão da Força e Esmagar."
+        },
+        {
+          "name": "Marauder",
+          "role": "DPS Corpo a Corpo",
+          "combatStyle": "Sabres de luz duplos com armadura média. Desencadeia ataques devastadores de curto alcance alimentados pela fúria."
+        }
+      ],
+      "keyChoices": [
+        "Poupar ou matar o antigo dono de Vette em Nar Shaddaa",
+        "Jaesa Willsaam: convertê-la ao Lado Sombrio ou permitir que permaneça na Luz",
+        "Lealdade a Darth Baras ou à Mão do Imperador",
+        "Traição de Malavai Quinn: perdoar ou punir"
+      ]
+    },
+    "sithInquisitor": {
+      "story": {
+        "prologue": "Nascido como escravo, você chega a Korriban para treinamento Sith. O Overseer Harkun tenta destruí-lo a todo custo, favorecendo outro acólito. Mas seu poder bruto na Força impressiona Lord Zash, que o escolhe como aprendiz e revela um destino muito maior.",
+        "act1": "Lord Zash envia você em busca de artefatos antigos espalhados pela galáxia, necessários para um ritual que promete poder inimaginável. Mas Zash esconde suas verdadeiras intenções — ela planeja roubar seu corpo para prolongar sua própria vida. Você deve sobreviver à traição e buscar poder por conta própria.",
+        "act2": "Uma doença misteriosa da Força começa a consumir você, resultado dos rituais de vinculação de fantasmas. Você deve encontrar curas em mundos distantes enquanto enfrenta Darth Thanaton, um membro do Dark Council determinado a eliminá-lo por desafiar as tradições Sith.",
+        "act3": "O conflito com Darth Thanaton chega ao ápice. Você reúne aliados políticos, completa rituais ancestrais e finalmente enfrenta Thanaton no próprio Dark Council. A vitória lhe garante um assento no conselho e poder político sem precedentes para um ex-escravo."
+      },
+      "companions": [
+        { "name": "Khem Val", "role": "Tanque Corpo a Corpo — Dashade devorador de Força vinculado a você, com lealdade dividida entre você e seu antigo mestre Tulak Hord." },
+        { "name": "Andronikos Revel", "role": "DPS à Distância — Pirata espacial vingativo com uma queda por violência e liberdade." },
+        { "name": "Ashara Zavros", "role": "DPS Corpo a Corpo — Padawan Togruta atraída ao Lado Sombrio, lutando entre os ensinamentos Jedi e o poder Sith." },
+        { "name": "Talos Drellik", "role": "Curador — Oficial Imperial e arqueólogo entusiasta obcecado por história Sith antiga." },
+        { "name": "Xalek", "role": "Tanque Corpo a Corpo — Kaleesh guerreiro e aprendiz feroz que preza a força acima de tudo." }
+      ],
+      "planets": ["Korriban", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Sorcerer",
+          "role": "Curador / DPS à Distância",
+          "combatStyle": "Raios da Força e habilidades de cura. Combina dano devastador de relâmpagos com poderes de restauração para aliados."
+        },
+        {
+          "name": "Assassin",
+          "role": "Tanque / DPS Corpo a Corpo",
+          "combatStyle": "Sabre de luz dupla-lâmina com camuflagem. Especialista em ataques furtivos e manipulação de sombras."
+        }
+      ],
+      "keyChoices": [
+        "Libertar ou escravizar os fantasmas da Força que você vincula",
+        "Traição de Lord Zash: como lidar com seu espírito",
+        "Ashara Zavros: guiá-la para o Lado Sombrio ou respeitar seu equilíbrio",
+        "Mostrar misericórdia ou crueldade ao derrotar Darth Thanaton"
+      ]
+    },
+    "bountyHunter": {
+      "story": {
+        "prologue": "Você chega a Hutta para participar da Grande Caçada, a competição mais prestigiosa entre caçadores de recompensas da galáxia. Mas primeiro, precisa ganhar o patrocínio de um Hutt influente completando contratos perigosos e eliminando a concorrência.",
+        "act1": "Como participante oficial da Grande Caçada, você viaja pela galáxia perseguindo alvos cada vez mais perigosos. Cada caçada testa suas habilidades e moral, culminando no confronto com um Jedi fugitivo. A vitória na Grande Caçada lhe rende fama e o título lendário de Campeão.",
+        "act2": "O Chanceler Supremo da República coloca uma recompensa enorme por sua cabeça, transformando o caçador em caça. Você deve sobreviver a assassinos e traidores enquanto descobre uma conspiração que envolve os níveis mais altos do governo da República.",
+        "act3": "A verdade por trás da conspiração é revelada e você deve decidir o destino de figuras poderosas. O confronto final com o Chanceler Supremo determinará se você será lembrado como o maior caçador de recompensas da galáxia ou algo muito maior."
+      },
+      "companions": [
+        { "name": "Mako", "role": "Curador — Jovem fatiadora prodígio com um passado misterioso e um coração de ouro." },
+        { "name": "Gault Rennow", "role": "DPS à Distância — Devaronian vigarista e ex-alvo de recompensa que se tornou parceiro improvável." },
+        { "name": "Torian Cadera", "role": "DPS Corpo a Corpo — Jovem guerreiro Mandaloriano honrado, buscando restaurar o nome de seu clã." },
+        { "name": "Blizz", "role": "DPS à Distância — Jawa engenheiro entusiasta e inventor maluco com um coração enorme." },
+        { "name": "Skadge", "role": "Tanque Corpo a Corpo — Houk criminoso brutal e imprevisível que se impõe pela força." }
+      ],
+      "planets": ["Hutta", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Powertech",
+          "role": "Tanque / DPS Corpo a Corpo",
+          "combatStyle": "Armadura pesada com escudo e lança-chamas. Combate de curto alcance com tecnologia de ponta e proteção robusta."
+        },
+        {
+          "name": "Mercenary",
+          "role": "Curador / DPS à Distância",
+          "combatStyle": "Dois blasters e arsenal de mísseis. Especialista em dano à distância com capacidade de cura através de tecnologia médica."
+        }
+      ],
+      "keyChoices": [
+        "Completar contratos com honra ou por quaisquer meios necessários",
+        "Poupar ou eliminar alvos da Grande Caçada que se rendem",
+        "Aliar-se ao Império ou manter independência como caçador freelancer",
+        "O destino do Chanceler Supremo no confronto final"
+      ]
+    },
+    "imperialAgent": {
+      "story": {
+        "prologue": "Como agente da Inteligência Imperial, você é enviado a Hutta sob disfarce para garantir a lealdade de um Hutt influente ao Império. Sua primeira missão revela a complexa teia de espionagem, traição e manipulação que definirá sua carreira.",
+        "act1": "Uma célula terrorista chamada Águia infiltrou-se nos mais altos escalões da galáxia. Você deve rastrear e desmantelar esta organização, viajando por múltiplos mundos disfarçado. Cada planeta revela uma nova camada da conspiração, levando à descoberta chocante de quem realmente controla a Águia.",
+        "act2": "A Inteligência Imperial é ameaçada por forças internas e externas. O Star Cabal, uma organização secreta que manipula tanto Império quanto República há séculos, revela sua existência. Você é capturado e submetido ao controle mental, devendo lutar para recuperar sua autonomia.",
+        "act3": "Livre do controle mental, você embarca na missão mais perigosa de sua vida: desmantelar o Star Cabal. A conspiração vai mais fundo do que qualquer um imaginava, envolvendo figuras das mais poderosas da galáxia. Suas escolhas determinarão o futuro da Inteligência Imperial."
+      },
+      "companions": [
+        { "name": "Kaliyo Djannis", "role": "DPS à Distância — Anarquista Rattataki imprevisível e perigosa, com lealdade questionável e amor pelo caos." },
+        { "name": "Vector Hyllus", "role": "DPS Corpo a Corpo — Diplomata Imperial unido ao Killiks, falando no plural e oferecendo uma perspectiva única." },
+        { "name": "Dr. Lokin", "role": "Curador — Cientista idoso e ex-agente com segredos biológicos sombrios e uma mente brilhante." },
+        { "name": "Ensign Temple", "role": "DPS à Distância — Jovem oficial Imperial sensível à Força, idealista e dedicada ao dever." },
+        { "name": "SCORPIO", "role": "Tanque Corpo a Corpo — IA artificial avançada com agenda própria e desprezo pelos orgânicos." }
+      ],
+      "planets": ["Hutta", "Dromund Kaas", "Balmorra", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Operative",
+          "role": "Curador / DPS Corpo a Corpo",
+          "combatStyle": "Rifle de energia e vibrolâmina com camuflagem. Mestre em ataques furtivos, habilidades médicas e dano de área."
+        },
+        {
+          "name": "Sniper",
+          "role": "DPS à Distância",
+          "combatStyle": "Rifle sniper de longo alcance com posição de cobertura. Dano devastador à distância com habilidades de controle de campo."
+        }
+      ],
+      "keyChoices": [
+        "Manter-se leal à Inteligência Imperial ou agir de forma independente",
+        "Como lidar com o controle mental do Star Cabal",
+        "O destino da Inteligência Imperial no final da história",
+        "Poupar ou eliminar membros do Star Cabal após a derrota"
+      ]
+    },
+    "jediKnight": {
+      "story": {
+        "prologue": "Como Padawan recém-chegado a Tython, você descobre uma conspiração para destruir o Templo Jedi. Treinando sob a orientação de mestres Jedi sábios, você enfrenta saqueadores de Flesh Raiders e um Padawan caído ao Lado Sombrio, provando ser digno de empunhar um sabre de luz.",
+        "act1": "Agora um Cavaleiro Jedi completo, você é enviado para deter o Lorde Sith Angral, que roubou superarmas da República e ameaça destruir mundos inteiros. Sua jornada por planetas sitiados testa sua coragem e compaixão enquanto enfrenta aprendizes Sith e descobre o plano devastador de Angral.",
+        "act2": "O Imperador Sith planeja um ritual que consumirá toda a vida na galáxia. Você é capturado e brevemente cai sob o controle do Imperador, sendo forçado a agir contra a República. Libertando-se, você deve reconstruir sua reputação e preparar-se para o confronto final.",
+        "act3": "A batalha pelo destino da galáxia chega ao clímax. Você lidera um ataque à estação espacial do Imperador para impedir o ritual de destruição. O confronto direto com o Imperador Sith é o desafio definitivo de um Cavaleiro Jedi, com toda a galáxia em jogo."
+      },
+      "companions": [
+        { "name": "T7-O1", "role": "DPS à Distância — Droide astromecânico leal e corajoso com uma longa história de servir heróis Jedi." },
+        { "name": "Kira Carsen", "role": "DPS Corpo a Corpo — Padawan espirituosa com um passado secreto ligado ao Imperador Sith." },
+        { "name": "Doc", "role": "Curador — Médico de combate charmoso e convencido com um talento para flerte e cura." },
+        { "name": "Sargento Rusk", "role": "DPS à Distância — Soldado veterano Chagrian inflexível e dedicado à República até a morte." },
+        { "name": "Lord Scourge", "role": "Tanque Corpo a Corpo — Antigo Executor do Imperador Sith que traiu seu mestre para salvar a galáxia." }
+      ],
+      "planets": ["Tython", "Coruscant", "Ord Mantell", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Guardian",
+          "role": "Tanque / DPS Corpo a Corpo",
+          "combatStyle": "Sabre de luz único com armadura pesada e escudo da Força. Protetor resiliente que defende aliados com maestria defensiva."
+        },
+        {
+          "name": "Sentinel",
+          "role": "DPS Corpo a Corpo",
+          "combatStyle": "Sabres de luz duplos com armadura média. Atacante veloz e letal que combina Forms de sabre de luz com poderes da Força."
+        }
+      ],
+      "keyChoices": [
+        "Salvar ou sacrificar colonos para deter as superarmas de Angral",
+        "Resistir ao controle mental do Imperador ou ceder temporariamente",
+        "Kira Carsen: ajudá-la a enfrentar seu passado sombrio",
+        "Mostrar misericórdia ou justiça aos Sith derrotados"
+      ]
+    },
+    "jediConsular": {
+      "story": {
+        "prologue": "Em Tython, você se destaca como Padawan por sua conexão única com a Força. Ao descobrir uma praga mística que atinge Mestres Jedi, você encontra uma técnica de cura antiga nos holócrons de Noetikons, revelando um destino que vai além do combate.",
+        "act1": "A praga que afeta os Mestres Jedi se espalha, e apenas você possui a técnica para curá-los. Viajando pela galáxia, você salva Jedi em cada planeta, mas cada cura drena suas próprias forças. A origem da praga remonta a Lord Vivicar, um Sith com uma conexão pessoal chocante.",
+        "act2": "Reconhecido como Diplomata da República, você é enviado para reunir aliados na guerra contra o Império. Seus talentos de negociação e sabedoria são testados enquanto tenta formar alianças com povos neutros, cada um com seus próprios problemas e desconfianças.",
+        "act3": "Uma conspiração Sith ameaça destruir a aliança que você construiu. Os Filhos do Imperador, agentes secretos escondidos em posições de poder, se revelam. Você deve proteger seus aliados, desmascarar os infiltrados e confrontar o líder desta conspiração para garantir a paz."
+      },
+      "companions": [
+        { "name": "Qyzen Fess", "role": "Tanque Corpo a Corpo — Caçador Trandoshano honrado que vê em você o Arauto de sua deusa Scorekeeper." },
+        { "name": "Tharan Cedrax", "role": "Curador — Cientista excêntrico e gênio tecnológico acompanhado de Holiday, sua companheira holográfica." },
+        { "name": "Zenith", "role": "DPS à Distância — Guerrilheiro Twi'lek de Balmorra, endurecido pela guerra e desconfiado de políticos." },
+        { "name": "Felix Iresso", "role": "DPS à Distância — Soldado da República com memórias misteriosas implantadas e lealdade inabalável." },
+        { "name": "Nadia Grell", "role": "DPS Corpo a Corpo — Jovem Sarkhai sensível à Força e filha de um senador, aprendendo a controlar seus poderes." }
+      ],
+      "planets": ["Tython", "Coruscant", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Sage",
+          "role": "Curador / DPS à Distância",
+          "combatStyle": "Poderes telecinéticos e de cura da Força. Projeta pedras e distúrbios da Força à distância enquanto restaura aliados."
+        },
+        {
+          "name": "Shadow",
+          "role": "Tanque / DPS Corpo a Corpo",
+          "combatStyle": "Sabre de luz dupla-lâmina com camuflagem da Força. Combina ataques furtivos com técnicas defensivas avançadas."
+        }
+      ],
+      "keyChoices": [
+        "Curar os Mestres Jedi afetados pela praga ou deixá-los perecer",
+        "Mostrar compaixão ou severidade ao lidar com Lord Vivicar",
+        "Como negociar alianças: compromisso ou firmeza inabalável",
+        "Expor ou proteger os Filhos do Imperador infiltrados"
+      ]
+    },
+    "trooper": {
+      "story": {
+        "prologue": "Você chega a Ord Mantell como novo recruta da prestigiosa Havoc Squad, a unidade de operações especiais mais condecorada da República. Mas durante sua primeira missão para recuperar uma bomba roubada, você descobre que toda a equipe original da Havoc Squad desertou para o Império.",
+        "act1": "Como novo líder da Havoc Squad, você deve reconstruir a unidade do zero enquanto caça os traidores pela galáxia. Cada planeta revela um ex-membro da Havoc original e seus motivos para a deserção. Você deve capturá-los ou eliminá-los enquanto recruta novos membros leais.",
+        "act2": "A Havoc Squad reconstruída enfrenta uma nova ameaça: um projeto Imperial massivo que ameaça virar a guerra. Suas missões se tornam cada vez mais perigosas, testando os limites de sua equipe e forçando decisões impossíveis sobre o que sacrificar pela vitória.",
+        "act3": "Uma arma Imperial devastadora está prestes a ser ativada. Você deve liderar a Havoc Squad em uma série de operações cirúrgicas para desmantelar a ameaça, culminando em um assalto final que determinará o rumo da guerra entre a República e o Império."
+      },
+      "companions": [
+        { "name": "Aric Jorgan", "role": "DPS à Distância — Cathar atirador de elite e ex-comandante da Havoc Squad, rebaixado e determinado a provar seu valor." },
+        { "name": "Elara Dorne", "role": "Curador — Oficial médica ex-Imperial que desertou para a República por seus ideais, enfrentando desconfiança constante." },
+        { "name": "M1-4X", "role": "DPS à Distância — Droide de guerra patriota com personalidade excêntrica e amor inabalável pela República." },
+        { "name": "Tanno Vik", "role": "Tanque Corpo a Corpo — Weequay demolidor insubordinado com habilidades de engenharia e total desprezo pelas regras." },
+        { "name": "Yuun", "role": "DPS Corpo a Corpo — Gand Findsman místico que usa rituais para rastrear alvos e encontrar caminhos impossíveis." }
+      ],
+      "planets": ["Ord Mantell", "Coruscant", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Vanguard",
+          "role": "Tanque / DPS Corpo a Corpo",
+          "combatStyle": "Rifle blaster e escudo pessoal com armadura pesada. Combatente de linha de frente que protege aliados e controla o campo de batalha."
+        },
+        {
+          "name": "Commando",
+          "role": "Curador / DPS à Distância",
+          "combatStyle": "Canhão de assalto pesado com granadas e projéteis. Potência de fogo devastadora com capacidade de suporte médico de combate."
+        }
+      ],
+      "keyChoices": [
+        "Capturar ou eliminar os membros traidores da Havoc Squad original",
+        "Seguir ordens superiores ou agir por conta própria pelo bem maior",
+        "Como lidar com Elara Dorne e sua origem Imperial",
+        "Sacrificar civis para completar a missão ou arriscar a operação para salvá-los"
+      ]
+    },
+    "smuggler": {
+      "story": {
+        "prologue": "Você chega a Ord Mantell para uma entrega simples, mas seu cargueiro é roubado por um criminoso local chamado Skavak. Sem nave e sem créditos, você deve usar sua astúcia para sobreviver, recuperar seu navio e ensinar a Skavak uma lição que ele nunca esquecerá.",
+        "act1": "A perseguição a Skavak leva você por uma jornada selvagem pela galáxia. Cada planeta revela que Skavak enganou mais pessoas do que você imaginava, e suas vítimas se tornam seus aliados. A caçada culmina em um confronto onde você recupera seu navio e se torna um contrabandista lendário.",
+        "act2": "Sua reputação atrai a atenção do Voidwolf, o mais temido pirata do Império. Ele ameaça o submundo inteiro e quer eliminar você pessoalmente. Você deve construir uma frota pirata e reunir aliados improváveis para enfrentar esta ameaça crescente.",
+        "act3": "A guerra entre sua frota pirata e o Voidwolf chega ao clímax. Você deve navegar traições, alianças instáveis e batalhas espaciais épicas. O confronto final com o Voidwolf determinará quem controla as rotas de contrabando da galáxia e seu lugar na história."
+      },
+      "companions": [
+        { "name": "Corso Riggs", "role": "DPS à Distância — Fazendeiro de Ord Mantell transformado em pistoleiro, com valores tradicionais e um coração enorme." },
+        { "name": "Bowdaar", "role": "Tanque Corpo a Corpo — Wookiee gladiador libertado que jurou uma dívida de vida e luta com ferocidade incomparável." },
+        { "name": "Risha", "role": "DPS à Distância — Princesa exilada disfarçada de mecânica, com conexões secretas à realeza e ambições nobres." },
+        { "name": "Akaavi Spar", "role": "DPS Corpo a Corpo — Guerreira Mandaloriana Zabrak exilada de seu clã, buscando um novo propósito e honra." },
+        { "name": "Guss Tuno", "role": "Curador — Mon Calamari ex-Padawan fracassado que finge ser Jedi e cura com entusiasmo duvidoso." }
+      ],
+      "planets": ["Ord Mantell", "Coruscant", "Taris", "Nar Shaddaa", "Tatooine", "Alderaan", "Hoth", "Quesh", "Belsavis", "Voss", "Corellia"],
+      "advancedClasses": [
+        {
+          "name": "Scoundrel",
+          "role": "Curador / DPS Corpo a Corpo",
+          "combatStyle": "Blaster e tiro sujo com camuflagem. Especialista em ataques furtivos, golpes sujos e cura improvisada de aliados."
+        },
+        {
+          "name": "Gunslinger",
+          "role": "DPS à Distância",
+          "combatStyle": "Dois blasters com posição de cobertura. Mestre em dano concentrado à distância com truques e habilidades de controle."
+        }
+      ],
+      "keyChoices": [
+        "Poupar ou eliminar Skavak quando finalmente o encontrar",
+        "Manter os tesouros encontrados ou devolvê-los aos donos originais",
+        "Aliar-se à República oficialmente ou manter-se como contrabandista independente",
+        "O destino do Voidwolf e o controle das rotas de contrabando"
+      ]
+    }
+  }
+}
