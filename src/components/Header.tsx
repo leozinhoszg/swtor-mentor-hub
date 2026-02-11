@@ -4,6 +4,9 @@ import { Search, ChevronDown, ChevronRight, Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
+import logoImg from "@/assets/the_mentor_logo.png";
+import impLogo from "@/assets/empire.svg";
+import pubLogo from "@/assets/republic.svg";
 
 interface DropdownItem {
   label: string;
@@ -26,6 +29,23 @@ const Header = () => {
   const [mobileExpandedItems, setMobileExpandedItems] = useState<string[]>([]);
   const location = useLocation();
   const { t } = useTranslation("common");
+
+  const factionMeta: Record<string, { icon: string; color: string; hoverBg: string; hoverText: string; submenuBorder: string }> = {
+    [t("nav.storiesDropdown.empire")]: {
+      icon: impLogo,
+      color: "text-red-400",
+      hoverBg: "hover:bg-red-900/20",
+      hoverText: "hover:text-red-400",
+      submenuBorder: "border-red-800/40",
+    },
+    [t("nav.storiesDropdown.republic")]: {
+      icon: pubLogo,
+      color: "text-blue-400",
+      hoverBg: "hover:bg-blue-900/20",
+      hoverText: "hover:text-blue-400",
+      submenuBorder: "border-blue-800/40",
+    },
+  };
 
   const navItems: NavItem[] = [
     { label: t("nav.home"), href: "/" },
@@ -116,18 +136,28 @@ const Header = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-background/90 backdrop-blur-lg border-b border-border"
+          ? "bg-background/95 backdrop-blur-xl"
           : "bg-transparent"
       }`}
     >
+      {/* Gold lightsaber bottom border */}
+      <div
+        className={`absolute bottom-0 left-0 right-0 h-[1px] transition-opacity duration-500 ${scrolled ? "opacity-100" : "opacity-0"}`}
+        style={{
+          background: "linear-gradient(90deg, transparent, hsl(48 85% 53% / 0.6), hsl(50 92% 65%), hsl(48 85% 53% / 0.6), transparent)",
+          boxShadow: "0 0 8px hsl(48 92% 55% / 0.4), 0 0 20px hsl(48 92% 55% / 0.2)",
+        }}
+      />
       <nav className="container mx-auto px-4 md:px-6 flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <span className="font-cinzel font-bold text-lg md:text-xl text-gradient-gold">
-            THE MENTOR
-          </span>
+        <Link to="/" className="flex items-center group">
+          <img
+            src={logoImg}
+            alt="The Mentor"
+            className="h-10 md:h-12 w-auto object-contain transition-all duration-300 group-hover:drop-shadow-[0_0_12px_hsl(48_92%_55%_/_0.6)]"
+          />
         </Link>
 
         {/* Desktop Nav */}
@@ -141,7 +171,7 @@ const Header = () => {
             >
               <Link
                 to={item.href}
-                className={`px-4 py-2 font-oswald text-sm uppercase tracking-wider hover:text-primary transition-colors flex items-center gap-1 ${
+                className={`relative px-4 py-2 font-oswald text-sm uppercase tracking-wider hover:text-primary transition-colors flex items-center gap-1 group/nav ${
                   (item.href === "/" ? location.pathname === "/" : location.pathname.startsWith(item.href))
                     ? "text-primary"
                     : "text-muted-foreground"
@@ -149,6 +179,18 @@ const Header = () => {
               >
                 {item.label}
                 {item.dropdown && <ChevronDown size={14} />}
+                {/* Lightsaber underline */}
+                <span
+                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-[1px] transition-all duration-300 group-hover/nav:w-4/5 ${
+                    (item.href === "/" ? location.pathname === "/" : location.pathname.startsWith(item.href))
+                      ? "w-4/5"
+                      : "w-0"
+                  }`}
+                  style={{
+                    background: "linear-gradient(90deg, transparent, hsl(48 85% 53%), transparent)",
+                    boxShadow: "0 0 6px hsl(48 92% 55% / 0.5), 0 0 12px hsl(48 92% 55% / 0.2)",
+                  }}
+                />
               </Link>
               <AnimatePresence>
                 {item.dropdown && activeDropdown === item.href && (
@@ -157,7 +199,8 @@ const Header = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 8 }}
                     transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-1 min-w-[220px] bg-card border border-border rounded-lg p-2 shadow-xl z-50"
+                    className="absolute top-full left-0 mt-1 min-w-[220px] bg-card/95 backdrop-blur-xl border border-primary/20 rounded-lg p-2 z-50"
+                    style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.5), 0 0 15px hsl(48 92% 55% / 0.1)" }}
                   >
                     {item.dropdown.map((sub, subIdx) => (
                       sub.type === "header" ? (
@@ -174,33 +217,43 @@ const Header = () => {
                           onMouseEnter={() => setActiveSubmenu(sub.label)}
                           onMouseLeave={() => setActiveSubmenu(null)}
                         >
-                          <button
-                            className="w-full flex items-center justify-between px-4 py-2 text-sm text-muted-foreground hover:text-primary hover:bg-muted rounded transition-colors"
-                          >
-                            {sub.label}
-                            <ChevronRight size={14} />
-                          </button>
-                          <AnimatePresence>
-                            {activeSubmenu === sub.label && (
-                              <motion.div
-                                initial={{ opacity: 0, x: -8 }}
-                                animate={{ opacity: 1, x: 0 }}
-                                exit={{ opacity: 0, x: -8 }}
-                                transition={{ duration: 0.15 }}
-                                className="absolute left-full top-0 ml-1 min-w-[200px] bg-card border border-border rounded-lg p-2 shadow-xl z-50"
-                              >
-                                {sub.children.map((child) => (
-                                  <Link
-                                    key={child.label}
-                                    to={child.href}
-                                    className="block px-4 py-2 text-sm text-muted-foreground hover:text-primary hover:bg-muted rounded transition-colors"
-                                  >
-                                    {child.label}
-                                  </Link>
-                                ))}
-                              </motion.div>
-                            )}
-                          </AnimatePresence>
+                          {(() => {
+                            const meta = factionMeta[sub.label];
+                            return (
+                              <>
+                                <button
+                                  className={`w-full flex items-center justify-between px-4 py-2 text-sm text-muted-foreground rounded transition-colors ${meta ? `${meta.hoverBg} ${meta.hoverText}` : "hover:text-primary hover:bg-muted"}`}
+                                >
+                                  <span className="flex items-center gap-2">
+                                    {meta && <img src={meta.icon} alt="" className="w-4 h-4 object-contain" />}
+                                    {sub.label}
+                                  </span>
+                                  <ChevronRight size={14} />
+                                </button>
+                                <AnimatePresence>
+                                  {activeSubmenu === sub.label && (
+                                    <motion.div
+                                      initial={{ opacity: 0, x: -8 }}
+                                      animate={{ opacity: 1, x: 0 }}
+                                      exit={{ opacity: 0, x: -8 }}
+                                      transition={{ duration: 0.15 }}
+                                      className={`absolute left-full top-0 ml-1 min-w-[200px] bg-card border rounded-lg p-2 shadow-xl z-50 ${meta ? meta.submenuBorder : "border-border"}`}
+                                    >
+                                      {sub.children.map((child) => (
+                                        <Link
+                                          key={child.label}
+                                          to={child.href}
+                                          className={`block px-4 py-2 text-sm text-muted-foreground rounded transition-colors ${meta ? `${meta.hoverBg} ${meta.hoverText}` : "hover:text-primary hover:bg-muted"}`}
+                                        >
+                                          {child.label}
+                                        </Link>
+                                      ))}
+                                    </motion.div>
+                                  )}
+                                </AnimatePresence>
+                              </>
+                            );
+                          })()}
                         </div>
                       ) : (
                         <Link
@@ -222,7 +275,7 @@ const Header = () => {
         {/* Search + Language + Mobile Toggle */}
         <div className="flex items-center gap-3">
           <LanguageSwitcher />
-          <button className="p-2 text-muted-foreground hover:text-primary transition-colors">
+          <button className="p-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:drop-shadow-[0_0_8px_hsl(48_92%_55%_/_0.5)]">
             <Search size={20} />
           </button>
           <button
@@ -268,37 +321,45 @@ const Header = () => {
                           </div>
                         ) : sub.children ? (
                           <div key={sub.label}>
-                            <button
-                              onClick={() => toggleMobileExpanded(sub.label)}
-                              className="py-1.5 text-xs font-oswald uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors flex items-center gap-1"
-                            >
-                              {sub.label}
-                              <ChevronDown
-                                size={12}
-                                className={`transition-transform ${mobileExpandedItems.includes(sub.label) ? "rotate-180" : ""}`}
-                              />
-                            </button>
-                            <AnimatePresence>
-                              {mobileExpandedItems.includes(sub.label) && (
-                                <motion.div
-                                  initial={{ height: 0, opacity: 0 }}
-                                  animate={{ height: "auto", opacity: 1 }}
-                                  exit={{ height: 0, opacity: 0 }}
-                                  transition={{ duration: 0.2 }}
-                                  className="pl-4 flex flex-col gap-1 overflow-hidden"
-                                >
-                                  {sub.children.map((child) => (
-                                    <Link
-                                      key={child.label}
-                                      to={child.href}
-                                      className="py-1.5 text-xs font-oswald uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors"
-                                    >
-                                      {child.label}
-                                    </Link>
-                                  ))}
-                                </motion.div>
-                              )}
-                            </AnimatePresence>
+                            {(() => {
+                              const meta = factionMeta[sub.label];
+                              return (
+                                <>
+                                  <button
+                                    onClick={() => toggleMobileExpanded(sub.label)}
+                                    className={`py-1.5 text-xs font-oswald uppercase tracking-wider transition-colors flex items-center gap-1 ${meta ? `text-muted-foreground ${meta.hoverText}` : "text-muted-foreground hover:text-primary"}`}
+                                  >
+                                    {meta && <img src={meta.icon} alt="" className="w-4 h-4 object-contain" />}
+                                    {sub.label}
+                                    <ChevronDown
+                                      size={12}
+                                      className={`transition-transform ${mobileExpandedItems.includes(sub.label) ? "rotate-180" : ""}`}
+                                    />
+                                  </button>
+                                  <AnimatePresence>
+                                    {mobileExpandedItems.includes(sub.label) && (
+                                      <motion.div
+                                        initial={{ height: 0, opacity: 0 }}
+                                        animate={{ height: "auto", opacity: 1 }}
+                                        exit={{ height: 0, opacity: 0 }}
+                                        transition={{ duration: 0.2 }}
+                                        className="pl-4 flex flex-col gap-1 overflow-hidden"
+                                      >
+                                        {sub.children.map((child) => (
+                                          <Link
+                                            key={child.label}
+                                            to={child.href}
+                                            className={`py-1.5 text-xs font-oswald uppercase tracking-wider text-muted-foreground transition-colors ${meta ? meta.hoverText : "hover:text-primary"}`}
+                                          >
+                                            {child.label}
+                                          </Link>
+                                        ))}
+                                      </motion.div>
+                                    )}
+                                  </AnimatePresence>
+                                </>
+                              );
+                            })()}
                           </div>
                         ) : (
                           <Link

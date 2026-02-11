@@ -11,7 +11,8 @@
     }
   ],
   "pageTitle": "Stories",
-  "pageDescription": "Explore the epic stories of each class. Choose your path between the Sith Empire and the Galactic Republic.",
+  "pageDescription": "Dive into the epic saga of each class. From humble beginnings to galaxy-shaping decisions, every story is a unique journey.",
+  "pageSubtext": "Warning: these pages contain detailed class story spoilers.",
   "empireSith": "Sith Empire",
   "empireDesc": "The Sith Empire is ruled by the Emperor and the Dark Council. Its classes represent the military power, cunning, and dark force that fuel galactic domination.",
   "galacticRepublic": "Galactic Republic",
@@ -20,44 +21,52 @@
     {
       "name": "Sith Warrior",
       "advanced": ["Juggernaut", "Marauder"],
-      "desc": "A relentless warrior who channels the fury of the Dark Side into devastating melee combat."
+      "desc": "A relentless warrior who channels the fury of the Dark Side into devastating melee combat.",
+      "storyHook": "From Korriban acolyte to the dreaded Emperor's Wrath — uncover betrayal at the highest levels of the Sith and forge your destiny through fury."
     },
     {
       "name": "Sith Inquisitor",
       "advanced": ["Sorcerer", "Assassin"],
-      "desc": "A master of the Dark Side who uses Force lightning and manipulation to dominate enemies."
+      "desc": "A master of the Dark Side who uses Force lightning and manipulation to dominate enemies.",
+      "storyHook": "From slave to Dark Council member — an impossible rise through forbidden rituals, bound ghosts, and unprecedented political power."
     },
     {
       "name": "Bounty Hunter",
       "advanced": ["Powertech", "Mercenary"],
-      "desc": "A bounty hunter equipped with heavy arsenal and cutting-edge technology."
+      "desc": "A bounty hunter equipped with heavy arsenal and cutting-edge technology.",
+      "storyHook": "From the Great Hunt to confronting the Supreme Chancellor — prove you are the greatest bounty hunter the galaxy has ever seen."
     },
     {
       "name": "Imperial Agent",
       "advanced": ["Operative", "Sniper"],
-      "desc": "An elite agent of Imperial Intelligence, master of espionage and stealth combat."
+      "desc": "An elite agent of Imperial Intelligence, master of espionage and stealth combat.",
+      "storyHook": "Espionage, mind control, and a millennia-old conspiracy — unravel the Star Cabal and decide the future of Imperial Intelligence."
     }
   ],
   "republicClasses": [
     {
       "name": "Jedi Knight",
       "advanced": ["Guardian", "Sentinel"],
-      "desc": "Guardian of peace and justice, a formidable lightsaber combatant."
+      "desc": "Guardian of peace and justice, a formidable lightsaber combatant.",
+      "storyHook": "The classic Star Wars hero — face Sith Lords, resist the Emperor's control, and lead the final assault to save the galaxy."
     },
     {
       "name": "Jedi Consular",
       "advanced": ["Sage", "Shadow"],
-      "desc": "A scholar of the Force who seeks balance between diplomacy and mystic power."
+      "desc": "A scholar of the Force who seeks balance between diplomacy and mystic power.",
+      "storyHook": "Cure a mysterious plague, forge diplomatic alliances, and unmask the Children of the Emperor infiltrated at the highest levels."
     },
     {
       "name": "Trooper",
       "advanced": ["Vanguard", "Commando"],
-      "desc": "An elite Republic soldier with heavy weaponry and superior tactical training."
+      "desc": "An elite Republic soldier with heavy weaponry and superior tactical training.",
+      "storyHook": "Your entire squad defected to the Empire — rebuild Havoc Squad from scratch and hunt the traitors across the galaxy."
     },
     {
       "name": "Smuggler",
       "advanced": ["Scoundrel", "Gunslinger"],
-      "desc": "A cunning smuggler with deadly aim and a natural talent for survival."
+      "desc": "A cunning smuggler with deadly aim and a natural talent for survival.",
+      "storyHook": "Your ship was stolen, you're broke — build a pirate fleet and face the Empire's most feared corsair."
     }
   ],
   "classStoryLabels": {
@@ -70,6 +79,7 @@
     "advancedClasses": "Advanced Classes",
     "keyChoices": "Key Choices & Decisions",
     "backToStories": "Back to Stories",
+    "classOverview": "Class Overview",
     "role": "Role",
     "combatStyle": "Combat Style"
   },

@@ -11,7 +11,8 @@
     }
   ],
   "pageTitle": "Histórias",
-  "pageDescription": "Explore as histórias épicas de cada classe. Escolha seu caminho entre o Império Sith e a República Galáctica.",
+  "pageDescription": "Mergulhe na saga épica de cada classe. De origens humildes a decisões que mudam a galáxia, cada história é uma jornada única.",
+  "pageSubtext": "Atenção: estas páginas contém spoilers detalhados das histórias de classe.",
   "empireSith": "Império Sith",
   "empireDesc": "O Império Sith é governado pelo Imperador e pelo Dark Council. Suas classes representam o poder militar, a astúcia e a força sombria que alimentam a dominação galáctica.",
   "galacticRepublic": "República Galáctica",
@@ -20,44 +21,52 @@
     {
       "name": "Sith Warrior",
       "advanced": ["Juggernaut", "Marauder"],
-      "desc": "Guerreiro implacável que canaliza a fúria do Lado Sombrio em combate corpo a corpo devastador."
+      "desc": "Guerreiro implacável que canaliza a fúria do Lado Sombrio em combate corpo a corpo devastador.",
+      "storyHook": "De acólito em Korriban ao temido Executor do Imperador — descubra traição nos mais altos níveis Sith e forje seu destino através da fúria."
     },
     {
       "name": "Sith Inquisitor",
       "advanced": ["Sorcerer", "Assassin"],
-      "desc": "Mestre do Lado Sombrio que utiliza raios de Força e manipulação para dominar seus inimigos."
+      "desc": "Mestre do Lado Sombrio que utiliza raios de Força e manipulação para dominar seus inimigos.",
+      "storyHook": "De escravo a membro do Dark Council — uma ascensão impossível através de rituais proibidos, fantasmas vinculados e poder político sem precedentes."
     },
     {
       "name": "Bounty Hunter",
       "advanced": ["Powertech", "Mercenary"],
-      "desc": "Caçador de recompensas equipado com arsenal pesado e tecnologia de ponta."
+      "desc": "Caçador de recompensas equipado com arsenal pesado e tecnologia de ponta.",
+      "storyHook": "Da Grande Caçada ao confronto com o Chanceler Supremo — prove que você é o maior caçador de recompensas que a galáxia já viu."
     },
     {
       "name": "Imperial Agent",
       "advanced": ["Operative", "Sniper"],
-      "desc": "Agente de elite da Inteligência Imperial, mestre em espionagem e combate furtivo."
+      "desc": "Agente de elite da Inteligência Imperial, mestre em espionagem e combate furtivo.",
+      "storyHook": "Espionagem, controle mental e uma conspiração milenar — desvende o Star Cabal e decida o futuro da Inteligência Imperial."
     }
   ],
   "republicClasses": [
     {
       "name": "Jedi Knight",
       "advanced": ["Guardian", "Sentinel"],
-      "desc": "Guardião da paz e da justiça, combatente formidável com sabre de luz."
+      "desc": "Guardião da paz e da justiça, combatente formidável com sabre de luz.",
+      "storyHook": "O herói clássico de Star Wars — enfrente Lordes Sith, resista ao controle do Imperador e lidere o assalto final para salvar a galáxia."
     },
     {
       "name": "Jedi Consular",
       "advanced": ["Sage", "Shadow"],
-      "desc": "Estudioso da Força que busca o equilíbrio entre diplomacia e poder místico."
+      "desc": "Estudioso da Força que busca o equilíbrio entre diplomacia e poder místico.",
+      "storyHook": "Cure uma praga misteriosa, forje alianças diplomáticas e desmascare os Filhos do Imperador infiltrados nos mais altos escalões."
     },
     {
       "name": "Trooper",
       "advanced": ["Vanguard", "Commando"],
-      "desc": "Soldado de elite da República com armamento pesado e treinamento tático superior."
+      "desc": "Soldado de elite da República com armamento pesado e treinamento tático superior.",
+      "storyHook": "Sua esquadra inteira desertou para o Império — reconstrua a Havoc Squad do zero e caçe os traidores pela galáxia."
     },
     {
       "name": "Smuggler",
       "advanced": ["Scoundrel", "Gunslinger"],
-      "desc": "Contrabandista astuto com mira certeira e um talento natural para sobreviver."
+      "desc": "Contrabandista astuto com mira certeira e um talento natural para sobreviver.",
+      "storyHook": "Sua nave foi roubada, você está sem créditos — construa uma frota pirata e enfrente o mais temido corsário do Império."
     }
   ],
   "classStoryLabels": {
@@ -70,6 +79,7 @@
     "advancedClasses": "Classes Avançadas",
     "keyChoices": "Escolhas & Decisões Importantes",
     "backToStories": "Voltar para Histórias",
+    "classOverview": "Visão Geral da Classe",
     "role": "Função",
     "combatStyle": "Estilo de Combate"
   },

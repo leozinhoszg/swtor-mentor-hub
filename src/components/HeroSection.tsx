@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import heroBg from "@/assets/hero-bg.jpg";
+import logoSvg from "@/assets/svgviewer-output.svg";
 
 const HeroSection = () => {
   const { t } = useTranslation("home");
@@ -24,34 +25,40 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4">
-        {/* Circular logo ring */}
+        {/* Logo */}
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="mx-auto mb-8 w-48 h-48 md:w-64 md:h-64 rounded-full border-2 border-primary/50 flex items-center justify-center relative"
+          className="mx-auto mb-8 relative"
         >
-          <div className="absolute inset-0 rounded-full glow-gold-lg animate-pulse-gold" />
-          <div className="w-40 h-40 md:w-56 md:h-56 rounded-full border border-primary/30 flex items-center justify-center">
-            <div className="text-center">
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.8 }}
-                className="font-cinzel font-bold text-2xl md:text-4xl text-gradient-gold"
-              >
-                THE
-              </motion.p>
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.7, duration: 0.8 }}
-                className="font-cinzel font-black text-3xl md:text-5xl text-gradient-gold leading-tight"
-              >
-                MENTOR
-              </motion.p>
-            </div>
-          </div>
+          {/* Glow pulse behind logo */}
+          <motion.div
+            animate={{
+              opacity: [0.3, 0.6, 0.3],
+              scale: [0.95, 1.05, 0.95],
+            }}
+            transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+            className="absolute inset-0 blur-2xl bg-primary/20 rounded-full"
+          />
+          <motion.img
+            src={logoSvg}
+            alt="The Mentor"
+            animate={{
+              y: [0, -10, 0],
+              filter: [
+                "drop-shadow(0 0 20px hsl(48 92% 55% / 0.3))",
+                "drop-shadow(0 0 40px hsl(48 92% 55% / 0.6))",
+                "drop-shadow(0 0 20px hsl(48 92% 55% / 0.3))",
+              ],
+            }}
+            transition={{
+              repeat: Infinity,
+              duration: 4,
+              ease: "easeInOut",
+            }}
+            className="relative w-[80vw] max-w-[600px] md:max-w-[700px] object-contain"
+          />
         </motion.div>
 
         <motion.p
