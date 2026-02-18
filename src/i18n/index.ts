@@ -13,6 +13,11 @@ import updatesPtBR from './locales/pt-BR/updates.json';
 import earlyGamePtBR from './locales/pt-BR/earlyGame.json';
 import midGamePtBR from './locales/pt-BR/midGame.json';
 import endgamePtBR from './locales/pt-BR/endgame.json';
+import introPtBR from './locales/pt-BR/intro.json';
+import hudPtBR from './locales/pt-BR/hud.json';
+import storyArcPtBR from './locales/pt-BR/storyArc.json';
+import classStoryGuidePtBR from './locales/pt-BR/classStoryGuide.json';
+import levelingPtBR from './locales/pt-BR/leveling.json';
 
 import commonEn from './locales/en/common.json';
 import homeEn from './locales/en/home.json';
@@ -25,6 +30,11 @@ import updatesEn from './locales/en/updates.json';
 import earlyGameEn from './locales/en/earlyGame.json';
 import midGameEn from './locales/en/midGame.json';
 import endgameEn from './locales/en/endgame.json';
+import introEn from './locales/en/intro.json';
+import hudEn from './locales/en/hud.json';
+import storyArcEn from './locales/en/storyArc.json';
+import classStoryGuideEn from './locales/en/classStoryGuide.json';
+import levelingEn from './locales/en/leveling.json';
 
 const resources = {
   'pt-BR': {
@@ -39,6 +49,11 @@ const resources = {
     earlyGame: earlyGamePtBR,
     midGame: midGamePtBR,
     endgame: endgamePtBR,
+    intro: introPtBR,
+    hud: hudPtBR,
+    storyArc: storyArcPtBR,
+    classStoryGuide: classStoryGuidePtBR,
+    leveling: levelingPtBR,
   },
   en: {
     common: commonEn,
@@ -52,6 +67,11 @@ const resources = {
     earlyGame: earlyGameEn,
     midGame: midGameEn,
     endgame: endgameEn,
+    intro: introEn,
+    hud: hudEn,
+    storyArc: storyArcEn,
+    classStoryGuide: classStoryGuideEn,
+    leveling: levelingEn,
   },
 };
 
@@ -62,7 +82,7 @@ i18n
     resources,
     fallbackLng: 'pt-BR',
     defaultNS: 'common',
-    ns: ['common', 'home', 'stories', 'content', 'operations', 'events', 'guides', 'updates', 'earlyGame', 'midGame', 'endgame'],
+    ns: ['common', 'home', 'stories', 'content', 'operations', 'events', 'guides', 'updates', 'earlyGame', 'midGame', 'endgame', 'intro', 'hud', 'storyArc', 'classStoryGuide', 'leveling'],
     interpolation: {
       escapeValue: false,
     },

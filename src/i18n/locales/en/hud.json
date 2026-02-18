@@ -1,0 +1,152 @@
+{
+  "pageTitle": "HUD & Interface",
+  "pageDescription": "In this guide you'll learn how to configure and customize your HUD and Interface Editor to optimize your gameplay.",
+  "backLink": "Back to Mid Game",
+
+  "preferences": {
+    "title": "Preferences",
+    "text1": "By pressing <key>Ctrl+P</key>, you should open the <hl>Preferences</hl> menu.",
+    "text2": "Enable <hl>Auto Loot Right-Click</hl>, enable <hl>Area Loot</hl>, and set <hl>Camera Distance to 100%</hl>.",
+    "text3": "Enable <hl>Show Next Target in Cycle</hl> in the Combat tab.",
+    "imgAlt1": "Preferences - General & Camera",
+    "imgCaption1": "General & Camera Settings",
+    "imgAlt2": "Preferences - Mouse & Combat",
+    "imgCaption2": "Mouse & Combat Settings"
+  },
+
+  "combatLogging": {
+    "title": "Combat Logging",
+    "text1": "In the Combat Logging tab, enable <hl>Enable Combat Logging to File</hl>.",
+    "text2": "This is important for <hl>StarParse</hl>, an external DPS/HPS analysis tool.",
+    "imgAlt": "Combat Logging",
+    "imgCaption": "Enable Combat Logging"
+  },
+
+  "subtitles": {
+    "title": "Subtitles & Alignment",
+    "text1": "Enable <hl>Subtitles</hl> and <hl>Alignment Gain</hl> to see Light/Dark points during conversations.",
+    "imgAlt": "Conversation Settings",
+    "imgCaption": "Subtitles & Alignment Gain"
+  },
+
+  "tooltips": {
+    "title": "Tooltips",
+    "text1": "In Tooltip settings, enable <hl>Show Detailed Item Tooltips</hl> to see complete item information.",
+    "imgAlt": "Tooltip Settings",
+    "imgCaption": "Detailed Item Tooltips"
+  },
+
+  "crucialSettings": {
+    "title": "Crucial Settings",
+    "text1": "This is certainly the most important configuration:",
+    "text2": "Enable <hl>Use Operation Frames as Group Frames</hl>.",
+    "text3": "Turn on <hl>Cooldown Text</hl>, set <hl>Cooldown Style</hl> to Style 3, and <hl>Global Cooldown Style</hl> to Style 2.",
+    "text4": "Set <hl>Show Tenths of a Second</hl> to 1.",
+    "imgAlt": "Operations Frames & Cooldown Settings",
+    "imgCaption": "Cooldown & Operation Frames Settings"
+  },
+
+  "interfaceEditor": {
+    "title": "Interface Editor",
+    "text1": "Press <key>ESC</key> and in the menu click on <hl>Interface Editor</hl>.",
+    "text2": "The <hl>\"Middle Box\"</hl> configures all screen elements after you click on them.",
+    "text3": "The color represents the interface status: <green>green</green> = active, <hl>red</hl> = disabled, and yellow = selected.",
+    "imgAlt1": "Interface Editor - Overview",
+    "imgCaption1": "Interface Editor",
+    "imgAlt2": "Interface Editor - Element Properties",
+    "imgCaption2": "Element Properties"
+  },
+
+  "operationFrame": {
+    "title": "Operation Frame",
+    "text1": "The first thing you should modify is your <hl>Operation Frame</hl>. Feel free to modify the configuration.",
+    "text2": "The Operation Frame is responsible for showing group players. It also contains information like <hl>buffs and debuffs</hl> of the group, which can be important for signaling a raid.",
+    "imgAlt1": "Operation Frame Settings",
+    "imgCaption1": "Operation Frame Configuration",
+    "imgAlt2": "Operation Frame - Buff/Debuff Scale",
+    "imgCaption2": "Buff & Debuff Scale",
+    "imgAlt3": "Operation Frame - Display Options",
+    "imgCaption3": "Display Options"
+  },
+
+  "targetFrame": {
+    "title": "Target Frame",
+    "text1": "The <hl>Target Frame</hl> is where the information of everything you select will appear: Enemy, NPC, etc.",
+    "text2": "It contains all enemy information, including: <hl>Health, Buffs, and Debuffs</hl>.",
+    "text3": "You can configure it so that your debuffs appear highlighted on the Boss, so you don't confuse them with other players' debuffs.",
+    "text4": "You can also categorize buffs and debuffs to appear by application order or by <hl>time remaining</hl>.",
+    "imgAlt1": "Buff Sort Options",
+    "imgCaption1": "Buff Sorting",
+    "imgAlt2": "Debuff Sort Options",
+    "imgCaption2": "Debuff Sorting",
+    "imgAlt3": "Buff Highlight Options",
+    "imgCaption3": "Buff Highlight",
+    "imgAlt4": "Debuff Highlight Options",
+    "imgCaption4": "Debuff Highlight"
+  },
+
+  "targetOfTarget": {
+    "title": "Target of Target",
+    "text1": "Enable <hl>Target of Target</hl> in your interface. It's used to know who your target is looking at.",
+    "text2": "Very useful for <hl>tanks</hl> to know if they have aggro."
+  },
+
+  "focusTarget": {
+    "title": "Focus Target",
+    "text1": "Used to create a second target for what is selected. Activate using <key>Alt+F</key>.",
+    "text2": "Can be used in fights where you need to watch the boss's health while hitting something else.",
+    "text3": "You can also acquire the Focus Target's target using <key>Ctrl+F</key> (Acquired Focus Target)."
+  },
+
+  "debuffTray": {
+    "title": "Player Debuff Tray",
+    "text1": "Shows the <hl>Debuffs</hl> (negative effects) that the enemy placed on you, which may or may not be cleansable.",
+    "text2": "It's very important to <hl>increase the debuff scale</hl> and keep it visible. Usually it comes too close to buffs — the tip is to keep them slightly apart.",
+    "imgAlt": "Player Debuff Tray",
+    "imgCaption": "Target Frame & Debuff Tray"
+  },
+
+  "buffTray": {
+    "title": "Player Buff Tray",
+    "text1": "Shows your class <hl>Buffs</hl>, Stims, and others (positive effects). Different from debuffs.",
+    "imgAlt1": "Player Buff Tray - Debuff View",
+    "imgCaption1": "Debuff Tray in HUD Editor",
+    "imgAlt2": "Player Buff Tray - Buff View",
+    "imgCaption2": "Buff Tray"
+  },
+
+  "systemMessages": {
+    "title": "System Messages",
+    "text1": "You may not give much importance to system messages, but <hl>the bigger the size, the better</hl>.",
+    "text2": "It can indicate a <hl>boss mechanic about to execute</hl>. It's important to pay attention to what's announced — depending on your awareness, it can cause an unwanted death.",
+    "text3": "In the example below, <hl>Ciphas</hl> (Dread Guards - TFB) places a curse on the player \"Belraijin\", which after a few seconds will lead to death if the fight mechanic isn't executed.",
+    "imgAlt1": "System Messages Panel",
+    "imgCaption1": "System Messages",
+    "imgAlt2": "System Messages Settings",
+    "imgCaption2": "System Messages Configuration",
+    "imgAlt3": "System Message Example",
+    "imgCaption3": "Example: \"You can't mount here\"",
+    "imgAlt4": "Flytext - Boss Mechanic",
+    "imgCaption4": "Ciphas Dooms Belraijin!"
+  },
+
+  "quickbars": {
+    "title": "Quickbars",
+    "text1": "Quickbars can be edited however you prefer.",
+    "text2": "When starting the game, you use <hl>2 to 3 quickbars</hl>. As you progress, you'll start using <hl>4 to 6 quickbars</hl>, depending on how many skills your class has."
+  },
+
+  "presetInterfaces": {
+    "title": "Ready-to-Use Interfaces",
+    "text1": "If you need a ready-to-use interface, I'm sharing three that I use often. All come pre-configured and ready to go.",
+    "text2": "Since the file doesn't have a digital signature, it may flag as a virus. In that case, just click <hl>\"Keep\"</hl> and run the installer. It will install all 3 interfaces. If you want to remove any, just open the Interface Editor and delete it.",
+    "downloadLabel": "Download Interfaces",
+    "downloadUrl": "https://www.mediafire.com/file/xzo9nrabpvuwpom/Interface_-_The_Mentor.exe/file",
+    "imgAlt1": "Interface 1",
+    "imgCaption1": "Interface 1",
+    "imgAlt2": "Interface 2",
+    "imgCaption2": "Interface 2",
+    "imgAlt3": "Interface 3",
+    "imgCaption3": "Interface 3"
+  }
+}

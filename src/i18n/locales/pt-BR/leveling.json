@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Leveling",
+  "pageDescription": "Dicas e métodos para upar seu personagem do início ao endgame de forma eficiente.",
+  "backLink": "Voltar para Mid Game",
+
+  "heroics": {
+    "title": "Heroics",
+    "text1": "Heroics são missões repetíveis disponíveis em cada planeta. Podem ser feitas <hl>solo</hl> ou em grupo.",
+    "text2": "Elas oferecem boa XP e rewards úteis como gear e créditos. São uma das formas mais eficientes de upar.",
+    "text3": "Você pode pegar todas as Heroics do terminal na <hl>Fleet</hl> e ser transportado diretamente para o planeta."
+  },
+
+  "flashpoints": {
+    "title": "Flashpoints",
+    "text1": "Flashpoints são dungeons instanciadas com 3 modos de dificuldade:",
+    "modes": [
+      { "name": "Solo/Story", "desc": "Jogável sozinho com um companion droid. Ideal para a história." },
+      { "name": "Veteran", "desc": "Requer grupo de 4 players. Sem necessidade de composição específica." },
+      { "name": "Master", "desc": "Modo mais difícil. Requer tank, healer e 2 DPS." }
+    ],
+    "text2": "Flashpoints dão bastante XP e gear. Use o <hl>Group Finder</hl> para encontrar grupo."
+  },
+
+  "pvp": {
+    "title": "PvP / Warzones",
+    "text1": "Warzones são batalhas PvP com objetivos (capturar pontos, carregar a bola, etc.).",
+    "text2": "Dão XP razoável e são uma alternativa divertida ao PvE para upar.",
+    "text3": "Você pode entrar na fila pelo <hl>Group Finder</hl> a qualquer momento."
+  },
+
+  "xpBoosts": {
+    "title": "XP Boosts",
+    "text1": "Existem vários boosts de XP disponíveis no jogo:",
+    "boosts": [
+      { "name": "Major XP Boost", "desc": "Consumível que dobra XP ganho por 3 horas." },
+      { "name": "Guild XP Bonus", "desc": "Guilds podem ativar bônus de XP para todos os membros." },
+      { "name": "Double XP Events", "desc": "Eventos periódicos que dobram toda XP ganho." },
+      { "name": "Legacy Perks", "desc": "Perks de legacy que aumentam XP de diversas fontes." }
+    ]
+  },
+
+  "planetaryMissions": {
+    "title": "Planetary Missions",
+    "text1": "Cada planeta possui missões secundárias que complementam sua história de classe.",
+    "text2": "Não são obrigatórias, mas dão XP extra e ajudam a entender o lore do planeta."
+  },
+
+  "tips": {
+    "title": "Dicas de Leveling Eficiente",
+    "tipsList": [
+      "Foque na história de classe — ela dá XP mais do que suficiente para progredir.",
+      "Use XP Boosts durante Double XP Events para maximizar ganho.",
+      "Heroics na Fleet são a forma mais rápida de upar fora da história.",
+      "Não se preocupe com gear até o endgame — equipe itens com seta verde.",
+      "Flashpoints Veteran pelo Group Finder dão boa XP enquanto espera na fila.",
+      "Ative todos os Legacy Perks de XP assim que possível."
+    ]
+  }
+}

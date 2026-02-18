@@ -1,0 +1,37 @@
+{
+  "pageTitle": "Class Story Guide",
+  "pageDescription": "Entenda as histórias de classe, companions, escolhas e progressão planeta a planeta.",
+  "backLink": "Voltar para Mid Game",
+
+  "whatAre": {
+    "title": "O que são Class Stories?",
+    "text1": "Cada classe no SWTOR possui uma <hl>história única</hl> dividida em 3 atos, com personagens, vilões e reviravoltas exclusivas.",
+    "text2": "As histórias de classe são o coração do jogo — jogadores experientes recomendam jogar pelo menos uma de cada facção.",
+    "text3": "Existem <hl>8 histórias de classe</hl>: 4 do Império e 4 da República."
+  },
+
+  "progression": {
+    "title": "Progressão Planeta a Planeta",
+    "text1": "Sua história de classe avança conforme você visita novos planetas. Cada planeta tem uma parte específica da storyline.",
+    "text2": "Os planetas seguem uma ordem de nível recomendado. Confira o <hl>Story Arc</hl> para ver o caminho completo."
+  },
+
+  "companions": {
+    "title": "Companions",
+    "text1": "Durante sua história, você vai recrutar <hl>Companions</hl> — personagens que lutam ao seu lado e interagem com a storyline.",
+    "text2": "Cada classe tem companions únicos com personalidades e habilidades distintas.",
+    "text3": "Companions podem servir como <hl>DPS, Tank ou Healer</hl>, independente de quem sejam."
+  },
+
+  "choices": {
+    "title": "Escolhas Light / Dark",
+    "text1": "Suas escolhas durante as conversas afetam seus pontos de <hl>Light Side</hl> ou <hl>Dark Side</hl>.",
+    "text2": "Algumas escolhas podem alterar o rumo da sua história, incluindo o destino de companions e NPCs.",
+    "text3": "Não se preocupe com \"errar\" — todas as escolhas são válidas e fazem parte da experiência."
+  },
+
+  "classLinks": {
+    "title": "Histórias por Classe",
+    "text": "Visite as páginas individuais de cada classe para ler a história completa (contém spoilers):"
+  }
+}

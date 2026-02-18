@@ -83,23 +83,23 @@ const HeroSection = () => {
             {t("hero.cta")}
           </Link>
         </motion.div>
-
-        {/* Scroll indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 2 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2"
-        >
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ repeat: Infinity, duration: 2 }}
-            className="w-6 h-10 border-2 border-primary/40 rounded-full flex justify-center pt-2"
-          >
-            <div className="w-1.5 h-1.5 bg-primary rounded-full" />
-          </motion.div>
-        </motion.div>
       </div>
+
+      {/* Scroll indicator */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2 }}
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10"
+      >
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{ repeat: Infinity, duration: 2 }}
+          className="w-6 h-10 border-2 border-primary/40 rounded-full flex justify-center pt-2"
+        >
+          <div className="w-1.5 h-1.5 bg-primary rounded-full" />
+        </motion.div>
+      </motion.div>
     </section>
   );
 };

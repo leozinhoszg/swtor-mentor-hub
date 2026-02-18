@@ -1,0 +1,169 @@
+{
+  "pageTitle": "Introduction to SWTOR",
+  "pageDescription": "In this first topic we'll cover the first steps after you're introduced to the game. Before moving forward, it's good to know your interface, binds, HUD, elements and features you'll use frequently during progression.",
+  "backLink": "Back to Content",
+
+  "firstMission": {
+    "title": "Your First Mission",
+    "text": "Upon arriving at the starting planet, you will receive your first class mission.",
+    "imgAlt": "Starting planet - Tython"
+  },
+
+  "missions": {
+    "title": "Missions",
+    "text": "Class missions are usually displayed in the upper right corner, with the mission name in purple. The colors differentiate story missions from regular missions. Nowadays it's much easier, since in the past there was no such separation and players often got confused.",
+    "imgAlt": "Mission tracker",
+    "imgCaption": "Mission Tracker"
+  },
+
+  "map": {
+    "title": "Map",
+    "imgAlt1": "Map of Tython",
+    "imgCaption1": "Map of Tython – Republic",
+    "imgAlt2": "Map Overlay",
+    "imgCaption2": "Map Overlay",
+    "text1": "By pressing <key>M</key> you access the current Planet Map. It contains the legend of icons and their locations. You can also use the map as an overlay using <key>Alt+M</key>.",
+    "text2": "The blue areas on the map are where you've explored, and the gray ones are where you haven't been yet.",
+    "text3": "Objectives will appear on the map at all times — follow them and complete them to advance in the story.",
+    "text4": "Through the map you can also see the <hl>\"Galaxy Map\"</hl>, which shows other available planets (requires your ship)."
+  },
+
+  "systemAlert": {
+    "title": "System Alert",
+    "text": "The alert system keeps you updated about your mission. It's always important to check what it has notified you about!",
+    "imgAlt": "System Alert"
+  },
+
+  "holocommunicator": {
+    "title": "Holocommunicator",
+    "text": "In some missions you will use the Holocommunicator to complete quests.",
+    "imgAlt": "Holocommunicator"
+  },
+
+  "rewards": {
+    "title": "Rewards",
+    "text": "Upon completing your first mission you receive rewards: Credits, Experience Points, Light or Dark Side Points (depending on your choices), and some items you can use.",
+    "text2": "Some missions will also unlock <hl>Titles</hl> that you can use during your journey.",
+    "imgAlt": "Mission rewards"
+  },
+
+  "personalPhases": {
+    "title": "Personal Phases",
+    "text": "Areas that only you or people in your group can access.",
+    "imgAlt": "Personal Phase"
+  },
+
+  "choices": {
+    "title": "Light / Dark Choices",
+    "text": "Your choices can affect the course of your story and the Light or Dark Side Points you earn.",
+    "imgAlt": "Dialogue choices"
+  },
+
+  "abilities": {
+    "title": "Abilities & Progression",
+    "imgAlt1": "Abilities Panel",
+    "imgCaption1": "Abilities",
+    "imgAlt2": "Level Up",
+    "imgCaption2": "Level Up & Conquest",
+    "imgAlt3": "Inventory",
+    "imgCaption3": "Inventory",
+    "text1": "When leveling up you automatically gain new abilities, which are added to your <hl>\"Quickbars\"</hl>.",
+    "text2": "Currently there is no need to visit a trainer to learn abilities.",
+    "text3": "To open the Abilities Menu press <key>P</key>.",
+    "text4": "Other shortcuts will also be very useful during the game. It's good to memorize them early since you'll use them a lot!",
+    "text5": "The Inventory is used all the time, its shortcut is <key>I</key>."
+  },
+
+  "characterPane": {
+    "title": "Character Pane & Gear",
+    "imgAlt1": "Character Pane - Early game",
+    "imgCaption1": "Early game",
+    "imgAlt2": "Character Pane - Endgame",
+    "imgCaption2": "Geared character",
+    "text1": "<key>C</key> — <hl>Character Pane</hl>: Where you can view your Gear, Stats, and Titles.",
+    "text2": "Your character has 15 slots that can be filled with gear pieces and tacticals throughout your journey. Each piece has different attributes based on your level and rating (ilvl). The game has an <hl>\"RNG\"</hl> system that gives you gear based on your \"i-level\".",
+    "text3": "But don't worry about this at the start — what you should do is always equip pieces that have a <green>\"green arrow\"</green> on them. This means that piece is better than what you're currently wearing.",
+    "imgAlt3": "Gear with green arrow",
+    "imgCaption3": "Items with green arrow = upgrade",
+    "gearTitle": "Gear Pieces",
+    "gearSlots": [
+      { "name": "Mainhand", "desc": "Lightsabers or Blasters" },
+      { "name": "Offhand", "desc": "Focus, Generator, Shield, Vibroknifes" },
+      { "name": "Headgear", "desc": "Head" },
+      { "name": "Wrists/Bracer", "desc": "Bracelet" },
+      { "name": "Chestpiece", "desc": "Chest" },
+      { "name": "Gloves/Hands", "desc": "Gloves" },
+      { "name": "Boots", "desc": "Feet" },
+      { "name": "Waist/Belt", "desc": "Belt" },
+      { "name": "Legs/Pants", "desc": "Legs" },
+      { "name": "Earpiece", "desc": "Ear" },
+      { "name": "Implants", "desc": "Implants" },
+      { "name": "Tactical", "desc": "Tactical" },
+      { "name": "Relics", "desc": "Relics" }
+    ]
+  },
+
+  "outfitter": {
+    "title": "Outfitter",
+    "imgAlt1": "Outfitter - Panel",
+    "imgCaption1": "Outfitter Panel",
+    "imgAlt2": "Outfitter - Outfit",
+    "imgCaption2": "Equipped Outfit",
+    "text1": "In SWTOR you can also buy outfits to customize your character. You can buy them with credits or with <hl>Cartel Coins</hl>. These pieces can be traded through the <hl>Galactic Trade Network (GTN)</hl> or the <hl>Cartel Market</hl>.",
+    "text2": "To equip an outfit piece, click on it with this tab open, then confirm with the <hl>\"Commit\"</hl> button.",
+    "text3": "Remember that outfits don't affect your stats — they are purely cosmetic."
+  },
+
+  "combatStyle": {
+    "title": "Combat Style",
+    "imgAlt": "Combat Style",
+    "imgCaption": "Combat Style Panel",
+    "intro": "When opening the Combat Style tab <key>K</key>, you'll find some crucial information for gameplay:",
+    "items": [
+      { "title": "1. Color Selection", "desc": "Color selector for each class icon." },
+      { "title": "2. Combat Styles", "desc": "You can currently choose 2 combat styles. E.g.: You can be a Guardian and a Shadow." },
+      { "title": "3. Disciplines/Spec", "desc": "Every class has 3 disciplines, each with a distinct role. For Guardian: Tank (Defense), DoT (Vigilance), and Burst (Focus)." },
+      { "title": "4. Field Respec.", "desc": "A passive that allows you to switch disciplines. Requires level 10 and legacy level 5. If you don't meet the requirements, head to the Fleet's Combat Training section." },
+      { "title": "5. Talent Tree", "desc": "Each level has 3 options, either passive or active. Choose whichever you think is best." },
+      { "title": "6. Passive Abilities", "desc": "Abilities you gain based on your level. You can't choose these — they're granted automatically." }
+    ],
+    "text1": "To unlock the second class, you must complete that class's story. For Shadow, that means the Jedi Consular storyline. This also works with Imperial classes.",
+    "text2": "To switch disciplines you need <hl>\"Field Respecialization\"</hl>. As you level up, you'll fill out the talent tree."
+  },
+
+  "loadouts": {
+    "title": "Loadouts",
+    "imgAlt": "Loadouts",
+    "imgCaption": "Loadouts Example",
+    "text1": "<hl>Loadouts</hl> — A system that lets you switch class, spec, gear, utility points, and abilities with a single button. It saves a preset of everything you configure.",
+    "text2": "To create a loadout click <hl>\"Create Loadout\"</hl> and set a name. Any changes you make will be saved automatically to the active loadout, so be careful!",
+    "text3": "When switching disciplines or classes, always do it through the <hl>\"Loadout\"</hl> tab, never through \"Combat Style\". This way you'll save time.",
+    "text4": "It's highly recommended for those with 2 classes and multiple disciplines. For example, on this same character I have: Assassin – Tank and DPS, and Sorcerer – DPS and Healer. This way I can play all 3 roles with the same character."
+  },
+
+  "missionLog": {
+    "title": "Mission Log",
+    "imgAlt": "Mission Log",
+    "imgCaption": "Mission Panel",
+    "text1": "You can open the Mission Log using the <key>L</key> shortcut. Here you can access all available missions, track them, share with group members, and view rewards.",
+    "text2": "Missions are divided by planet, mission type, or difficulty:",
+    "dailies": "<hl>Dailies</hl> — Missions you can do every day. They give moderate rewards.",
+    "weeklies": "<hl>Weeklies</hl> — Missions you can complete weekly. They usually give greater rewards."
+  },
+
+  "legacy": {
+    "title": "Legacy & Achievements",
+    "imgAlt": "Legacy and Achievements",
+    "imgCaption": "Legacy & Achievements Panel",
+    "text1": "In the Legacy tab <key>Y</key> you have access to all the progress you've made in the game, achievements, and unlocks for your account and character.",
+    "text2": "Each achievement has points upon completion, which are added to your legacy.",
+    "text3": "Legacy also has levels, and the maximum level is <hl>50</hl>. You should level your character and gradually raise your legacy."
+  },
+
+  "perks": {
+    "title": "Character Perks",
+    "imgAlt": "Character Perks",
+    "imgCaption": "Character Perks Panel",
+    "text1": "Perks are unlockables that provide specific enhancements or XP bonuses. Each perk requires a minimum character level from 1 to 10, and a minimum legacy level."
+  }
+}

@@ -61,7 +61,16 @@ const Header = () => {
             { label: t("nav.contentDropdown.introduction"), href: "/conteudo/early-game/introducao" },
           ],
         },
-        { label: t("nav.contentDropdown.midGame"), href: "/conteudo/mid-game" },
+        {
+          label: t("nav.contentDropdown.midGame"),
+          href: "/conteudo/mid-game",
+          children: [
+            { label: t("nav.contentDropdown.hud"), href: "/conteudo/mid-game/hud" },
+            { label: t("nav.contentDropdown.storyArc"), href: "/conteudo/mid-game/story-arc" },
+            { label: t("nav.contentDropdown.classStoryGuide"), href: "/conteudo/mid-game/class-story" },
+            { label: t("nav.contentDropdown.leveling"), href: "/conteudo/mid-game/leveling" },
+          ],
+        },
         { label: t("nav.contentDropdown.endgame"), href: "/conteudo/endgame" },
       ],
     },
@@ -129,6 +138,7 @@ const Header = () => {
   useEffect(() => {
     setMobileOpen(false);
     setMobileExpandedItems([]);
+    window.scrollTo(0, 0);
   }, [location.pathname]);
 
   return (

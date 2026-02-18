@@ -17,6 +17,11 @@ import ClassStoryPage from "./pages/ClassStoryPage";
 import EarlyGamePage from "./pages/EarlyGamePage";
 import MidGamePage from "./pages/MidGamePage";
 import EndgamePage from "./pages/EndgamePage";
+import IntroducaoPage from "./pages/IntroducaoPage";
+import HudPage from "./pages/HudPage";
+import StoryArcPage from "./pages/StoryArcPage";
+import ClassStoryGuidePage from "./pages/ClassStoryGuidePage";
+import LevelingPage from "./pages/LevelingPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -48,6 +53,11 @@ const App = () => (
           <Route path="/conteudo" element={<ContentPage />} />
           <Route path="/conteudo/early-game/classes" element={<EarlyGamePage />} />
           <Route path="/conteudo/mid-game" element={<MidGamePage />} />
+          <Route path="/conteudo/early-game/introducao" element={<IntroducaoPage />} />
+          <Route path="/conteudo/mid-game/hud" element={<HudPage />} />
+          <Route path="/conteudo/mid-game/story-arc" element={<StoryArcPage />} />
+          <Route path="/conteudo/mid-game/class-story" element={<ClassStoryGuidePage />} />
+          <Route path="/conteudo/mid-game/leveling" element={<LevelingPage />} />
           <Route path="/conteudo/endgame" element={<EndgamePage />} />
           <Route path="/operations" element={<OperationsPage />} />
           <Route path="/operations/:operationSlug" element={<OperationDetailPage />} />

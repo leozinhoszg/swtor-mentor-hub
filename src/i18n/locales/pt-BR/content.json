@@ -24,24 +24,18 @@
       "title": "Early Game",
       "desc": "O início da sua jornada em SWTOR. Aprenda as mecânicas fundamentais e mergulhe nas histórias de classe.",
       "topics": [
-        { "name": "Class Stories", "desc": "Cada classe tem uma história única e envolvente do nível 1 ao 50." },
-        { "name": "Planetas Iniciais", "desc": "Korriban, Tython, Hutta, Ord Mantell — seus primeiros passos na galáxia." },
-        { "name": "Companions", "desc": "Recrute e evolua seus companions, seus aliados mais valiosos." },
-        { "name": "Mecânicas Básicas", "desc": "Combate, crew skills, missões e navegação pelo universo." },
-        { "name": "Heroics", "desc": "Missões heroicas nos planetas para XP e equipamentos extras." },
-        { "name": "Flashpoints Solo", "desc": "Flashpoints em modo história para experimentar o conteúdo instanciado." }
+        { "name": "Introdução ao SWTOR", "desc": "Primeiros passos: interface, missões, mapa, habilidades, gear e muito mais.", "href": "/conteudo/early-game/introducao" },
+        { "name": "Escolha sua Classe", "desc": "Conheça as 8 classes do jogo e escolha a que mais combina com você.", "href": "/conteudo/early-game/classes" }
       ]
     },
     {
       "title": "Mid Game",
-      "desc": "Expansões épicas, novos planetas e a progressão do seu personagem além das histórias de classe.",
+      "desc": "Configure sua interface, entenda o story arc completo e progrida seu personagem com eficiência.",
       "topics": [
-        { "name": "Rise of the Hutt Cartel", "desc": "Expansão para Makeb com nova storyline e level cap 55." },
-        { "name": "Shadow of Revan", "desc": "A volta de Revan com Rishi e Yavin 4." },
-        { "name": "Knights of the Fallen Empire", "desc": "Nova narrativa cinematográfica com o Outlander." },
-        { "name": "Knights of the Eternal Throne", "desc": "Continuação da saga do Trono Eterno." },
-        { "name": "Progressão de Gear", "desc": "Como otimizar seu equipamento durante a progressão." },
-        { "name": "Flashpoints Veteran", "desc": "Desafios em grupo para recompensas melhores." }
+        { "name": "HUD & Interface", "desc": "Configure sua HUD, Interface Editor, Operation Frames e Target Frames.", "href": "/conteudo/mid-game/hud" },
+        { "name": "Story Arc", "desc": "O caminho completo da história — das Class Stories até Legacy of the Sith.", "href": "/conteudo/mid-game/story-arc" },
+        { "name": "Class Story Guide", "desc": "Histórias de classe, companions, escolhas Light/Dark e progressão.", "href": "/conteudo/mid-game/class-story" },
+        { "name": "Leveling", "desc": "Heroics, Flashpoints, PvP, XP Boosts e dicas de leveling eficiente.", "href": "/conteudo/mid-game/leveling" }
       ]
     },
     {
@@ -50,7 +44,7 @@
       "topics": [
         { "name": "Gear & Stats", "desc": "Guia completo de set bonus, amplifiers e stat distribution." },
         { "name": "Builds Otimizadas", "desc": "As melhores builds para DPS, Tank e Healer em cada classe." },
-        { "name": "Operations", "desc": "Raids de 8 ou 16 jogadores com mecânicas desafiadoras." },
+        { "name": "Operations", "desc": "Raids de 8 ou 16 jogadores com mecânicas desafiadoras.", "href": "/operations" },
         { "name": "PvP Ranked", "desc": "Arenas e Warzones competitivas para os melhores jogadores." },
         { "name": "Galactic Seasons", "desc": "Sistema de temporada com recompensas exclusivas." },
         { "name": "Conquests", "desc": "Sistema de conquistas semanais para guilds e jogadores solo." }

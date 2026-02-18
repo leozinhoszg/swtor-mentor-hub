@@ -1,0 +1,240 @@
+{
+    "meta": {
+      "title": "SWTOR Story Arc",
+      "version": "7.5",
+      "source_credit": "@Alortania",
+      "schema": "swtor_story_arc.v1"
+    },
+    "legend": {
+      "content_tags": [
+        "core_story",
+        "flashpoint",
+        "operation",
+        "planet",
+        "chapter",
+        "common_path",
+        "republic_path",
+        "imperial_path",
+        "border_crossover",
+        "deadly_mission_arc",
+        "critical_experience_only"
+      ]
+    },
+    "expansions": [
+      {
+        "id": "exp_class",
+        "name": "Class Stories",
+        "major": "pre-1.0",
+        "tier": "free"
+      },
+      {
+        "id": "exp_rothc",
+        "name": "Rise of the Hutt Cartel",
+        "major": "2.0",
+        "tier": "free"
+      },
+      {
+        "id": "exp_sor",
+        "name": "Shadow of Revan",
+        "major": "3.0",
+        "tier": "free"
+      },
+      {
+        "id": "exp_kotfe",
+        "name": "Knights of the Fallen Empire",
+        "major": "4.0",
+        "tier": "premium"
+      },
+      {
+        "id": "exp_kotet",
+        "name": "Knights of the Eternal Throne",
+        "major": "5.0",
+        "tier": "premium"
+      },
+      {
+        "id": "exp_onslaught",
+        "name": "Onslaught",
+        "major": "6.0",
+        "tier": "premium"
+      },
+      {
+        "id": "exp_lots",
+        "name": "Legacy of the Sith",
+        "major": "7.0-7.5",
+        "tier": "premium"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "n_origin_world",
+        "name": "Origin World",
+        "type": "core_story",
+        "tags": ["planet", "core_story", "common_path"],
+        "expansion_id": "exp_class"
+      },
+      {
+        "id": "n_fleet",
+        "name": "Fleet",
+        "type": "core_story",
+        "tags": ["core_story", "common_path"],
+        "expansion_id": "exp_class"
+      },
+      {
+        "id": "n_capital_world",
+        "name": "Capital World",
+        "type": "core_story",
+        "tags": ["planet", "core_story", "common_path"],
+        "expansion_id": "exp_class"
+      },
+      {
+        "id": "n_coruscant",
+        "name": "Coruscant",
+        "type": "core_story",
+        "tags": ["planet", "republic_path", "core_story"],
+        "expansion_id": "exp_class"
+      },
+      {
+        "id": "n_dromund_kaas",
+        "name": "Dromund Kaas",
+        "type": "core_story",
+        "tags": ["planet", "imperial_path", "core_story"],
+        "expansion_id": "exp_class"
+      },
+  
+      { "id": "n_esseles", "name": "Esseles", "type": "flashpoint", "tags": ["flashpoint", "republic_path"], "expansion_id": "exp_class" },
+      { "id": "n_black_talon", "name": "Black Talon", "type": "flashpoint", "tags": ["flashpoint", "imperial_path"], "expansion_id": "exp_class" },
+      { "id": "n_hammer_station", "name": "Hammer Station", "type": "flashpoint", "tags": ["flashpoint", "common_path"], "expansion_id": "exp_class" },
+  
+      { "id": "n_taris_16", "name": "Taris", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 16, "expansion_id": "exp_class" },
+      { "id": "n_balmorra_16", "name": "Balmorra", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 16, "expansion_id": "exp_class" },
+      { "id": "n_nar_shaddaa_20", "name": "Nar Shaddaa", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 20, "expansion_id": "exp_class" },
+      { "id": "n_tatooine_24", "name": "Tatooine", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 24, "expansion_id": "exp_class" },
+      { "id": "n_alderaan_28", "name": "Alderaan", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 28, "expansion_id": "exp_class" },
+  
+      { "id": "n_taris_32", "name": "Taris", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 32, "expansion_id": "exp_class" },
+      { "id": "n_balmorra_32", "name": "Balmorra", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 32, "expansion_id": "exp_class" },
+      { "id": "n_quesh_36", "name": "Quesh", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 36, "expansion_id": "exp_class" },
+      { "id": "n_hoth_37", "name": "Hoth", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 37, "expansion_id": "exp_class" },
+      { "id": "n_voss_44", "name": "Voss", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 44, "expansion_id": "exp_class" },
+      { "id": "n_corellia_47", "name": "Corellia", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 47, "expansion_id": "exp_class" },
+  
+      { "id": "n_illum_50", "name": "Ilum", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 50, "expansion_id": "exp_class" },
+      { "id": "n_battle_of_illum", "name": "Battle of Ilum", "type": "flashpoint", "tags": ["flashpoint", "core_story"], "expansion_id": "exp_class" },
+      { "id": "n_false_emperor", "name": "The False Emperor", "type": "flashpoint", "tags": ["flashpoint", "core_story"], "expansion_id": "exp_class" },
+  
+      { "id": "n_eternity_vault", "name": "Eternity Vault", "type": "operation", "tags": ["operation"], "expansion_id": "exp_class" },
+      { "id": "n_karaggas_palace", "name": "Karagga's Palace", "type": "operation", "tags": ["operation"], "expansion_id": "exp_class" },
+      { "id": "n_explosive_conflict", "name": "Explosive Conflict", "type": "operation", "tags": ["operation"], "expansion_id": "exp_class" },
+      { "id": "n_terror_from_beyond", "name": "Terror From Beyond", "type": "operation", "tags": ["operation"], "expansion_id": "exp_class" },
+  
+      { "id": "n_makeb_50", "name": "Makeb", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 50, "expansion_id": "exp_rothc" },
+      { "id": "n_toborros_courtyard", "name": "Toborro's Courtyard", "type": "core_story", "tags": ["critical_experience_only"], "expansion_id": "exp_rothc" },
+  
+      { "id": "n_cz198_55", "name": "CZ-198", "type": "core_story", "tags": ["core_story"], "recommended_level": 55, "expansion_id": "exp_sor" },
+      { "id": "n_czerka_corporate_labs", "name": "Czerka Corporate Labs", "type": "flashpoint", "tags": ["flashpoint"], "expansion_id": "exp_sor" },
+      { "id": "n_czerka_core_meltdown", "name": "Czerka Core Meltdown", "type": "flashpoint", "tags": ["flashpoint"], "expansion_id": "exp_sor" },
+  
+      { "id": "n_assault_on_tython", "name": "Assault on Tython", "type": "flashpoint", "tags": ["flashpoint", "core_story"], "expansion_id": "exp_sor" },
+      { "id": "n_korriban_incursion", "name": "Korriban Incursion", "type": "flashpoint", "tags": ["flashpoint", "core_story"], "expansion_id": "exp_sor" },
+      { "id": "n_depths_of_manaan", "name": "Depths of Manaan", "type": "core_story", "tags": ["core_story"], "expansion_id": "exp_sor" },
+      { "id": "n_legacy_of_the_rakata", "name": "Legacy of the Rakata", "type": "core_story", "tags": ["core_story"], "expansion_id": "exp_sor" },
+      { "id": "n_rishi_55", "name": "Rishi", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 55, "expansion_id": "exp_sor" },
+      { "id": "n_blood_hunt", "name": "Blood Hunt", "type": "flashpoint", "tags": ["flashpoint"], "expansion_id": "exp_sor" },
+      { "id": "n_battle_of_rishi", "name": "Battle of Rishi", "type": "flashpoint", "tags": ["flashpoint"], "expansion_id": "exp_sor" },
+      { "id": "n_yavin4_57", "name": "Yavin 4", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 57, "expansion_id": "exp_sor" },
+  
+      { "id": "n_kotfe_ch1_9", "name": "KOTFE Chapters 1-9", "type": "chapter", "tags": ["chapter", "core_story"], "expansion_id": "exp_kotfe" },
+      { "id": "n_star_fortresses", "name": "Star Fortresses", "type": "core_story", "tags": ["core_story"], "expansion_id": "exp_kotfe" },
+      { "id": "n_alliance_alerts", "name": "Alliance Alerts", "type": "core_story", "tags": ["core_story"], "expansion_id": "exp_kotfe" },
+  
+      { "id": "n_kotet_ch1_9", "name": "KOTET Chapters 1-9", "type": "chapter", "tags": ["chapter", "core_story"], "expansion_id": "exp_kotet" },
+      { "id": "n_iokath_70", "name": "Iokath", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 70, "expansion_id": "exp_kotet" },
+      { "id": "n_fractured_alliances", "name": "Fractured Alliances", "type": "core_story", "tags": ["core_story"], "expansion_id": "exp_kotet" },
+      { "id": "n_gods_from_the_machine", "name": "Gods from the Machine", "type": "operation", "tags": ["operation"], "expansion_id": "exp_kotet" },
+  
+      { "id": "n_onderon_70", "name": "Onderon", "type": "core_story", "tags": ["planet", "core_story"], "recommended_level": 70, "expansion_id": "exp_onslaught" },
+      { "id": "n_mek_sha", "name": "Mek-Sha", "type": "core_story", "tags": ["planet", "core_story"], "expansion_id": "exp_onslaught" },
+      { "id": "n_spirit_of_vengeance", "name": "Spirit of Vengeance", "type": "flashpoint", "tags": ["flashpoint", "core_story"], "expansion_id": "exp_onslaught" },
+      { "id": "n_secrets_of_the_enclave", "name": "Secrets of the Enclave", "type": "flashpoint", "tags": ["flashpoint", "core_story"], "expansion_id": "exp_onslaught" },
+  
+      { "id": "n_lots_manaan", "name": "Manaan (Return)", "type": "core_story", "tags": ["planet", "core_story"], "expansion_id": "exp_lots" },
+      { "id": "n_ruins_of_nul", "name": "Ruins of Nul", "type": "flashpoint", "tags": ["flashpoint", "core_story"], "expansion_id": "exp_lots" },
+      { "id": "n_elom", "name": "Elom", "type": "core_story", "tags": ["planet", "core_story"], "expansion_id": "exp_lots" },
+      { "id": "n_shrine_of_silence", "name": "Shrine of Silence", "type": "flashpoint", "tags": ["flashpoint"], "expansion_id": "exp_lots" },
+      { "id": "n_r4_anomaly", "name": "R-4 Anomaly", "type": "operation", "tags": ["operation"], "expansion_id": "exp_lots" },
+      { "id": "n_voss_return", "name": "Voss (Return)", "type": "core_story", "tags": ["planet", "core_story"], "expansion_id": "exp_lots" },
+      { "id": "n_hutta_minboosa", "name": "Hutta (Minboosa District)", "type": "core_story", "tags": ["planet", "core_story"], "expansion_id": "exp_lots" }
+    ],
+    "edges": [
+      { "from": "n_origin_world", "to": "n_fleet", "relation": "next" },
+      { "from": "n_fleet", "to": "n_capital_world", "relation": "next" },
+      { "from": "n_capital_world", "to": "n_coruscant", "relation": "branch", "condition": "republic" },
+      { "from": "n_capital_world", "to": "n_dromund_kaas", "relation": "branch", "condition": "empire" },
+  
+      { "from": "n_coruscant", "to": "n_esseles", "relation": "optional" },
+      { "from": "n_dromund_kaas", "to": "n_black_talon", "relation": "optional" },
+  
+      { "from": "n_coruscant", "to": "n_hammer_station", "relation": "optional" },
+      { "from": "n_dromund_kaas", "to": "n_hammer_station", "relation": "optional" },
+  
+      { "from": "n_hammer_station", "to": "n_taris_16", "relation": "next" },
+      { "from": "n_taris_16", "to": "n_balmorra_16", "relation": "next" },
+      { "from": "n_balmorra_16", "to": "n_nar_shaddaa_20", "relation": "next" },
+      { "from": "n_nar_shaddaa_20", "to": "n_tatooine_24", "relation": "next" },
+      { "from": "n_tatooine_24", "to": "n_alderaan_28", "relation": "next" },
+  
+      { "from": "n_alderaan_28", "to": "n_taris_32", "relation": "next" },
+      { "from": "n_taris_32", "to": "n_balmorra_32", "relation": "next" },
+      { "from": "n_balmorra_32", "to": "n_quesh_36", "relation": "next" },
+      { "from": "n_quesh_36", "to": "n_hoth_37", "relation": "next" },
+      { "from": "n_hoth_37", "to": "n_voss_44", "relation": "next" },
+      { "from": "n_voss_44", "to": "n_corellia_47", "relation": "next" },
+  
+      { "from": "n_corellia_47", "to": "n_illum_50", "relation": "next" },
+      { "from": "n_illum_50", "to": "n_battle_of_illum", "relation": "next" },
+      { "from": "n_battle_of_illum", "to": "n_false_emperor", "relation": "next" },
+  
+      { "from": "n_false_emperor", "to": "n_makeb_50", "relation": "next" },
+      { "from": "n_makeb_50", "to": "n_toborros_courtyard", "relation": "optional" },
+  
+      { "from": "n_makeb_50", "to": "n_cz198_55", "relation": "next" },
+      { "from": "n_cz198_55", "to": "n_czerka_corporate_labs", "relation": "optional" },
+      { "from": "n_cz198_55", "to": "n_czerka_core_meltdown", "relation": "optional" },
+  
+      { "from": "n_cz198_55", "to": "n_assault_on_tython", "relation": "next" },
+      { "from": "n_assault_on_tython", "to": "n_korriban_incursion", "relation": "next" },
+      { "from": "n_korriban_incursion", "to": "n_depths_of_manaan", "relation": "next" },
+      { "from": "n_depths_of_manaan", "to": "n_legacy_of_the_rakata", "relation": "next" },
+      { "from": "n_legacy_of_the_rakata", "to": "n_rishi_55", "relation": "next" },
+      { "from": "n_rishi_55", "to": "n_blood_hunt", "relation": "optional" },
+      { "from": "n_rishi_55", "to": "n_battle_of_rishi", "relation": "optional" },
+      { "from": "n_rishi_55", "to": "n_yavin4_57", "relation": "next" },
+  
+      { "from": "n_yavin4_57", "to": "n_kotfe_ch1_9", "relation": "next" },
+      { "from": "n_kotfe_ch1_9", "to": "n_star_fortresses", "relation": "optional" },
+      { "from": "n_kotfe_ch1_9", "to": "n_alliance_alerts", "relation": "optional" },
+  
+      { "from": "n_kotfe_ch1_9", "to": "n_kotet_ch1_9", "relation": "next" },
+      { "from": "n_kotet_ch1_9", "to": "n_iokath_70", "relation": "next" },
+      { "from": "n_iokath_70", "to": "n_fractured_alliances", "relation": "next" },
+      { "from": "n_fractured_alliances", "to": "n_gods_from_the_machine", "relation": "optional" },
+  
+      { "from": "n_fractured_alliances", "to": "n_onderon_70", "relation": "next" },
+      { "from": "n_onderon_70", "to": "n_mek_sha", "relation": "next" },
+      { "from": "n_mek_sha", "to": "n_spirit_of_vengeance", "relation": "next" },
+      { "from": "n_spirit_of_vengeance", "to": "n_secrets_of_the_enclave", "relation": "next" },
+  
+      { "from": "n_secrets_of_the_enclave", "to": "n_lots_manaan", "relation": "next" },
+      { "from": "n_lots_manaan", "to": "n_ruins_of_nul", "relation": "next" },
+      { "from": "n_ruins_of_nul", "to": "n_elom", "relation": "next" },
+      { "from": "n_elom", "to": "n_shrine_of_silence", "relation": "optional" },
+      { "from": "n_elom", "to": "n_r4_anomaly", "relation": "optional" },
+      { "from": "n_elom", "to": "n_voss_return", "relation": "next" },
+      { "from": "n_voss_return", "to": "n_hutta_minboosa", "relation": "next" }
+    ],
+    "notes": [
+      "Starting KOTFE/KOTET/Ossus may lock out some previous story content depending on character state.",
+      "Some arcs are faction-specific (republic/empire) even when the overall expansion is shared."
+    ]
+  }
+  

@@ -131,4 +131,84 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  /* ─── Flowchart ─── */
+  .fc-line {
+    @apply w-0.5 bg-primary/40 mx-auto;
+  }
+
+  .fc-node {
+    @apply relative px-4 py-2 rounded-lg border text-sm font-semibold text-center min-w-[140px] max-w-[200px] transition-all;
+    background: hsl(0 0% 5% / 0.85);
+  }
+
+  .fc-node:hover {
+    transform: translateY(-2px);
+  }
+
+  .fc-node--story {
+    @apply border-amber-500/50;
+    box-shadow: 0 0 12px hsl(48 85% 53% / 0.2);
+  }
+  .fc-node--story:hover {
+    box-shadow: 0 0 20px hsl(48 85% 53% / 0.4);
+  }
+
+  .fc-node--flashpoint {
+    @apply border-blue-500/50;
+    box-shadow: 0 0 12px hsl(217 91% 60% / 0.2);
+  }
+  .fc-node--flashpoint:hover {
+    box-shadow: 0 0 20px hsl(217 91% 60% / 0.4);
+  }
+
+  .fc-node--operation {
+    @apply border-red-500/50;
+    box-shadow: 0 0 12px hsl(0 84% 60% / 0.2);
+  }
+  .fc-node--operation:hover {
+    box-shadow: 0 0 20px hsl(0 84% 60% / 0.4);
+  }
+
+  .fc-node--chapter {
+    @apply border-purple-500/50;
+    box-shadow: 0 0 12px hsl(271 76% 53% / 0.2);
+  }
+  .fc-node--chapter:hover {
+    box-shadow: 0 0 20px hsl(271 76% 53% / 0.4);
+  }
+
+  .fc-node--optional {
+    @apply border-dashed opacity-70;
+  }
+
+  .fc-diamond {
+    @apply w-10 h-10 mx-auto border-2 border-primary/60;
+    transform: rotate(45deg);
+    background: hsl(0 0% 5% / 0.9);
+    box-shadow: 0 0 16px hsl(48 85% 53% / 0.3);
+  }
+
+  .fc-diamond-label {
+    transform: rotate(-45deg);
+    @apply text-[9px] font-bold text-primary;
+  }
+
+  .fc-branch-line {
+    @apply border-t-2 border-primary/30;
+  }
+
+  .fc-branch-line-down {
+    @apply border-l-2 border-primary/30;
+  }
+
+  .fc-republic {
+    @apply border-blue-400/50;
+    box-shadow: 0 0 12px hsl(217 91% 70% / 0.15);
+  }
+
+  .fc-empire {
+    @apply border-red-400/50;
+    box-shadow: 0 0 12px hsl(0 84% 60% / 0.15);
+  }
 }

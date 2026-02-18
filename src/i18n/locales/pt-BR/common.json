@@ -7,6 +7,10 @@
       "classes": "Escolha sua Classe",
       "introduction": "Introdução",
       "midGame": "Mid Game",
+      "hud": "HUD & Interface",
+      "storyArc": "Story Arc",
+      "classStoryGuide": "Class Story Guide",
+      "leveling": "Leveling",
       "endgame": "Endgame"
     },
     "stories": "Histórias",

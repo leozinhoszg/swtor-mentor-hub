@@ -1,0 +1,33 @@
+{
+  "pageTitle": "Story Arc",
+  "pageDescription": "The complete SWTOR story path — from the original Class Stories to Legacy of the Sith, organized by expansion.",
+  "backLink": "Back to Mid Game",
+  "legendTitle": "Legend",
+  "legendContentTypes": "Content Types",
+  "legendConnections": "Connections",
+  "factionRepublic": "Republic",
+  "factionEmpire": "Empire",
+  "badges": {
+    "core_story": "Story",
+    "flashpoint": "Flashpoint",
+    "operation": "Operation",
+    "chapter": "Chapter"
+  },
+  "relations": {
+    "next": "Required",
+    "optional": "Optional",
+    "branch": "Faction"
+  },
+  "tiers": {
+    "free": "Free-to-Play",
+    "premium": "Premium"
+  },
+  "level": "Level",
+  "version": "Version",
+  "credit": "Credit: @Alortania",
+  "notes": "Notes",
+  "notesList": [
+    "Starting KOTFE/KOTET/Ossus may lock out some previous story content depending on character state.",
+    "Some arcs are faction-specific (Republic/Empire) even when the overall expansion is shared."
+  ]
+}

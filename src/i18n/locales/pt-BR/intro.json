@@ -1,0 +1,169 @@
+{
+  "pageTitle": "Introdução ao SWTOR",
+  "pageDescription": "Nesse primeiro tópico vamos abordar os primeiros passos depois que você é introduzido ao jogo. Antes de avançar, é bom conhecer sua interface, binds, HUD, elementos e funcionalidades que você vai usar frequentemente durante a progressão.",
+  "backLink": "Voltar ao Conteúdo",
+
+  "firstMission": {
+    "title": "Sua Primeira Missão",
+    "text": "Ao chegar no planeta inicial, você vai receber sua primeira missão de classe.",
+    "imgAlt": "Planeta inicial - Tython"
+  },
+
+  "missions": {
+    "title": "Missões",
+    "text": "Geralmente as missões de classes ficam no canto direito superior, e o nome da missão em roxo. As cores são para diferenciar missões da história e missões normais. Hoje em dia ficou bem mais fácil, pois antigamente não tinha essa separação, e os players acabavam se confundindo.",
+    "imgAlt": "Rastreador de missão",
+    "imgCaption": "Rastreador de Missão"
+  },
+
+  "map": {
+    "title": "Mapa",
+    "imgAlt1": "Mapa de Tython",
+    "imgCaption1": "Mapa de Tython – República",
+    "imgAlt2": "Overlay no Mapa",
+    "imgCaption2": "Overlay no Mapa",
+    "text1": "Ao apertar <key>M</key> você tem acesso ao Mapa do Planeta atual. Nele contém a legenda dos ícones e sua localização. Você também pode usar o mapa em overlay usando a tecla <key>Alt+M</key>.",
+    "text2": "As partes azuis no mapa é onde você explorou, e as cinzas onde ainda não foi explorado.",
+    "text3": "Os objetivos vão aparecer no mapa o tempo todo, siga-os e conclua eles para avançar na história.",
+    "text4": "Através do mapa você também pode ver o <hl>\"Galaxy Map\"</hl>, onde mostra outros planetas que estão disponíveis (requer a nave)."
+  },
+
+  "systemAlert": {
+    "title": "System Alert",
+    "text": "O sistema de alerta te atualiza sobre a sua missão. É sempre importante olhar o que ele notificou pra você!",
+    "imgAlt": "System Alert"
+  },
+
+  "holocommunicator": {
+    "title": "Holocommunicator",
+    "text": "Em algumas missões você vai usar o Holocommunicator para completar as quests.",
+    "imgAlt": "Holocommunicator"
+  },
+
+  "rewards": {
+    "title": "Rewards",
+    "text": "Ao completar sua primeira missão você recebe as recompensas: Créditos, Pontos de Experiência, Pontos de Light ou Dark (dependendo da escolha) e alguns itens que você pode usar.",
+    "text2": "Algumas missões também vão desbloquear <hl>Títulos</hl> que você pode usar durante sua jornada.",
+    "imgAlt": "Recompensas da missão"
+  },
+
+  "personalPhases": {
+    "title": "Personal Phases",
+    "text": "Áreas que somente você ou pessoas que estão no seu grupo podem acessar.",
+    "imgAlt": "Personal Phase"
+  },
+
+  "choices": {
+    "title": "Escolhas Light / Dark",
+    "text": "Suas escolhas podem afetar o rumo da sua história e os pontos de Light ou Dark que vai ganhar.",
+    "imgAlt": "Escolhas de diálogo"
+  },
+
+  "abilities": {
+    "title": "Habilidades & Progressão",
+    "imgAlt1": "Painel de Habilidades",
+    "imgCaption1": "Habilidades",
+    "imgAlt2": "Level Up",
+    "imgCaption2": "Level Up & Conquest",
+    "imgAlt3": "Inventário",
+    "imgCaption3": "Inventário",
+    "text1": "Ao subir de Nível você ganha automaticamente novas habilidades, que são adicionadas a suas <hl>\"Quickbars\"</hl>.",
+    "text2": "Atualmente não há necessidade de ir ao treinador para aprender as habilidades.",
+    "text3": "Para abrir o Menu de Habilidades use a tecla <key>P</key>.",
+    "text4": "Outros atalhos também vão ser bastante úteis para você durante o jogo. E é bom já decorar porque vai usar bastante!",
+    "text5": "O Inventário é usado o tempo todo, seu atalho é a tecla <key>I</key>."
+  },
+
+  "characterPane": {
+    "title": "Character Pane & Equipamento",
+    "imgAlt1": "Character Pane - Início",
+    "imgCaption1": "Início do jogo",
+    "imgAlt2": "Character Pane - Endgame",
+    "imgCaption2": "Personagem equipado",
+    "text1": "<key>C</key> — <hl>Character Pane</hl>: Onde você consegue visualizar seus Equipamentos, Stats e Títulos.",
+    "text2": "Seu personagem possui 15 slots que podem ser preenchidos com peças e tacticals ao longo da sua jornada. Cada peça contém atributos diferentes de acordo com seu level e seu rating (ilvl). O jogo possui um sistema de <hl>\"RNG\"</hl> onde ele te dá a gear de acordo com o seu \"i-level\".",
+    "text3": "Mas não se preocupe com isso no início, o que você deve fazer é sempre equipar as peças que tiver uma <green>\"seta verde\"</green> em cima. Isso significa que aquela peça é melhor do que você está usando.",
+    "imgAlt3": "Peças com seta verde",
+    "imgCaption3": "Itens com seta verde = melhoria",
+    "gearTitle": "Peças que compõem a Gear",
+    "gearSlots": [
+      { "name": "Mainhand", "desc": "Lightsabers ou Blasters" },
+      { "name": "Offhand", "desc": "Focus, Generator, Shield, Vibroknifes" },
+      { "name": "Headgear", "desc": "Cabeça" },
+      { "name": "Wrists/Bracer", "desc": "Bracelete" },
+      { "name": "Chestpiece", "desc": "Peito" },
+      { "name": "Gloves/Hands", "desc": "Luvas" },
+      { "name": "Boots", "desc": "Botas" },
+      { "name": "Waist/Belt", "desc": "Cinto" },
+      { "name": "Legs/Pants", "desc": "Calça" },
+      { "name": "Earpiece", "desc": "Orelha" },
+      { "name": "Implants", "desc": "Implantes" },
+      { "name": "Tactical", "desc": "Tático" },
+      { "name": "Relics", "desc": "Relíquias" }
+    ]
+  },
+
+  "outfitter": {
+    "title": "Outfitter",
+    "imgAlt1": "Outfitter - Painel",
+    "imgCaption1": "Painel do Outfitter",
+    "imgAlt2": "Outfitter - Outfit",
+    "imgCaption2": "Outfit equipado",
+    "text1": "No SWTOR também temos roupas que podemos comprar para personalizar nosso char. Você pode comprar tanto com créditos ou com <hl>Cartel Coins</hl>. Essas peças podem ser comercializadas através do <hl>Galactic Trade Network (GTN)</hl> ou pelo <hl>Cartel Market</hl>.",
+    "text2": "Para equipar você deve clicar na peça com essa aba aberta, ao fazer isso, você deve confirmar no botão <hl>\"Commit\"</hl>.",
+    "text3": "Lembrando que nenhuma roupa interfere nos seus atributos, é apenas cosmético."
+  },
+
+  "combatStyle": {
+    "title": "Combat Style",
+    "imgAlt": "Combat Style",
+    "imgCaption": "Painel do Combat Style",
+    "intro": "Ao abrir a aba do Combat Style <key>K</key>, você vai se deparar com algumas informações cruciais na hora que estiver jogando:",
+    "items": [
+      { "title": "1. Color Selection", "desc": "Seletor de cor do ícone de cada classe." },
+      { "title": "2. Combat Styles", "desc": "Atualmente você pode escolher 2 estilos de combate. Ex: Você pode ser um Guardian e um Shadow." },
+      { "title": "3. Disciplinas/Spec", "desc": "Toda classe possui 3 disciplinas e cada uma possui 1 role distinta. No caso do Guardian: Tank (Defense), DoT (Vigilance) e Burst (Focus)." },
+      { "title": "4. Field Respec.", "desc": "Passiva que permite trocar de disciplina. Requer nível 10 e legacy 5. Caso não tenha, vá até a Fleet na seção de Combat Training." },
+      { "title": "5. Árvore de Talentos", "desc": "Cada nível possui 3 opções, sendo elas passivas ou ativas. Você deve escolher qual achar melhor." },
+      { "title": "6. Habilidades Passivas", "desc": "Habilidades que você ganha de acordo com o Nível. Essas você não pode escolher, já vêm no automático." }
+    ],
+    "text1": "Para liberar a segunda classe, você deve concluir a história daquela classe. No caso do Shadow, a história do Jedi Consular. Também funciona com classes imperiais.",
+    "text2": "Para trocar de disciplina você deve ter o <hl>\"Field Respecialization\"</hl>. À medida que for subindo de nível, você vai preenchendo a árvore de talentos."
+  },
+
+  "loadouts": {
+    "title": "Loadouts",
+    "imgAlt": "Loadouts",
+    "imgCaption": "Exemplo de Loadouts",
+    "text1": "<hl>Loadouts</hl> — Um sistema que te permite trocar de classe, spec, gear, pontos de utilitys e habilidades com 1 só botão. Ele salva uma pré-definição de tudo que você definir.",
+    "text2": "Para criar um loadout clique em <hl>\"Create Loadout\"</hl> e coloque um nome. Qualquer alteração que fizer será salvo automaticamente sobre o loadout ativo, então cuidado!",
+    "text3": "Sempre que for trocar de disciplina ou classe, faça através da aba <hl>\"Loadout\"</hl>, e nunca pelo \"Combat Style\". Desse jeito você vai economizar tempo.",
+    "text4": "É bastante indicado pra quem tem 2 classes e joga com várias disciplinas. Eu por exemplo, nesse mesmo personagem tenho: Assassin – Tank e DPS, e Sorcerer – DPS e Healer. Assim posso jogar com as 3 roles com o mesmo personagem."
+  },
+
+  "missionLog": {
+    "title": "Mission Log",
+    "imgAlt": "Mission Log",
+    "imgCaption": "Painel de Missões",
+    "text1": "Você pode abrir o Mission Log usando o atalho <key>L</key>. Nele você consegue acessar todas as missões disponíveis, dar \"track\" nas missões, compartilhar com outros membros e ver as recompensas.",
+    "text2": "As missões são divididas por planetas, pelo tipo da missão ou dificuldade:",
+    "dailies": "<hl>Dailies</hl> — Missões que você pode fazer todos os dias. Dão uma recompensa moderada.",
+    "weeklies": "<hl>Weeklies</hl> — Missões que você pode completar semanalmente. Geralmente dão uma recompensa maior."
+  },
+
+  "legacy": {
+    "title": "Legacy & Achievements",
+    "imgAlt": "Legacy e Achievements",
+    "imgCaption": "Painel de Legacy & Achievements",
+    "text1": "Na aba do Legacy <key>Y</key> você tem acesso a todo o progresso que fez no jogo, conquistas e unlocks para a conta e também para seu personagem.",
+    "text2": "Cada conquista possui pontos ao completar, que é somado na sua legacy.",
+    "text3": "A legacy também possui níveis, e o nível máximo é <hl>50</hl>. Você deve upar seu personagem e gradativamente nivelar sua legacy."
+  },
+
+  "perks": {
+    "title": "Character Perks",
+    "imgAlt": "Character Perks",
+    "imgCaption": "Painel de Character Perks",
+    "text1": "Os perks são desbloqueáveis que acrescentam um determinado aprimoramento ou acréscimo de XP. Cada perk requer um nível mínimo de 1 a 10, e um nível mínimo de legacy."
+  }
+}

@@ -1,32 +1,27 @@
 {
   "pageTitle": "Mid Game",
-  "pageDescription": "Epic expansions, new planets, and character progression beyond class stories.",
-  "comingSoon": "Content coming soon",
-  "comingSoonDesc": "We are preparing complete guides on expansions, character progression, and intermediate content. Stay tuned!",
-  "sections": [
+  "pageDescription": "Essential guides for intermediate players: HUD configuration, story progression, leveling and the full story arc.",
+  "backLink": "Back to Content",
+  "cards": [
     {
-      "title": "Rise of the Hutt Cartel",
-      "desc": "Expansion to Makeb with a new storyline and level cap 55."
+      "title": "HUD & Interface",
+      "desc": "Configure your HUD, Interface Editor, Operation Frames, Target Frames and more to optimize your gameplay.",
+      "href": "/conteudo/mid-game/hud"
     },
     {
-      "title": "Shadow of Revan",
-      "desc": "The return of Revan with Rishi and Yavin 4."
+      "title": "Story Arc",
+      "desc": "The complete SWTOR story path — from Class Stories to Legacy of the Sith, organized by expansion.",
+      "href": "/conteudo/mid-game/story-arc"
     },
     {
-      "title": "Knights of the Fallen Empire",
-      "desc": "A new cinematic narrative with the Outlander."
+      "title": "Class Story Guide",
+      "desc": "Guide about class stories, companions, Light/Dark choices and planet-by-planet progression.",
+      "href": "/conteudo/mid-game/class-story"
     },
     {
-      "title": "Knights of the Eternal Throne",
-      "desc": "Continuation of the Eternal Throne saga."
-    },
-    {
-      "title": "Gear Progression",
-      "desc": "How to optimize your equipment during progression."
-    },
-    {
-      "title": "Veteran Flashpoints",
-      "desc": "Group challenges for better rewards."
+      "title": "Leveling",
+      "desc": "Heroics, Flashpoints, PvP, XP Boosts and efficient leveling tips to reach endgame.",
+      "href": "/conteudo/mid-game/leveling"
     }
   ]
 }

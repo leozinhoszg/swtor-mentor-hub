@@ -1,0 +1,59 @@
+{
+  "pageTitle": "Leveling",
+  "pageDescription": "Tips and methods to take your character from start to endgame efficiently.",
+  "backLink": "Back to Mid Game",
+
+  "heroics": {
+    "title": "Heroics",
+    "text1": "Heroics are repeatable missions available on each planet. They can be done <hl>solo</hl> or in a group.",
+    "text2": "They offer good XP and useful rewards like gear and credits. They're one of the most efficient ways to level.",
+    "text3": "You can pick up all Heroics from the terminal on the <hl>Fleet</hl> and be transported directly to the planet."
+  },
+
+  "flashpoints": {
+    "title": "Flashpoints",
+    "text1": "Flashpoints are instanced dungeons with 3 difficulty modes:",
+    "modes": [
+      { "name": "Solo/Story", "desc": "Playable alone with a companion droid. Ideal for the story." },
+      { "name": "Veteran", "desc": "Requires a group of 4 players. No specific composition needed." },
+      { "name": "Master", "desc": "Hardest mode. Requires tank, healer, and 2 DPS." }
+    ],
+    "text2": "Flashpoints give plenty of XP and gear. Use the <hl>Group Finder</hl> to find a group."
+  },
+
+  "pvp": {
+    "title": "PvP / Warzones",
+    "text1": "Warzones are PvP battles with objectives (capture points, carry the ball, etc.).",
+    "text2": "They give reasonable XP and are a fun alternative to PvE for leveling.",
+    "text3": "You can queue through the <hl>Group Finder</hl> at any time."
+  },
+
+  "xpBoosts": {
+    "title": "XP Boosts",
+    "text1": "There are several XP boosts available in the game:",
+    "boosts": [
+      { "name": "Major XP Boost", "desc": "Consumable that doubles XP gained for 3 hours." },
+      { "name": "Guild XP Bonus", "desc": "Guilds can activate XP bonuses for all members." },
+      { "name": "Double XP Events", "desc": "Periodic events that double all XP gained." },
+      { "name": "Legacy Perks", "desc": "Legacy perks that increase XP from various sources." }
+    ]
+  },
+
+  "planetaryMissions": {
+    "title": "Planetary Missions",
+    "text1": "Each planet has side missions that complement your class story.",
+    "text2": "They're not mandatory but give extra XP and help understand the planet's lore."
+  },
+
+  "tips": {
+    "title": "Efficient Leveling Tips",
+    "tipsList": [
+      "Focus on the class story — it gives more than enough XP to progress.",
+      "Use XP Boosts during Double XP Events to maximize gains.",
+      "Heroics from the Fleet are the fastest way to level outside the story.",
+      "Don't worry about gear until endgame — equip items with the green arrow.",
+      "Veteran Flashpoints through Group Finder give good XP while waiting in queue.",
+      "Activate all Legacy XP Perks as soon as possible."
+    ]
+  }
+}
